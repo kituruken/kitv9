@@ -1,0 +1,22 @@
+government = republic
+#add_government_reform = h_reform_commandery
+government_rank = 1
+technology_group = chinese
+religion = confucianism
+primary_culture = jianghuai #ganyu
+capital = 1821
+fixed_capital = 1821
+
+
+1440.1.1 = {
+	leader = {
+		name = "Li Shimin"
+		type = general
+
+		fire = 5
+		shock = 5
+		manuever = 3
+		siege = 0
+		death_date = 1464.1.1
+	}
+}

@@ -1,0 +1,85 @@
+name = "Muscovy Crimea war"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.10.10 = {
+	add_attacker = MOS
+	add_defender = CRI
+}
+
+#Peace and end of war
+1444.10.11 = {
+	rem_attacker = MOS
+	rem_defender = CRI
+}
+
+name = "Muscovy"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.10.10 = {
+	add_attacker = MOS
+	add_defender = GOL
+}
+
+#Peace and end of war
+1444.10.11 = {
+	rem_attacker = MOS
+	rem_defender = GOL
+}
+name = "Muscovy Crimea"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.10.10 = {
+	add_attacker = MOS
+	add_defender = CHR
+}
+
+#Peace and end of war
+1444.10.11 = {
+	rem_attacker = MOS
+	rem_defender = CHR
+}
+name = "YACNEG WARS"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.10.10 = {
+	add_attacker = POL
+	add_defender = KIE
+}
+
+#Peace and end of war
+1444.10.11 = {
+	rem_attacker = POL
+	rem_defender = KIE
+}
+name = "Muscovy Crimea war"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1444.10.10 = {
+	add_attacker = MOL
+	add_defender = POL
+	add_defender = HUN
+}
+
+#Peace and end of war
+1444.10.11 = {
+	rem_attacker = MOL
+	rem_defender = HUN
+	rem_defender = POL
+}
+
+

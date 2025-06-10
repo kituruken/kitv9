@@ -1,0 +1,13 @@
+add_cardinals_to_player_slots = {
+	134 = { add_cardinal = yes } #Wien
+	50 = { add_cardinal = yes } #Brandenburg
+	1762 = { add_cardinal = yes } #Niederhesse
+	4715 = { add_cardinal = yes } #Rothenburg
+	153 = { add_cardinal = yes } #Pest
+	262 = { add_cardinal = yes } #Krakow
+	219 = { add_cardinal = yes } #Toledo
+	45 = { add_cardinal = yes } #Lubeck
+	1 = { add_cardinal = yes } #Stockholm
+	112 = { add_cardinal = yes } #Venice
+	116 = {remove_cardinal = yes} #Frienze cuz its AI
+}

@@ -1,0 +1,36 @@
+#Kielak make vassal easier to integrate
+kielak_cheaper_integration = {
+	category = influence
+
+	require_acceptance = no
+
+	is_visible = {
+		has_subject_of_type = vassal
+	}
+	is_allowed = {
+		FROM = {
+			is_subject_of_type = vassal
+			years_in_vassalage_under = {
+				who = ROOT
+				years = 20
+			}
+		}
+		NOT = {
+			FROM = { liberty_desire = 5 }
+		}
+	}
+	on_accept = {
+		create_subject = {
+			subject_type = kielak_special_vassal
+			subject = FROM
+			keep_liberty_desire = yes
+		}	
+	}
+	on_decline = {
+	}
+
+	ai_will_do = { # this is a trigger
+		always = no 	#There is never a reason for the Ottomans to not want to integrate their eyalets
+	}
+
+}

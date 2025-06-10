@@ -1,0 +1,690 @@
+azt_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	
+	has_country_shield = yes
+	potential_on_load = {
+		has_dlc = "Winds of Change"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+		has_dlc = "Winds of Change"
+		OR = {
+			tag = AZT
+			has_country_flag = unlock_aztec_missions_flag
+		}
+	} 
+
+	azt_imperial_tributes = {
+		icon = mission_mesoamerican_tributes
+		position = 2
+		required_missions = { azt_coronation_campaigns }
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_mayan_frontier = {
+		icon = mission_mayan_conquest
+		position = 3
+		provinces_to_highlight = {  
+			region = central_america_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		} 
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_north_mayans = {
+		icon = mission_chichen_itza
+		position = 4
+		required_missions = { azt_mayan_frontier } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_mayan_cocoa = {
+		icon = mission_cocoa
+		position = 6
+		required_missions = { azt_securing_central_america } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_sacrifices_for_the_gods = {
+		icon = mission_blood_sacrifices
+		position = 7
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_fifth_cradle = {
+		icon = mission_hands_praying
+		position = 8
+		required_missions = { azt_sacrifices_for_the_gods }
+	
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+	
+
+	azt_seperation_of_classes = {
+		icon = mission_social_stratas
+		position = 9
+		required_missions = { azt_tlatoani }
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_chinampa_farms = {
+		icon = mission_pue_irrigation_cannals
+		position = 12
+		required_missions = { azt_roads } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_arts_and_crafts = {
+		icon = mission_iron_and_copper
+		position = 13
+		required_missions = { azt_chinampa_farms }
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+}
+azt_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	
+	has_country_shield = yes
+	potential_on_load = {
+		has_dlc = "Winds of Change"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+		has_dlc = "Winds of Change"
+		OR = {
+			tag = AZT
+			has_country_flag = unlock_aztec_missions_flag
+		}
+	} 
+
+	azt_coronation_campaigns = {
+		icon = mission_native_build_army_mission
+		position = 1
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_tlaxcala = {
+		icon = mission_aztecs_flower_wars
+		position = 2
+		required_missions = { azt_coronation_campaigns } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_zapotec = {
+		icon = mission_pue_sky_city
+		position = 3
+		required_missions = { azt_tlaxcala } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_south_mayans = {
+		icon = mission_mayan_warriors
+		position = 4
+		required_missions = {
+			azt_zapotec
+			azt_mayan_frontier
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_securing_central_america = {
+		icon = native_royal_marriage
+		position = 5
+		required_missions = {
+			azt_south_mayans
+			azt_north_mayans
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_tlatoani = {
+		icon = mission_tlatoani
+		position = 8
+		required_missions = {
+			azt_sacrifices_for_the_gods
+			azt_city_alliance
+		}
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_squashing_rebellious_tributaries = {
+		icon = mission_mesoamerican_divine_monarch
+		position = 9
+		required_missions = { azt_tlatoani }
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_fate_of_city_alliance = {
+		icon = mission_aztec_fractured_alliance
+		position = 10
+		required_missions = {
+			azt_religious_schools
+			azt_squashing_rebellious_tributaries
+			azt_seperation_of_classes
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_roads = {
+		icon = mission_pue_chaco_roads
+		position = 11
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_shifting_the_macehualtin = {
+		icon = mission_macehualtin
+		position = 13
+		required_missions = { azt_chinampa_farms } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_gold_income = {
+		icon = mission_zambezi_gold
+		position = 14
+		required_missions = {
+			azt_shifting_the_macehualtin
+			azt_arts_and_crafts
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+}
+azt_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	
+	has_country_shield = yes
+	potential_on_load = {
+		has_dlc = "Winds of Change"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+		has_dlc = "Winds of Change"
+		OR = {
+			tag = AZT
+			has_country_flag = unlock_aztec_missions_flag
+		}
+	} 
+
+	azt_mexico = {
+		icon = mission_jungle
+		position = 2
+		required_missions = {
+			azt_western_expedition
+			azt_coronation_campaigns
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_maize_farms = {
+		icon = mission_iroquois_food_surplus
+		position = 4
+		required_missions = { azt_tarascan } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_unify_mexico = {
+		icon = mission_mesoamerica
+		position = 6
+		required_missions = {
+			azt_securing_central_america
+			azt_end_of_western_expedition
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_city_alliance = {
+		icon = mission_aztec_city_alliance
+		position = 7
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_religious_schools = {
+		icon = mission_aztec_religious_classes
+		position = 9
+		required_missions = { azt_tlatoani } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_blood_for_the_gods = {
+		icon = mission_blood_for_the_gods
+		position = 10
+		required_missions = {
+			azt_capital_of_the_empire
+			azt_religious_schools
+		}
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_quauhpilli = {
+		icon = mission_eagle_knight
+		position = 12
+		required_missions = {
+			azt_warrior_societies
+			azt_roads
+		}
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+}
+azt_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	
+	has_country_shield = yes
+	potential_on_load = {
+		has_dlc = "Winds of Change"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+		has_dlc = "Winds of Change"
+		OR = {
+			tag = AZT
+			has_country_flag = unlock_aztec_missions_flag
+		}
+	} 
+
+	azt_western_expedition = {
+		icon = mission_native_dev_capital
+		position = 1
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_tarascan = {
+		icon = mission_rival_purepecha
+		position = 3
+		required_missions = { azt_mexico } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_end_of_western_expedition = {
+		icon = mission_mesoamerican_leader_expedition
+		position = 5
+		required_missions = {
+			azt_tarascan
+			azt_subduing_migratory_tribes
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_hueyi_teocalli = {
+		icon = mission_chichen_itza
+		position = 8
+		required_missions = {
+			azt_city_alliance
+			azt_expansion_of_tenochtitlan
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_capital_of_the_empire = {
+		icon = mission_pue_sky_city
+		position = 9
+		required_missions = {
+			azt_hueyi_teocalli
+			azt_tenochitlan_aqueduct
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_warrior_societies = {
+		icon = mission_mesoamerican_soldiers_training
+		position = 11
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_telpochcalli_schools = {
+		icon = mission_ne_longhouses
+		position = 12
+		required_missions = { azt_warrior_societies } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_calpulli_households = {
+		icon = mission_calpulli_household
+		position = 14
+		required_missions = {
+			azt_telpochcalli_schools
+			azt_jaguars_and_eagles
+		}
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+}
+azt_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	
+	has_country_shield = yes
+	potential_on_load = {
+		has_dlc = "Winds of Change"
+	}
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		is_random_new_world = no
+		has_dlc = "Winds of Change"
+		OR = {
+			tag = AZT
+			has_country_flag = unlock_aztec_missions_flag
+		}
+	} 
+
+	azt_securing_obsidian = {
+		icon = mission_obsidian_blades
+		position = 2
+		required_missions = { azt_western_expedition } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_subduing_migratory_tribes = {
+		icon = mission_iroquois_the_five_nations
+		position = 4
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_expansion_of_tenochtitlan = {
+		icon = mission_tenochtitlan
+		position = 7
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_tenochitlan_aqueduct = {
+		icon = mission_chapultepec_aqueduct
+		position = 8
+		required_missions = { azt_expansion_of_tenochtitlan } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_in_navel_of_the_moon = {
+		icon = mission_lake_texcoco
+		position = 10
+		required_missions = { azt_capital_of_the_empire } 
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+
+	azt_prisoners_for_sacrifices = {
+		icon = mission_blood_sacrifices
+		position = 12
+		required_missions = { azt_warrior_societies }
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		}
+	}
+
+	azt_jaguars_and_eagles = {
+		icon = mission_jaguar_knights
+		position = 13
+
+		trigger = {  
+			always = no
+		} 
+
+		effect = {  
+			
+		} 
+	}
+}

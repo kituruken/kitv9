@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = chinese_warlord
+technology_group = chinese
+religion = confucianism
+primary_culture = xibei
+capital = 2180 # Fengyuan
+
+
+
+1443.1.1 = {
+	monarch = {
+		name = "Shun Shon" 
+		dynasty = "Shan"
+		adm = 4
+		dip = 3
+		mil = 5
+		birth_date = 1423.1.1
+		death_date = 1470.1.1
+	}
+}
+
+
+1420.1.1 = {
+	clear_scripted_personalities = yes
+	add_ruler_personality = bold_fighter_personality
+	add_ruler_personality = well_connected_personality
+}
+
+
+1627.1.1 = {
+	monarch = {
+		name = "Zicheng"
+		dynasty = "Li"
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	capital = 688	# Kaifeng
+}
+
+1644.1.1 = { capital = 689 } # Fengyuan

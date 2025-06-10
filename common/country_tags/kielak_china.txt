@@ -1,0 +1,6 @@
+
+LIC = "countries/Li.txt"
+SZH = "countries/Suzhou.txt"
+NJG = "countries/Nanjing.txt"
+ODS = "countries/Ordos.txt"
+JIH = "countries/Jinhua.txt"

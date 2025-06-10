@@ -1,0 +1,44 @@
+country_decisions = {
+    sea_state_edicts_decision = {
+    major = yes
+    provinces_to_highlight = {
+        has_state_edict_enabled = yes
+        owned_by = ROOT
+    }
+    potential = {
+        ai = no
+    }
+    allow = {
+        always = yes
+    }
+    effect = {
+        set_country_flag = sea_state_edicts_flag
+        country_event = { id = sealand_events.28 }
+        custom_tooltip = sea_state_edicts_decision_tt
+    }
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+    sea_add_parliaments_decision = {
+    major = yes
+    potential = {
+        ai = no
+        has_parliament = yes
+    }
+    allow = {
+        custom_trigger_tooltip = {
+            tooltip = sea_add_parliaments_decision_ttt
+            any_owned_province = { has_seat_in_parliament = no }
+        }
+    }
+    effect = {
+        hidden_effect = { every_owned_province = { set_seat_in_parliament = yes } }
+        custom_tooltip = sea_add_parliaments_decision_tt
+    }
+    ai_will_do = {
+        factor = 0
+    }
+}
+}

@@ -1,0 +1,227 @@
+namespace = kielak_events
+
+country_event = {
+	id = kielak_events.1
+	title = kielak_events.1.t
+	picture = HRE_eventPicture
+	desc = kielak_events.1.d
+
+	trigger = {
+		HAB  = {
+			is_emperor = yes
+			NOT = {is_year = 1470 }
+			NOT = {
+				has_country_modifier = emperor_dec_elector
+			}
+			OR = {
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = BRA
+					}
+					BRA = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = ROT
+					}
+					ROT = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = VEN
+					}
+					VEN = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = MLO
+					}
+					MLO = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = HES
+					}
+					HES = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = HSA
+					}
+					HSA = {ai = no}
+				}
+				AND = {
+					is_in_war = {
+					attacker_leader = THIS
+					defender_leader = SIC
+					}
+					SIC = {ai = no}
+				}
+			}
+			
+		}
+
+	}
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = kielak_events.1.a
+		add_country_modifier = {
+			name = emperor_dec_elector
+			duration = 3600
+		}
+	}
+
+}
+
+country_event = { #Ethiopia Jewish Path Event at game start
+	id = kielak_events.2
+	title = kielak_events.2.t
+	picture = RELIGION_eventPicture
+	desc = kielak_events.2.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = kielak_events.2.a
+		change_religion = jewish
+		every_owned_province = {
+			change_religion = jewish
+		}
+	}
+
+	option = {
+		name = kielak_events.2.b
+	}
+
+}
+
+country_event = { #Ethiopia form Israel instead of Aksum if Jewish
+	id = kielak_events.3
+	title = kielak_events.3.t
+	picture = RELIGION_eventPicture
+	desc = kielak_events.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = kielak_events.3.a
+		change_tag = ISR
+		on_change_tag_effect = yes
+		remove_non_electors_emperors_from_empire_effect = yes
+		set_capital = 379
+		add_prestige = 25
+		if = {
+			limit = {
+				has_custom_ideas = no
+				NOT = { has_idea_group = ISR_ideas }
+			}
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		set_country_flag = formed_israel_flag
+	}
+
+}
+
+country_event = { #China Slots choose harmonized religion
+	id = kielak_events.4
+	title = kielak_events.4.t
+	picture = RELIGION_eventPicture
+	desc = kielak_events.4.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = kielak_events.4.a
+		trigger = {
+			NOT = { has_harmonized_with = shinto }
+		}
+		add_harmonized_religion = shinto
+	}
+
+
+	option = {
+		name = kielak_events.4.b
+		trigger = {
+			NOT = { has_harmonized_with = pagan }
+		}
+		add_harmonized_religion = animism
+	}
+
+	option = {
+		name = kielak_events.4.c
+		trigger = {
+			NOT = { has_harmonized_with = muslim }
+		}
+		add_harmonized_religion = sunni
+	}
+	option = {
+		name = kielak_events.4.dd
+		trigger = {
+			NOT = { has_harmonized_with = dharmic }
+		}
+		add_harmonized_religion = hinduism
+	}
+
+	option = {
+		name = kielak_events.4.e
+		trigger = {
+			NOT = { has_harmonized_with = christian }
+		}
+		add_harmonized_religion = catholic
+	}
+	option = {
+		name = kielak_events.4.f
+		trigger = {
+			NOT = { has_harmonized_with = mahayana }
+		}
+		add_harmonized_religion = mahayana
+	}
+	option = {
+		name = kielak_events.4.g
+		trigger = {
+			NOT = { has_harmonized_with = buddhism }
+		}
+		add_harmonized_religion = buddhism
+	}
+	option = {
+		name = kielak_events.4.h
+		trigger = {
+			NOT = { has_harmonized_with = vajrayana }
+		}
+		add_harmonized_religion = vajrayana
+	}
+	option = {
+		name = kielak_events.4.i
+		trigger = {
+			NOT = { has_harmonized_with = zoroastrian_group }
+		}
+		add_harmonized_religion = zoroastrian
+	}
+
+	option = {
+		name = kielak_events.4.j
+		trigger = {
+			NOT = { has_harmonized_with = jewish_group }
+		}
+		add_harmonized_religion = jewish
+	}
+
+
+	option = {
+		name = kielak_events.4.k
+		add_prestige = 1
+	}
+	
+
+}
