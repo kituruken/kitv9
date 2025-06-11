@@ -1049,6 +1049,66 @@ tur_conquest_of_europe = {
 			factor = 250
 		}
 	}
+		repulse_turk_gank = {
+        icon = mission_cossack_cavalry
+        required_missions = {  }
+		position = 14
+        trigger = {
+            NOT = {
+                is_year = 1460
+            }
+
+        OR = {
+            AND = { 
+                is_in_war = {
+                    attackers = MAM
+                }
+                is_in_war = {
+                    attackers = HUN
+                }
+            }
+            AND = { 
+                is_in_war = {
+                    attackers = MAM
+                }
+                is_in_war = {
+                    attackers = AKK
+                }
+            }
+            AND = { 
+                is_in_war = {
+                    defenders = MAM
+                }
+                is_in_war = {
+                    attackers = HUN
+                }
+            }
+			AND = { 
+                is_in_war = {
+                    defenders = MAM
+                }
+                is_in_war = {
+                    attackers = AKK
+                }
+            }
+        }
+    }
+        effect = {
+            define_conquistador = {
+                shock = 6
+                fire = 4
+                manuever = 4
+                siege = 2
+                name = "II. Murat"
+                trait = defensive_planner_personality
+                }
+
+                add_country_modifier = {
+                name = "anti_turko_gank"
+                duration = 3650
+                }
+            }
+        } 
 }
 
 tur_african_conquest = {
@@ -4472,6 +4532,12 @@ tur_persian_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			define_general = {
+    shock = 4
+    fire = 2
+    manuever = 2
+    siege = 2
+   }
 		}
 
 		ai_weight = {
@@ -5863,4 +5929,5 @@ tur_stagnation_slot_5 = {
 			factor = 250
 		}
 	}
+
 }

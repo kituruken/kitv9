@@ -1338,4 +1338,6 @@
  FKN_fabricate_cbs_desc: "There are many loyalists to the Empire, and we cannot wage an unjust war to humiliate them. We need to find a way to orchestrate a political drama, leading to a potential reasoning for a war against them. We will tear the current order from the inside."
  # FKN_demand_from_cities_title: "Demand Submission from the Cities"
  # FKN_demand_from_cities_desc: ""
- 
+
+ repulse_turk_gank_title:0 "kill dem all"
+ repulse_turk_gank_desc:0 "u can't cry now if u lose on discord"

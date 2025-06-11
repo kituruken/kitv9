@@ -168,32 +168,22 @@ conquest_of_paris = {
 	}
 }
 
-conquest_of_pandurs_house = {
+conquest_of_baghdad = {
 	potential = {
 		normal_or_historical_nations = yes
 	}
 	trigger = {
 		owner = {
-			NOT = { tag = BUR }
-			NOT = { tag = LOT }
-			NOT = { tag = NED }
-			NOT = { 	
-					has_global_modifier_value = {
-					which = discipline
-					value = 0.31
-					}
+				iraq_arabi_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = PREV
 				}
-			north_brabant_area	= {
-				type = all
-				country_or_non_sovereign_subject_holds = PREV
-			}	
-				
-		}
+			}
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
-	}
-	discipline = 0.025
-	land_morale = 0.025
+		}	
+     yearly_innovativeness = 0.5
+	 development_cost = -0.025
 	
 	#Province scope
 	on_activation = {
@@ -204,6 +194,7 @@ conquest_of_pandurs_house = {
 	
 	}
 }
+
 
 conquest_of_vienna = {
 	potential = {

@@ -11702,7 +11702,7 @@ estate_janissary_professional_soldiers_mod = {
 }
 
 estate_janissary_rough_discipline_mod = {
-	discipline = 0.025
+	discipline = 0.05
 	is_janissary_modifier = yes
 }
 
@@ -14156,6 +14156,16 @@ estate_church_TIM_promote_ijazah_scaling = {
 onurotuzbir = {				
 				interest = -1
 				inflation_reduction = 0.5 }
+				
+
+anti_turko_gank = {
+    merc_maintenance_modifier = -0.50
+    mercenary_cost = -0.20
+    interest = -0.5
+    land_morale = 0.10
+    technology_cost = -0.10
+	mercenary_manpower = 0.5
+}
 TIM_full_army_trad = {
 	army_tradition = 1 
 }

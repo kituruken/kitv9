@@ -18919,7 +18919,7 @@ grand_canal_1 = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -18962,7 +18962,7 @@ grand_canal_1 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 350
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -18979,7 +18979,7 @@ grand_canal_1 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 750
+			factor = 1500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19000,7 +19000,7 @@ grand_canal_1 = {
 			months = 360
 		}
 		cost_to_upgrade = {
-			factor = 1500
+			factor = 2000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19029,7 +19029,7 @@ grand_canal_2 = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -19072,7 +19072,7 @@ grand_canal_2 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 350
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -19089,7 +19089,7 @@ grand_canal_2 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 750
+			factor = 1500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19110,7 +19110,7 @@ grand_canal_2 = {
 			months = 360
 		}
 		cost_to_upgrade = {
-			factor = 1500
+			factor = 2000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19139,7 +19139,7 @@ grand_canal_3 = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -19182,7 +19182,7 @@ grand_canal_3 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 350
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -19199,7 +19199,7 @@ grand_canal_3 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 750
+			factor = 1500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19220,7 +19220,7 @@ grand_canal_3 = {
 			months = 360
 		}
 		cost_to_upgrade = {
-			factor = 1500
+			factor = 2000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19249,7 +19249,7 @@ grand_canal_4 = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 
 	build_trigger = {
@@ -19292,7 +19292,7 @@ grand_canal_4 = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 350
+			factor = 1000
 		}
 		province_modifiers = {
 			trade_goods_size = 0.5
@@ -19309,7 +19309,7 @@ grand_canal_4 = {
 			months = 240
 		}
 		cost_to_upgrade = {
-			factor = 750
+			factor = 1500
 		}
 		province_modifiers = {
 			trade_goods_size = 1
@@ -19330,7 +19330,7 @@ grand_canal_4 = {
 			months = 360
 		}
 		cost_to_upgrade = {
-			factor = 1500
+			factor = 2000
 		}
 		province_modifiers = {
 			trade_goods_size = 1
