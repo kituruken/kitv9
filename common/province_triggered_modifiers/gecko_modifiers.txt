@@ -466,7 +466,7 @@ conquest_of_nogay = {
 		has_owner_accepted_culture = yes	
 	}	
 	#horde_unity = 0.5
-	cavalry_cost = 0.1
+	cavalry_cost = -0.1
 	merchants = 1
 	#Province scope
 	on_activation = {
@@ -644,8 +644,9 @@ conquest_of_herat = {
 			herat_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV		
-		}
-	}
+		  }
+	  }                          
+	 }                                                 
 	yearly_innovativeness = 0.5
 	
 	#Province scope
