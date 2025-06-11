@@ -2082,17 +2082,17 @@ POL_ideas = {
 		tag = POL
 	}
 	free = yes		#will be added at load.
-	
+
+		peichota_wybraniecka = {
+		global_manpower_modifier = 0.2
+		infantry_power = 0.1
+	}
 	folwark_system = {
 		production_efficiency = 0.1
 	}
 	nihil_novi = {
-		stability_cost_modifier = -0.1
+		cav_to_inf_ratio = 0.15
 		war_exhaustion = -0.02
-	}
-	peichota_wybraniecka = {
-		global_manpower_modifier = 0.2
-		infantry_power = 0.1
 	}
 	winged_hussars = {
 		cavalry_power = 0.1
