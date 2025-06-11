@@ -4487,14 +4487,10 @@ tur_persian_conquest = {
 		}
 		position = 4
 		provinces_to_highlight = {
-			region = anatolia_region
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            province_id = 382
 		}
 		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = anatolia_region
-				value = 40
-			}
+			382 = { owned_by = ROOT}
 		}
 		effect = {
 			country_event_with_insight = {
@@ -4522,9 +4518,16 @@ tur_persian_conquest = {
 					NOT = { is_permanent_claim = ROOT }
 				}
 				add_permanent_claim = ROOT
-			}
-		}
-
+			} 
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
+		} 
+        
 		ai_weight = {
 			factor = 250
 		}

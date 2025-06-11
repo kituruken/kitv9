@@ -1576,7 +1576,7 @@ emp_burgundy_5 = {
 				tooltip = burgundy_has_secured_succession_tt
 				OR = {
 					has_country_flag = bur_crisis_has_happened
-					is_year = 1500
+					is_year = 1450
 				}
 			}
 			is_subject = no
@@ -1651,7 +1651,13 @@ emp_burgundy_5 = {
 		icon = join_the_empire
 		required_missions = { emp_bur_secure_succession }
 		trigger = {
-			is_subject = no
+				ROOT = { 
+                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+                area = ile_de_france_area
+                value = 4
+            }
+
+		 }
 		}
 		effect = {
 			if = {
@@ -1687,6 +1693,14 @@ emp_burgundy_5 = {
 				}
 				add_permanent_claim = ROOT
 			}
+			
+				add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 	}
 	emp_bur_crown_of_lothair = {

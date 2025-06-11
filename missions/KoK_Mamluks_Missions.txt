@@ -1936,36 +1936,10 @@ mam_missions_5 = {
 		required_missions = { mam_reincorporate_northern_territories }
 		position = 2
 		provinces_to_highlight = {
-			OR = {
-				area = aleppo_area
-				area = karaman_area
-				area = dulkadir_area
-				province_id = 327
-				province_id = 2302
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+            province_id = 2301
 		}
 		trigger = {
-			aleppo_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			327 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2302 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			karaman_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			dulkadir_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			2301 = { owned_by = ROOT}
 		}
 		effect = {
 			if = {
@@ -2001,6 +1975,14 @@ mam_missions_5 = {
 				type = adm
 				amount = 1
 			}
+			
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 	}
 

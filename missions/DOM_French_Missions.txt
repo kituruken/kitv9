@@ -341,6 +341,14 @@ french_missions_1 = {
 					BUR = { set_country_flag = fra_guaranteed_succession_flag } 
 				}
 			}
+
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 	}
 	

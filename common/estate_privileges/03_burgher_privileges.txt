@@ -1719,7 +1719,6 @@ estate_burghers_tropical_nation = {
 	is_valid = {
 		OR = {
 			has_estate_privilege = estate_burghers_tropical_nation
-			technology_group = chinese
 			technology_group = indian
 			tag = SON
 			was_tag = SON
@@ -2098,7 +2097,10 @@ estate_burghers_mountain_expansion = {
 	influence = 0.05
 	#loyalty = 0.05
 	is_valid = {
-		has_unlocked_estate_privilege = { estate_privilege = estate_burghers_mountain_expansion }
+		OR = { 
+			TAG = CSH
+			has_unlocked_estate_privilege = { estate_privilege = estate_burghers_mountain_expansion }
+		}
 	}
 	can_select = {
 		ai=no

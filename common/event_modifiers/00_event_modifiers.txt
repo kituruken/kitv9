@@ -9414,9 +9414,9 @@ overlord_military_mission = {
 
 # Religions
 harmonized_vajrayana = {
-	#morale_damage = 0.1
+	#morale_damage = 0.05
 	#reserves_organisation = 0.1
-	shock_damage = 0.1
+	shock_damage = 0.05
 	religion = yes
 }
 
@@ -9432,13 +9432,13 @@ harmonized_mahayana = {
 }
 
 harmonized_shinto = {
-	infantry_power = 0.1
+	infantry_power = 0.05
 	religion = yes
 }
 
 # Religion Groups
 harmonized_pagan = {
-	cavalry_power = 0.1
+	cavalry_power = 0.05
 	religion = yes
 }
 
@@ -9448,25 +9448,24 @@ harmonized_jewish_group = {
 }
 
 harmonized_zoroastrian_group = {
-	global_trade_goods_size_modifier = 0.1
 	production_efficiency = 0.15
 	religion = yes
 }
 
 harmonized_dharmic = {
 	#diplomatic_reputation = 1
-	development_cost = -0.1
+	development_cost = -0.05
 	religion = yes
 }
 
 harmonized_muslim = {
-	trade_efficiency = 0.2
+	trade_efficiency = 0.1
 	global_trade_power = 0.1
 	religion = yes
 }
 
 harmonized_christian = {
-	fire_damage = 0.1
+	fire_damage = 0.05
 	religion = yes
 }
 
@@ -14154,7 +14153,9 @@ grand_vizier_grand_captain = {
 estate_church_TIM_promote_ijazah_scaling = {
 	yearly_innovativeness = 0.5
 }
-
+onurotuzbir = {				
+				interest = -1
+				inflation_reduction = 0.5 }
 TIM_full_army_trad = {
 	army_tradition = 1 
 }
@@ -14191,3 +14192,4 @@ free_slot_for_georgian = { num_accepted_cultures = 1 }
 free_slot_for_turkish = { num_accepted_cultures = 1 }
 free_slot_for_al_iraqiya_arabic = { num_accepted_cultures = 1 }
 free_slot_for_al_suryah_arabic = { num_accepted_cultures = 1 }
+

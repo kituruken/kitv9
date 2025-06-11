@@ -4,7 +4,7 @@ technology_group = chinese
 religion = confucianism
 primary_culture = xibei
 capital = 2180 # Fengyuan
-
+set_estate_privilege = estate_burghers_mountain_expansion
 
 
 1443.1.1 = {
