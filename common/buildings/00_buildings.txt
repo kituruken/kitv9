@@ -3463,7 +3463,7 @@ state_house = {
 	}
 
 	modifier = {
-		local_centralize_state_cost = -0.33
+		local_tax_modifier = 1.5
 	}
 	
 	onmap = no
@@ -3519,7 +3519,6 @@ armory = {
 				has_forcelimit_building_trigger = yes
 				development = 30
 				is_prosperous = yes
-				base_manpower = 10
 			}
 	}
 	

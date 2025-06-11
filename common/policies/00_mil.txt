@@ -943,7 +943,7 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	discipline = 0.025
+	reinforce_speed = 0.2
 	
 	effect = {}
 	removed_effect = {}
