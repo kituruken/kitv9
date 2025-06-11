@@ -63,7 +63,7 @@ war_goal = {
 	rem_attacker = POL
 	rem_defender = KIE
 }
-name = "Muscovy Crimea war"
+name = "Muscovy Cra"
 war_goal = {
 	type = superiority_crusade
 	casus_belli = cb_crusade

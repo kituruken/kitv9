@@ -748,7 +748,7 @@ conquest_of_toledo = {
 		gold_depletion_chance_modifier = -0.5
 		monthly_gold_inflation_modifier = -0.5
 		land_morale = 0.05
-		}
+		 }
 	
 	#Province scope
 	on_activation = {
