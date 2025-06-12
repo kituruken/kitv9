@@ -51,3 +51,6 @@ war_goal = {
 	rem_attacker = PAP
 	rem_defender = TUR
 }
+
+
+

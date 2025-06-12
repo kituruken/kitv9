@@ -91,36 +91,6 @@ french_missions_1 = {
 						country_or_non_sovereign_subject_holds = ROOT 
 					}
 				}
-				BUR = {
-					OR = { 
-						is_subject_of = ROOT 
-						alliance_with = ROOT 
-					}
-					AND = {
-						if = { 
-							limit = { is_subject_of = ROOT }
-							has_opinion = {
-								who = ROOT 
-								value = 125
-							}
-						}
-						else = {
-							has_opinion = {
-								who = ROOT 
-								value = 180
-							}
-						}
-						if = {
-							limit = { has_dlc = "Leviathan" }
-							trust = { who = FRA value = 75 }
-						}
-						else = { monthly_dip = 8 }
-						if = { 
-							limit = { is_subject_of = ROOT }
-							NOT = { liberty_desire = 10 }
-						}
-					}
-				}
 			}
 		}
 		effect = {
