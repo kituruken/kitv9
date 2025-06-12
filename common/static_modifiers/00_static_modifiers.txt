@@ -210,10 +210,10 @@ blockaded = {
 	ship_recruit_speed = 0.5
 	local_monthly_devastation = 0.5
 	trade_goods_size_modifier = -0.25 
-	local_tax_modifier = -1
-	province_trade_power_modifier = -1
-	local_manpower_modifier = -1.5
-	local_sailors_modifier = -1
+	local_tax_modifier = -0.5
+	province_trade_power_modifier = -0.5
+	local_manpower_modifier = -0.5
+	local_sailors_modifier = -0.5
 	local_institution_spread = -0.1
 }
 
@@ -259,9 +259,9 @@ development = {
 	local_sailors = 60			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.05
-	local_amount_of_cawa = 0.125
+	local_amount_of_cawa = 0.1
 	local_amount_of_carolean = 0.1
-	local_amount_of_hussars = 0.01
+	local_amount_of_hussars = 0.1
 }
 
 development_scaled = {
@@ -351,7 +351,6 @@ march_bonus = {
 	country_diplomatic_power = 1
 	country_military_power = 1
 	advisor_cost = -0.25
-	development_cost = -0.25
 	technology_cost = -0.15
 	global_manpower = 2.5
 	global_sailors = 1250
@@ -1233,9 +1232,9 @@ total_occupation = {
 }
 
 total_blockaded = {
-	war_exhaustion = 0.4					#increases exhaustion.
-	global_trade_power = -0.75
-	trade_steering = -0.75
+	war_exhaustion = 0.2					#increases exhaustion.
+	global_trade_power = -0.50
+	trade_steering = -0.50
 }
 
 uncontested_cores = {
@@ -2057,15 +2056,14 @@ janissary_regiment = {
 
 cawa_regiment = {
 	shock_damage_received = -0.1
-	morale_damage_received = -0.1
 	land_attrition = -0.5
-	reinforce_speed = 0.5
+	reinforce_speed = 0.3
 }
 
 hussars_regiment = {
-	cavalry_shock = 0.75
+	cavalry_shock = 0.25
 	morale_damage = 0.25
-	reinforce_speed = -0.5
+	reinforce_speed = -0.3
 }
 
 marine_regiment = {
@@ -2109,7 +2107,8 @@ qizilbash_regiment = {
 mamluks_regiment = {
 	drill_gain_modifier = 1
 	morale_damage = 0.15
-	reinforce_speed = 0.33 
+	reinforce_speed = 0.33
+	drill_decay_modifier = -0.20 
 }
 
 geobukseon_ship = {

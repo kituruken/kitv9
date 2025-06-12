@@ -8,9 +8,9 @@ dh_tim_india = {
 	potential = {
 		OR = {
 			tag = TIM
-			tag = TRS
 			tag = AFG
 			tag = KHO
+			tag = TRS
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
