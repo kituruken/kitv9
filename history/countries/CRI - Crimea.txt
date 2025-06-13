@@ -4,21 +4,23 @@ technology_group = nomad_group
 religion = sunni
 primary_culture = crimean
 capital = 284 #Karasu (Capital at Eski Qirim/Solkhat)
-religious_school = maliki_school
+religious_school = hanbali_school
 national_focus = MIL
 ###X###
 set_government_rank = 2
 add_truce_with = GEN
 #######
 
+add_manpower = 12
+
 1441.1.1 = {
 	monarch = {
 		name = "Haji I"
 		dynasty = Giray
-		birth_date = 1410.1.1
-		adm = 4                                                         
-		dip = 4
-		mil = 4
+		birth_date = 1420.1.1
+		adm = 5                                                         
+		dip = 3
+		mil = 5
 	}
 }
 

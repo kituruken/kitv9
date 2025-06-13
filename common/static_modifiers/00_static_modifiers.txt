@@ -750,7 +750,7 @@ bankruptcy = {
 	#technology_cost = 0.5
 	#idea_cost = 0.5
 	imperial_mandate = -0.1
-	#defensiveness = -1
+	defensiveness = -1
 	can_not_build_buildings = yes
 	great_project_upgrade_cost = 0.5
 	monthly_russian_modernization = -1
@@ -772,6 +772,7 @@ peace = {
 	monthly_militarized_society = -0.1
 	monthly_ottoman_decadence = 0.1
 	monthly_asha_vahishta = 0.25
+	global_supply_limit_modifier = 6.0
 	
 }
 
