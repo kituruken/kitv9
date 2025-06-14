@@ -12,7 +12,7 @@ capital = 149 # Edirne
 national_focus = MIL
 add_army_professionalism = 0.1
 religious_school = hanafi_school
-add_manpower = 20
+add_manpower = 10
 
 change_estate_land_share = {
 	estate = estate_church

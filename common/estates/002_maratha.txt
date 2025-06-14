@@ -5,6 +5,7 @@ estate_maratha = {
 
 	# If true, country will get estate
 	trigger = {
+		ai = no
 		OR = {
 			has_dlc = "Dharma"
 			has_dlc = "Winds of Change"

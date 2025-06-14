@@ -445,7 +445,6 @@ shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		local_sailors_modifier = 1
 		naval_forcelimit = 2
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
@@ -809,8 +808,7 @@ courthouse = {
 	modifier = {
 		#local_state_maintenance_modifier = -0.1
 		local_autonomy = -0.1
-		local_governing_cost = -0.125
-		local_governing_cost_increase = -5
+		local_governing_cost_increase = -10
 		local_friendly_movement_speed = 0.1
 		allowed_num_of_buildings = 1
 	}
@@ -852,14 +850,14 @@ courthouse = {
 }
 
 dock = {
-	cost = 100
+	cost = 80
 	time = 12
 	build_trigger = {
 		has_port = yes
 	}
 	modifier = {
-		trade_value_modifier = 0.15
-		trade_value = 0.1
+		allowed_num_of_buildings = 1
+		local_sailors_modifier = 0.5
 		local_has_man_of_war = yes
 		local_has_galleass = yes
 	}
@@ -1676,7 +1674,7 @@ grand_shipyard = {
 		local_ship_cost = -0.20
 		local_has_man_of_war = yes
 		local_has_galleass = yes
-		local_sailors_modifier = 2
+		local_sailors_modifier = 1
 	}
 
 	on_built = {
@@ -2245,10 +2243,9 @@ town_hall = {
 	modifier = {
 		#local_state_maintenance_modifier = -0.2
 		local_autonomy = -0.2
-		local_governing_cost = -0.25
 		allowed_num_of_buildings = 1
 		local_friendly_movement_speed = 0.2
-		local_governing_cost_increase = -10
+		local_governing_cost_increase = -20
 	}
 
 	on_built = {
@@ -2350,7 +2347,7 @@ town_hall = {
 }
 
 drydock = {
-	cost = 300
+	cost = 200
 	time = 12
 
 	make_obsolete = dock
@@ -2360,8 +2357,8 @@ drydock = {
 	}
 
 	modifier = {
-		trade_value_modifier = 0.3
-		trade_value = 0.2
+		allowed_num_of_buildings = 1
+		local_sailors_modifier = 1
 		local_has_man_of_war = yes
 		local_has_galleass = yes
 	}

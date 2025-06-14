@@ -16,6 +16,7 @@ estate_dhimmi = {
 
 	# If true, country will get estate
 	trigger = {
+		ai = no
 		OR = {
 			has_dlc = "The Cossacks"
 			has_dlc = "King of Kings"
