@@ -1464,3 +1464,658 @@ ROT_religion_enforced = {
 ROT_the_wine = {
 	trade_value_modifier = 1
 }
+
+swi_period_of_stability_modifier = {
+    idea_cost = -0.05
+	stability_cost_modifier = -0.25 
+}
+swi_swiss_linen_industry_modifier = {
+	trade_goods_size = 1 
+}
+swi_swiss_cheese_modifier = {
+	trade_goods_size_modifier = 0.1 
+	trade_value_modifier = 0.2
+}
+swi_direct_democracy_modifier = {
+	yearly_corruption = -0.1
+	global_autonomy = -0.05
+}
+swi_the_swiss_defense_modifier = {
+	defensiveness = 0.1 
+}
+
+SWI_integration_of_graubunden = {
+	monthly_reform_progress = 0.25
+}
+
+swi_the_swiss_defense_modifier2 = {
+	defensiveness = 0.1
+	garrison_size = 0.25 
+}
+swi_founded_basel_university_modifier = {
+	technology_cost = -0.05 
+}
+swi_accept_culture_modifier = {
+	num_accepted_cultures = 1 
+}
+swi_swiss_mercenaries_modifier2 = {
+	possible_condottieri = 0.5
+}
+swi_swiss_mercenaries_modifier = {
+	possible_condottieri = 1
+	mercenary_cost = -0.05 
+}
+swi_immigrant_citizenship_modifier = {
+	global_tax_modifier = 0.1
+	years_of_nationalism = -5 
+}
+swi_invasion_of_italy_modifier = {
+	manpower_recovery_speed = 0.15 
+	army_tradition = 1
+}
+swi_regional_diets_modifier = {
+	country_admin_power = 1 
+}
+swi_national_expansion_plan_modifier = {
+	local_manpower_modifier = 0.4
+	trade_goods_size_modifier = 0.25
+	local_hostile_movement_speed = -0.33
+}
+swi_eidgenossenschaft_modifier = {
+	global_unrest = -1 
+	reform_progress_growth = 0.2
+}
+swi_prosperous_community_modifier = {
+	province_trade_power_modifier = 0.25
+}
+swi_booming_home_node_modifier = {
+	trade_efficiency = 0.1 
+}
+swi_prosperity_in_the_cantons_modifier = { 
+	diplomatic_reputation = 1
+	reelection_cost = -0.1
+	legitimacy = 1 
+	devotion = 1 
+}
+swi_cutthroat_diplomacy = {
+	ae_impact = -0.1 
+	province_warscore_cost = -0.1
+}
+swi_lessons_of_war_modifier = { 
+	drill_gain_modifier = 0.25
+	land_morale = 0.05
+}
+swi_rising_power = {
+	num_accepted_cultures = 1
+	global_autonomy = -0.05
+}
+swi_treaty_of_stans_modifier = {
+	vassal_forcelimit_bonus = 0.5
+	vassal_income = 0.1 
+}
+swi_signed_the_treaty_of_stans_subject_modifier = {
+	global_unrest = -1 
+	global_tax_modifier = 0.15
+}
+swi_peaceful_debate_of_ideas_modifier = {
+	idea_cost = -0.1 
+	advisor_cost = -0.15
+}
+swi_standarization_of_designs_modifier = {
+	global_ship_cost = -0.05
+	global_ship_recruit_speed = -0.1 
+}	
+swi_tales_of_legends_modifier = {
+	war_exhaustion = -0.05
+	prestige_from_land = 1
+}
+swi_canton_republican_ties_modifier = {
+	republican_tradition = 0.05
+}
+
+swi_bastion_catholicism_modifier = {
+	papal_influence = 2 
+	tolerance_own = 1
+}
+
+swi_canton_administration_modifier = {
+	country_admin_power = 1 
+}
+
+Timurid_princes_missions_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TRS
+			tag = AFG
+			tag = KHO
+		}
+		
+	}
+	has_country_shield = yes
+	
+	Timurid_prince_power_strugle = {
+		icon = me_mission_timurids_princedom_the_power_struggle
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+	
+	Timurid_prince_expand_the_state = {
+		icon = me_mission_timurids_princedom_expand_our_realm
+		required_missions = { Timurid_prince_power_strugle }
+		position = 3
+		trigger = {
+			grown_by_development = 75
+		}
+		effect = {
+			add_prestige = 10
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				add_splendor = 50
+			}
+			else = {
+				add_legitimacy_equivalent = { amount = 25 republican_tradition = 25 }
+			}
+			capital_scope = {
+				region = {
+					limit = {
+						NOT = { owned_by = ROOT	}
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	
+	Timurid_prince_claim_the_empire = {
+		icon = me_mission_timurids_princedom_claim_timur_empire
+		required_missions = { 
+			Timurid_prince_expand_the_state
+			Timurid_grand_ruler
+		}
+		position = 4
+		trigger = {
+			tag = TRS
+		}
+		effect = {
+			set_country_flag = ME_ALLOW_FORMATION_OF_TIMURIDS
+			custom_tooltip = ALLOW_FORMATION_OF_TIMURIDS.tooltip
+		}
+	}
+}
+
+Timurid_princes_missions_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TRS
+			tag = AFG
+			tag = KHO
+		}
+		
+	}
+	has_country_shield = yes
+	
+	Timurid_support_within_the_people = {
+		icon = me_mission_timurids_princedom_support_by_the_people
+		required_missions = {
+			Timurid_prince_power_strugle
+			Timurid_heir_of_timur
+		}
+		position = 2
+		provinces_to_highlight = {
+			owned_by = ROOT
+			unrest = 0.01
+		}
+		trigger = {
+			all_owned_province = { 
+				NOT = { unrest = 0.01 }
+			}
+		}
+		effect = {
+			add_dip_power = 50
+		}
+	}
+	
+	Timurid_grand_ruler = {
+		icon = me_mission_timurids_princedom_the_great_ruler
+		required_missions = {
+			Timurid_support_within_the_people
+		}
+		position = 3
+		trigger = {
+			OR = {
+				total_development = 400
+				AND = {
+					ADM = 3
+					DIP = 3
+					MIL = 3
+				}
+			}
+		}
+		effect = {
+			add_prestige_or_monarch_power = { amount = 20 }
+		}
+	}
+}
+
+Timurid_princes_missions_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TRS
+			tag = AFG
+			tag = KHO
+		}
+		
+	}
+	has_country_shield = yes
+	
+	Timurid_heir_of_timur = {
+		icon = me_mission_timurids_princedom_heir_of_timur
+		required_missions = { }
+		position = 1
+		trigger = {
+			army_size_percentage = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = ME_heir_of_timur
+				duration = 7300
+			}
+			446 = {
+				add_permanent_claim = ROOT
+			}
+			437 = {
+				add_permanent_claim = ROOT
+			}
+			438 = {
+				add_permanent_claim = ROOT
+			}
+			4325 ={
+				add_permanent_claim = ROOT
+			}
+			2349 = {
+				add_permanent_claim = ROOT
+			}
+			2214 = {
+				add_permanent_claim = ROOT
+			}
+			441 = {
+				add_permanent_claim = ROOT
+			}
+			2362 = {
+				add_permanent_claim = ROOT
+			}
+			1973 = {
+				add_permanent_claim = ROOT
+			}
+			arys_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ferghana_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mashhad_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			birjand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sistan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	Timurid_stronger_than_our_competitors = {
+		icon = me_mission_timurids_princedom_strongest_amongst_many
+		required_missions = { Timurid_heir_of_timur }
+		position = 3
+		trigger = {
+			OR = {
+				army_size = 40
+				calc_true_if = {
+					all_country = {
+						dynasty = "Timurid"
+						NOT = { army_size = ROOT }
+					}
+					amount = 3
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					mission_completed = Timurid_prince_power_strugle
+				}
+			}
+			add_prestige_or_monarch_power = { amount = 20 }
+			add_legitimacy_equivalent = { amount = 10 republican_tradition = 10 }
+		}
+	}
+	
+	Timurid_ruler_of_our_region = {
+		icon = me_mission_timurids_princedom_ruler_of_our_region
+		required_missions = { 
+			Timurid_stronger_than_our_competitors
+			Timurid_grand_ruler
+		}
+		position = 4
+		provinces_to_highlight = {
+			region_for_scope_province = {
+				is_capital_of = ROOT
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			capital_scope = {
+				region_for_scope_province = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = ME_uncontested_ruler
+				duration = -1
+			}
+		}
+	}
+}
+
+Timurid_princes_missions_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TRS
+			tag = AFG
+			tag = KHO
+		}
+		
+	}
+	has_country_shield = yes
+	
+	Timurid_pacify_the_persian_people = {
+		icon = me_mission_timurids_princedom_pacify_the_persians
+		required_missions = { 
+			Timurid_follow_seljuk_architecture
+			Timurid_heir_of_timur
+		}
+		position = 2
+		trigger = {
+			OR = {
+				government_rank = 3
+				dominant_culture = uzbehk
+				calc_true_if = {
+					accepted_culture = persian
+					accepted_culture = luri
+					accepted_culture = azerbaijani
+					accepted_culture = khorasani
+					accepted_culture = baluchi
+					accepted_culture = afghani
+					accepted_culture = kurdish
+					accepted_culture = mazandarani
+					amount = 5
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ME_pacified_the_persians
+				duration = -1
+			}
+		}
+	}
+	
+	Timurid_heal_the_persian_religious_turmoil = {
+		icon = me_mission_timurids_princedom_ending_the_turmoil
+		required_missions = { 
+			Timurid_pacify_the_persian_people
+		}
+		position = 2
+		provinces_to_highlight = {
+			OR = {
+				region = persia_region
+				region = khorasan_region
+			}
+			NOT = { religion = ROOT }
+			ROOT = {
+				NOT = {
+					OR = {
+						full_idea_group = humanist_ideas
+						AND = {
+							religious_unity = 1
+							is_year = 1480
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			OR = {
+				full_idea_group = maritime_ideas
+				AND = {
+					religious_unity = 1
+					is_year = 1480
+				}
+				AND = {
+					persia_region = {
+						type = all
+						religion = ROOT
+					}
+					khorasan_region = {
+						type = all
+						religion = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			add_ruler_modifier = {
+				name = ME_healed_religious_turmoil
+				duration = 7300
+			}
+			khorasan_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+Timurid_princes_missions_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		OR = {
+			tag = TRS
+			tag = AFG
+			tag = KHO
+		}
+		
+	}
+	has_country_shield = yes
+	
+	
+	Timurid_follow_seljuk_architecture = {
+		icon = me_mission_timurids_princedom_seljuk_architecture
+		required_missions = { }
+		position = 1
+		trigger = {
+			calc_true_if = {
+				all_owned_province = {
+					OR = {
+						has_tax_building_trigger = yes
+						development = 30
+					}
+				}
+				amount = 5
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = ME_seljuk_architecture
+				duration = 5475
+			}
+		}
+	}
+	
+	Timurid_pinnacle_of_islamic_art = {
+		icon = me_mission_timurids_princedom_pinnacle_of_islamic_art
+		required_missions = { Timurid_follow_seljuk_architecture }
+		position = 3
+		trigger = {
+			religion_group = muslim
+			OR = {
+				piety = 0.7
+				NOT = { piety = -0.7 }
+			}
+			prestige = 60
+			has_institution = renaissance
+		}
+		effect = {
+			add_country_modifier = {
+				name = ME_pinnacle_of_islamic_art
+				duration = 9125
+			}
+			persia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	Timurid_restore_persia_and_khorasan_areas = {
+		icon = me_mission_timurids_princedom_reconstruct_the_persian_lands
+		required_missions = { 
+			Timurid_pinnacle_of_islamic_art
+			Timurid_heal_the_persian_religious_turmoil
+		}
+		position = 4
+		provinces_to_highlight = {
+			OR = {
+				region = persia_region
+				region = khorasan_region
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				unrest = 2
+			}
+		}
+		trigger = {
+			persia_region = {
+				type = all
+				owned_by = ROOT
+				NOT = { unrest = 2 }
+			}
+			khorasan_region = {
+				type = all
+				owned_by = ROOT
+				NOT = { unrest = 2 }
+			}
+		}
+		effect = {
+			custom_tooltip = ALLOW_PERSIAN_REGION_RESTORATION_EVENTS.tooltip
+			hidden_effect = {
+				set_country_flag = allow_persian_restoration
+				add_country_modifier = {
+					name = allow_persian_restoration_for_20_years
+					duration = 7300
+					hidden = yes
+				}
+			}
+		}
+	}
+}
+
+
+###################################
+###################################
+# ME_Transoxiana_Modifiers
+###################################
+me_transoxiana_silk_road_benefits = {
+	trade_efficiency = 0.15
+	development_cost = -0.1
+}
+
+me_transoxiana_taming_the_steppes = {
+	prestige = 0.5
+	cavalry_cost = -0.1
+}
+
+me_transoxiana_true_heir_of_timur = {
+	monarch_military_power = 1
+}
+
+me_transoxiana_turkoman_tactics = {
+	cavalry_cost = -0.1
+	cavalry_fire = 0.1
+}
+
+me_transoxiana_inspiration_for_many_great_men = {
+	advisor_cost = -0.1
+}
+
+me_transoxiana_the_end_of_a_legend = {
+	army_tradition = 1
+}
+
+me_transoxiana_usurper_of_transoxiana = {
+	legitimacy = 0.5
+	prestige = 1
+}
+
+me_transoxiana_full_scale_rebellion = {
+	global_unrest = -1
+	global_manpower_modifier = 0.1
+}
+
+me_transoxiana_mountain_fortifications = {
+	local_defensiveness = 0.15
+}

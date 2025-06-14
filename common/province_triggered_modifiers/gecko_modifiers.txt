@@ -625,42 +625,7 @@ conquest_of_copenhagen = {
 	}
 }
 
-conquest_of_frankfurt = {
-	potential = {
-		normal_or_historical_nations = yes
-	}
-	trigger = {
-		owner = {
-				NOT = { tag = HES }
-				NOT = { tag = WES }
-    { 	
-					has_global_modifier_value = {
-					which = discipline
-					value = 0.31
-					}
-				}
-				hesse_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = PREV
-				}	
-			}
-		controlled_by = ROOT
-		has_owner_accepted_culture = yes		
-		}
-	{ 		
-	land_morale = 0.025
-	discipline = 0.025
-    }
-	
-	#Province scope
-	on_activation = {
-	
-	}
-	
-	on_deactivation = {
-	
-	}
-}
+
 
 conquest_of_prague= {
 	potential = {
@@ -727,43 +692,6 @@ conquest_of_toledo = {
 	}
 }
 
-conquest_of_ava = {
-
-	potential = {
-		normal_or_historical_nations = yes
-	}
-	trigger = {
-		owner = {
-				NOT = { tag = AVA }
-				NOT = { tag = MNG }
-				NOT = { 	
-					has_global_modifier_value = {
-					which = discipline
-					value = 0.31
-					}
-				}
-				upper_burma_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = PREV
-				}	
-			}
-		controlled_by = ROOT
-		has_owner_accepted_culture = yes		
-		}	
-	discipline = 0.025
-	land_morale = 0.025
-	
-	#Province scope
-	on_activation = {
-	
-	}
-	
-	on_deactivation = {
-	
-	}
-
-
-}
 
 conquest_of_ayutthaya = {
 
@@ -904,4 +832,70 @@ conquest_of_herat = {
 	on_deactivation = {
 	
 	}
+}
+
+
+conquest_of_frankfurt = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = HES }
+				NOT = { tag = WES }
+			}
+		controlled_by = ROOT	
+		}	
+
+	land_morale = 0.025
+	discipline = 0.025
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_ava = {
+
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+				NOT = { tag = AVA }
+				NOT = { tag = MNG }
+				NOT = { 	
+					has_global_modifier_value = {
+					which = discipline
+					value = 0.31
+					}
+				}
+				upper_burma_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = PREV
+				}	
+			}
+		controlled_by = ROOT
+		has_owner_accepted_culture = yes		
+		}	
+	discipline = 0.025
+	land_morale = 0.025
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+
+
 }

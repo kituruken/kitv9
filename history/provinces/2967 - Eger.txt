@@ -3,9 +3,8 @@
 owner = BOH
 controller = BOH
 add_core = BOH
-add_core = HAB
 capital = "Eger"
-culture = czech
+culture = czech	
 religion = catholic
 trade_goods = gold #Joachimstal mines
 hre = yes

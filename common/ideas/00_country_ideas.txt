@@ -99,11 +99,11 @@ GER_ideas = {
 		republican_tradition = 0.3
 		meritocracy = 1
 		horde_unity = 1
-		infantry_power = 0.15
+		infantry_power = 0.20
 	}
 	
 	bonus = {
-		diplomatic_upkeep = 1
+		global_manpower_modifier = 0.33
 	}	
 
 	trigger = {
@@ -112,7 +112,7 @@ GER_ideas = {
 	free = yes
 	
 	ger_german_confederation = {
-		global_unrest = -2
+        land_morale = 0.2
 	}
 	ger_german_universities = {
 		technology_cost = -0.1
@@ -121,10 +121,11 @@ GER_ideas = {
 		discipline = 0.05
 	}
 	ger_new_hanseatics = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.20
 	}
 	ger_junkers = {
 		army_tradition = 0.5
+		land_forcelimit_modifier = 0.2
 	}
 	ger_reichstag = {
 		administrative_efficiency = 0.05
@@ -10325,7 +10326,7 @@ KHO_ideas = {
 TRS_ideas = {
 	start = {
 		land_morale = 0.1
-		cavalry_cost = -0.1
+		artillery_cost = -0.33
 	}
 	bonus = {
 		idea_cost = -0.1
@@ -10336,25 +10337,26 @@ TRS_ideas = {
 	free = yes
 	
 	trs_mawarannahr = {
-		cavalry_power = 0.2
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
 	}
 	trs_threshold_of_paradise = {
 		prestige = 1
 	}
 	trs_adept_diplomacy = {
-		spy_offence = 0.2
+		technology_cost = -0.05
 	}
 	trs_turkoman_cannoneers = { #Babur's ambition
-		artillery_cost = -0.15
+		artillery_power = 0.10
 	}
 	trs_scientific_patronage = {
-		technology_cost = -0.05
+		spy_offence = 0.2
 	}
 	trs_entrepot_of_the_silk_road = {
 		global_own_trade_power = 0.25
 	}
 	chagatai_literature = {
-		#Same as Timurids
+		shock_damage = 0.1
 	}
 }
 

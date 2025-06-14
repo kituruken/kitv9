@@ -5,6 +5,7 @@ religion = sunni
 primary_culture = afghani
 capital = 451	# Kabul
 religious_school = hanafi_school
+add_truce_with = SIS
 
 #Timurid Governors of Kabul, sons of Soyurghatmish
 1443.1.1 = {

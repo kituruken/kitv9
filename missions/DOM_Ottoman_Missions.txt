@@ -4556,7 +4556,7 @@ tur_persian_conquest = {
             province_id = 382
 		}
 		trigger = {
-			382 = { owned_by = ROOT}
+			382 = { is_core = ROOT}
 		}
 		effect = {
 			country_event_with_insight = {

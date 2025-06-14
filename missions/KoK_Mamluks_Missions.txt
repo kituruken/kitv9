@@ -811,7 +811,7 @@ mam_missions_2 = {
 		trigger = {
 			if = {
 				limit = { ai = no }
-				trader = 3
+				trader = 1
 			}
 			else = { trader = 1 }
 			OR = {
@@ -1945,7 +1945,7 @@ mam_missions_5 = {
             province_id = 2301
 		}
 		trigger = {
-			2301 = { owned_by = ROOT}
+			2301 = { is_core = ROOT}
 		}
 		effect = {
 			if = {

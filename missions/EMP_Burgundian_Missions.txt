@@ -109,23 +109,6 @@ emp_burgundy_1 = {
 				name = charles_army_reorganisation
 				duration = -1
 			}
-			capital_scope = {
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-				pedrero =  ROOT
-			}
 		}
 	}
 	emp_bur_lombardy = {
@@ -1651,13 +1634,11 @@ emp_burgundy_5 = {
 		icon = join_the_empire
 		required_missions = { emp_bur_secure_succession }
 		trigger = {
-				ROOT = { 
-                num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-                area = ile_de_france_area
-                value = 4
-            }
-
-		 }
+         185 = { is_core = BUR}
+		 182 = { is_core = BUR}
+         183 = { is_core = BUR}
+         4388 = { is_core = BUR}
+         185 = { is_core = BUR}
 		}
 		effect = {
 			if = {

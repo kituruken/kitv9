@@ -27,3 +27,40 @@ h_reform_dominion = {
 	}
 	duration = 5
 }
+
+fu_canton_administration = {
+	icon = legislative_assembly_reform
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = united_cantons_reform
+	}
+	modifiers = {
+		vassal_forcelimit_bonus = 0.5
+		republican_tradition = 0.15
+	}
+	
+	effect = { 
+		custom_tooltip = swi_every_subject_gains_tt
+		hidden_effect = { 
+			every_subject_country = { 
+				limit = { is_subject_of_type = canton } 
+				add_country_modifier = {
+					name = swi_canton_administration_modifier
+					duration = -1 
+					hidden = yes 
+				}
+			}
+		}
+	}
+	removed_effect = {	
+		hidden_effect = { 
+			every_country = { 
+				limit = { has_country_modifier = swi_canton_administration_modifier }
+				remove_country_modifier = swi_canton_administration_modifier
+			}
+		}
+	}
+	ai = {
+		factor = 15
+	}
+}
