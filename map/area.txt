@@ -502,6 +502,10 @@ naples_area = { #3  #Campania
 lazio_area = { #4 Lazio-Umbria
 	118 2976 4731 4732
 }
+vatican_area = { #1
+	4959 
+}
+
 
 calabria_area = { #3 (+Lucania)
 	123 1934 2984

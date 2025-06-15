@@ -11756,7 +11756,7 @@ estate_cossacks_freedom_of_the_steppes_mod = {
 	local_development_cost = -0.05
 }
 estate_nomadic_tribes_freedom_of_the_steppes_mod = {
-	local_development_cost = -0.05
+	local_development_cost = -0.10
 }
 estate_dhimmi_development_of_communities_mod = {
 	local_development_cost = -0.05
@@ -12894,10 +12894,10 @@ estate_burghers_control_over_gold_mine = {
 }
 
 estate_burghers_hydraulic_rights_desert = {
-	local_development_cost = -0.25
+	local_development_cost = -0.15
 }
 
-estate_burghers_hydraulic_rights_coastal_desert = {
+estate_burghers_hydraulic_rights_coastal_desert = {	
 	local_development_cost = -0.175
 }
 

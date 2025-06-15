@@ -1823,7 +1823,14 @@ estate_burghers_hydraulic_rights = {
 	influence = 0.05
 	#loyalty = 0.05
 	is_valid = {
-		has_unlocked_estate_privilege = { estate_privilege = estate_burghers_hydraulic_rights }
+		OR = {
+			TAG = TRS
+			TAG = CHG
+			TAG = BUK
+			TAG = YUA
+			has_unlocked_estate_privilege = { estate_privilege = estate_burghers_hydraulic_rights }
+		 }
+
 	}
 	can_select = {
 		ai=no
@@ -1899,6 +1906,7 @@ estate_burghers_hydraulic_rights = {
 	penalties = {
 	}
 	benefits = {
+	burghers_privilege_slots = 1
 	}
 	ai_will_do = {
 		factor = 100
@@ -5048,3 +5056,5 @@ estate_burghers_TIM_gulf_toll = {
 		factor = 1
 	}
 }
+
+

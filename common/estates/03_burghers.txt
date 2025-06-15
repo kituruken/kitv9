@@ -7,6 +7,7 @@ estate_burghers = {
 		NOT = { has_government_attribute = disables_estate_burghers }
 		NOT = { has_disabled_estate = { estate = estate_burghers } }
 		OR = {
+			is_nomad = yes
 			has_government_attribute = enables_estate_burghers
 			has_enabled_estate = { estate = estate_burghers }
 			has_unlocked_estate = { estate = estate_burghers }
@@ -15,7 +16,6 @@ estate_burghers = {
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { government = native }
 				NOT = { has_reform = siberian_tribe }
-				is_nomad = no
 				#is_colonial_nation = no
 				NOT = { has_reform = revolutionary_empire_reform }
 				NOT = { has_estate = estate_vaisyas }

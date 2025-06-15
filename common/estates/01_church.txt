@@ -20,6 +20,7 @@ estate_church = {
 			has_government_attribute = enables_estate_church
 			has_enabled_estate = { estate = estate_church }
 			has_unlocked_estate = { estate = estate_church }
+			is_nomad = yes
 			AND = {
 				NOT = { has_government_attribute = is_pirate_republic_reform }
 				NOT = { has_reform = siberian_tribe }
@@ -30,7 +31,7 @@ estate_church = {
 					NOT = { tag = USA }
 					government = theocracy
 				}
-				is_nomad = no
+
 				#is_colonial_nation = no
 			}
 		}

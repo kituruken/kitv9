@@ -14,7 +14,10 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				ai = no
 			}
-			tag = SHY
+            OR = {
+			 TAG = TRS
+			 TAG = CHG
+		    }
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
 			OR = {
@@ -51,7 +54,7 @@ country_decisions = {
 		}
 		allow = {
 			#always = no
-			#adm_tech = 8
+			adm_tech = 8
 			has_institution = feudalism
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -66,10 +69,10 @@ country_decisions = {
 			owns_core_province = 1967 
 			owns_core_province = 458
 			owns_core_province = 443
-			#owns_core_province = 457 
-			#owns_core_province = 2356 
+			owns_core_province = 457 
+			owns_core_province = 2356 
 			owns_core_province = 439
-			#owns_core_province = 476		
+			owns_core_province = 476		
 		}
 		effect = {
 			change_tag = BUK

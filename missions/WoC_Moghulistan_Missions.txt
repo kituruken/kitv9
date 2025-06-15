@@ -679,14 +679,6 @@ woc_moghulistan_3 = {
 		} 
 
 		effect = {  
-			if = {
-				limit = {
-					tag = CHG
-				}
-				override_country_name = CHAGATAI
-				set_country_flag = chagatai_formed_flag
-				set_country_flag = is_CHAGATAI_flag
-			}
 			
 			custom_tooltip = MOGHULISTAN_MODIFY_GUARANTEED_LEADERSHIP_OF_HOST
 			set_country_flag = hordes_no_at_for_guaranteed_leadership_flag
