@@ -642,3 +642,6 @@ me_transoxiana_full_scale_rebellion = {
 me_transoxiana_mountain_fortifications = {
 	local_defensiveness = 0.15
 }
+
+
+

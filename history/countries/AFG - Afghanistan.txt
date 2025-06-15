@@ -13,8 +13,8 @@ add_truce_with = SIS
 		name = "Karatshar bin Soyurghatmish"
 		culture = uzbehk
 		dynasty = "Timurid"
-		adm = 3
-		dip = 4
+		adm = 5
+		dip = 3
 		mil = 5
 	}
 }

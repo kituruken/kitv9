@@ -508,13 +508,6 @@ vassal = {
 	end_date = 1858.1.1
 }
 
-#Bahlul Lodi's Punjabi Domain
-vassal = {
-	first = DLH
-	second = SRH
-	start_date = 1443.1.1
-	end_date = 1451.4.20
-}
 
 #Bikaner
 

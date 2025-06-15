@@ -209,3 +209,6 @@ NDefines.NGovernment.CENTRALIZE_STATE_YEARS = 5
 
 NDefines.NGame.DAYS_BEHIND_PAUSE = 90					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
 NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
+
+NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
+NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0

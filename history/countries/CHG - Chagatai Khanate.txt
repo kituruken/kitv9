@@ -7,7 +7,7 @@ capital = 2120
 religious_school = hanafi_school
 add_accepted_culture = uyghur
 set_estate_privilege = estate_burghers_hydraulic_rights
-
+add_truce_with = KAS
 
 
 

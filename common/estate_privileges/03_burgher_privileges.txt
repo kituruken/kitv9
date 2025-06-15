@@ -1838,7 +1838,6 @@ estate_burghers_hydraulic_rights = {
 			OR = {
 				has_terrain = desert
 				has_terrain = coastal_desert
-				has_terrain = steppe
 				has_terrain = savannah
 			}
 		}

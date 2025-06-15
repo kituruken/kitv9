@@ -1814,8 +1814,8 @@ GRA_ideas = {
 PAP_ideas = {
 	start = {
      can_not_build_buildings = yes
-	 land_forcelimit = -20
 	 global_regiment_cost = 100
+	 diplomatic_upkeep = 15
 	}
 
 	bonus = {
@@ -13208,6 +13208,7 @@ CHG_ideas = {
 	start = {
         cavalry_cost = -0.1
 		core_creation = -0.10
+		global_missionary_strength = 0.03
 	}
 	
 	bonus = {
@@ -13229,6 +13230,7 @@ CHG_ideas = {
 	}
 	life_of_a_eu_addict = { #also used in Horde ideas, KHA_ideas
 		land_attrition = -0.20
+		missionaries = 1
 	}
 	the_four_oirats = {
 		legitimacy = 1

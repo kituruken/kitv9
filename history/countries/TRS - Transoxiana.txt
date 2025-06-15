@@ -9,6 +9,7 @@ add_government_reform = tribal_federation
 capital = 454 # Samarkand
 religious_school = hanafi_school
 set_estate_privilege = estate_burghers_hydraulic_rights
+add_truce_with = AFG
 
 1414.1.1 = {
 	monarch = {	
