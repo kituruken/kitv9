@@ -3643,6 +3643,33 @@ WoC_austria_4 = {
 		}
 		effect = {
 			give_claims = { area = silesia_area }
+            			bohemia_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_province_modifier = {
+					name = hab_silesian_economy
+					duration = 7300
+				}
+			}
+			            erzgebirge_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_province_modifier = {
+					name = hab_silesian_economy
+					duration = 7300
+				}
+			}
+					 moravia_area = {
+				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				add_province_modifier = {
+					name = hab_silesian_economy
+					duration = 7300
+				}
+			}
 
 			custom_tooltip = SEPERATOR_TOOLTIP
 
@@ -3688,6 +3715,7 @@ WoC_austria_4 = {
 				}
 			}
 		}
+		
 	}
 
 	hab_surpass_poland = {

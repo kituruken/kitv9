@@ -8079,9 +8079,11 @@ YUA_ideas = {
 	}
 	yua_the_three_teachings_and_nine_schools_respected = {
 		technology_cost = -0.1
+		cav_to_inf_ratio = 0.15
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.1
+		max_general_shock = 1
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.1
@@ -8089,6 +8091,7 @@ YUA_ideas = {
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
+		cavalry_flanking = 0.1
 	}
 	yua_pax_mongolica = {
 		global_trade_goods_size_modifier = 0.1
@@ -13185,8 +13188,8 @@ KHA_ideas = {
 	ikh_mongol_uls = {
 		ae_impact = -0.15
 	}
-	life_of_steppe_warrior = {
-		#land_attrition = -0.20 (effect taken in OIR_ideas)
+	life_of_steppe_warriorrr = {
+		land_attrition = -0.20 (effect taken in OIR_ideas)
 	}
 	northern_yuan = {
 		core_creation = -0.25
@@ -13238,9 +13241,10 @@ CHG_ideas = {
 		republican_tradition = 0.3
 		meritocracy = 1
 		horde_unity = 5
-	}
+	}																																																																																														
 	todo_besheg_script = {
 		technology_cost = -0.05
+		amount_of_banners = 0.25
 	}
 	OIR_great_khans_legacy = {
 		ae_impact = -0.15

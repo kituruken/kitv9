@@ -212,3 +212,4 @@ NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest 
 
 NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
+NDefines.NCountry.DIVERT_TRADE_LIBERTY = 15
