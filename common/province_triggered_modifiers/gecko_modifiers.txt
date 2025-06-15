@@ -822,7 +822,7 @@ conquest_of_herat = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
 		}	
-     yearly_innovativeness = 0.5
+     yearly_innovativeness = 0.25
 	
 	#Province scope
 	on_activation = {

@@ -360,6 +360,13 @@ aq_qoyunlu_second = {
 				}
 				add_permanent_claim = ROOT
 			}
+			azerbaijan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			#dulkadir_area = {
 			#	limit = {
 			#		NOT = { is_core = ROOT }

@@ -363,10 +363,12 @@ age_of_discovery = {
 					tag = SHY
 					tag = BUK
 					tag = TIM
+					tag = TRS
 				}	
 			}
 			modifier = {
-				technology_cost = -0.1
+				technology_cost = -0.05
+				innovativeness_gain = 0.25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
