@@ -71,7 +71,7 @@ country_event = {
 }
 
 country_event = {
-	id = solisbaba
+	id = 1081
 	title = "EVTNAME1082"
 	desc = "EVTDESC1082"
 	picture = POPE_PREACHING_eventPicture
@@ -80,7 +80,8 @@ country_event = {
 		NOT = { tag = PAP }
 		papacy_active = yes
 		ROOT = {
-			owned_by = 4959
+			Scope.GetProvince ( 4959 )
+           
 		}
 	}
 	

@@ -288,7 +288,9 @@ feudalism = {
 renaissance = {
 
 	bonus = {
-		governing_capacity = 100
+		governing_capacity = 150
+		yearly_innovativeness = 0.1
+		expand_infrastructure_cost_modifier = -0.10
 	}
 
 	trade_company_efficiency = 0.4
@@ -582,7 +584,10 @@ renaissance = {
 new_world_i = {
 
 	bonus = {
-		global_prov_trade_power_modifier = 0.10
+	    global_colonial_growth = 10
+		governing_capacity = 100
+		yearly_innovativeness = 0.1
+		all_estate_loyalty_equilibrium = 0.1
 	}
 
 	trade_company_efficiency = 0.6
@@ -896,8 +901,8 @@ printing_press = {
 	
 
 	bonus = {
-		stability_cost_modifier = -0.05
-		all_estate_loyalty_equilibrium = 0.1
+		global_prov_trade_power_modifier = 0.20
+		governing_capacity = 200
 	}
 
 	trade_company_efficiency = 0.8

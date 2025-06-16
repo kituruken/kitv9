@@ -10346,6 +10346,7 @@ TRS_ideas = {
 	}
 	trs_threshold_of_paradise = {
 		prestige = 1
+		development_cost = -0.05
 	}
 	trs_adept_diplomacy = {
 		technology_cost = -0.05
@@ -13189,7 +13190,7 @@ KHA_ideas = {
 		ae_impact = -0.15
 	}
 	life_of_steppe_warriorrr = {
-		land_attrition = -0.20 (effect taken in OIR_ideas)
+		land_attrition = -0.20 
 	}
 	northern_yuan = {
 		core_creation = -0.25

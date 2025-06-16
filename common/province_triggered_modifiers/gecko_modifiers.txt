@@ -611,10 +611,10 @@ conquest_of_copenhagen = {
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes
 	}	
-	{
+	
      ship_trade_power_modifier = 0.20
 	 province_trade_power_value = 30.0		
-	}
+	
 	#Province scope
 	on_activation = {
 	
@@ -627,7 +627,7 @@ conquest_of_copenhagen = {
 
 
 
-conquest_of_prague= {
+conquest_of_prague = {
 	potential = {
 		normal_or_historical_nations = yes
 	}
@@ -675,12 +675,12 @@ conquest_of_toledo = {
 			}
 		controlled_by = ROOT
 		has_owner_accepted_culture = yes		
-		}	
-		{
+	}	
+
 		gold_depletion_chance_modifier = -0.5
 		monthly_gold_inflation_modifier = -0.5
 		land_morale = 0.05
-		}
+
 	
 	#Province scope
 	on_activation = {

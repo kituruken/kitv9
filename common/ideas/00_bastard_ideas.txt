@@ -624,6 +624,7 @@ ETH_ideas = {
 	}
 	eth_reformed_armies = {
 		land_maintenance_modifier = -0.05
+		manpower_recovery_speed = 0.2
 	}
 }
 

@@ -8,17 +8,17 @@ country_event = {
     title = echo.2.t
     desc = echo.2.d
     picture = COURT_eventPicture
-
+    
     trigger = {
-		great_power_rank = 5
+		great_power_rank = 6	
 		adm_tech = 5
-		
+	    NOT = { is_lacking_institutions = yes }
 		NOT = {
 			has_country_modifier = echo_development
 		}	
     }
     mean_time_to_happen = {
-        months = 120
+        months = 24
     }
 	
     option = {

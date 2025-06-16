@@ -1219,43 +1219,6 @@ cb_revoke_electorate = {
 	war_goal = revoke_elector
 }
 
-# When someone is privateering in a node that you trade and have some power in.
-cb_privateers = {
-	prerequisites_self = {
-		is_revolutionary = no
-	}
-
-	prerequisites = {
-		FROM = {
-			has_privateers = yes
-		}
-		or = {
-			home_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 10
-				}
-				privateer_power = {
-					country = FROM
-					share = 1
-				}
-			}
-			any_active_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 10
-				}
-				privateer_power = {
-					country = FROM
-					share = 1
-				}
-			}
-		}
-	}
-
-	war_goal = blockade_ports
-}
-
 # War in support of rebels
 cb_support_rebels = {
 	support_rebels = yes

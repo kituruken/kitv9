@@ -1,0 +1,21 @@
+
+
+owner = MNG
+controller = MNG
+culture = umbrian 
+religion = confucian 
+base_tax = 1
+base_production = 1
+trade_goods = paper
+base_manpower = 1
+capital = "Ming"
+is_city = yes
+add_core = MNG
+
+discovered_by = chinese
+discovered_by = nomad_group
+
+extra_cost = 8
+
+
+

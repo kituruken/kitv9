@@ -46,6 +46,8 @@ steppe_horde = {
 		global_manpower_modifier = 0.15
 		#land_forcelimit_modifier = 0.1
 		years_of_nationalism = -5
+		cav_to_inf_ratio = 0.25
+		horde_unity = 5
 	}
 	conditional = {
 		allow = {

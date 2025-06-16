@@ -581,10 +581,10 @@ horde_ideas = {
 	free = yes
 	
 	life_of_steppe_warrior = {
-		#land_attrition = -0.20 (effect taken in OIR_ideas)
+		land_attrition = -0.20 (effect taken in OIR_ideas)
 	}
 		tradition_of_conquest = {
-		#core_creation = -0.25 (effect taken in CHG_ideas)
+		core_creation = -0.25 (effect taken in CHG_ideas)
 	}
 	horse_supplies = {
 		land_maintenance_modifier = -0.05

@@ -506,6 +506,11 @@ vatican_area = { #1
 	4959 
 }
 
+emperor_area = { #1
+	4960 
+}
+
+
 
 calabria_area = { #3 (+Lucania)
 	123 1934 2984

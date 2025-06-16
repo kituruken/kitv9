@@ -1,8 +1,8 @@
 #1821 - Nanjing
 
-owner = NJG
-controller = NJG
-add_core = NJG
+owner = SZH
+controller = SZH
+add_core = SZH
 culture = jianghuai
 religion = confucianism
 capital = "Nanjing"

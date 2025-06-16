@@ -53,12 +53,28 @@ difficulty_very_hard_player = {
 ##########################################################################
 
 difficulty_very_easy_ai = {
+	development_cost = 0.5 
+	defensiveness = -0.3
+	global_autonomy = -0.1
+	yearly_corruption = -0.1
+	diplomatic_upkeep = -2
 }
 
 difficulty_easy_ai = {
+	    development_cost = 0.5 
+	defensiveness = -0.3
+	global_autonomy = -0.1
+	yearly_corruption = -0.1
+	diplomatic_upkeep = -2
 }
 
 difficulty_normal_ai = {
+    development_cost = 0.5 
+	defensiveness = -0.3
+	global_autonomy = -0.1
+	yearly_corruption = -0.1
+	diplomatic_upkeep = -2
+	
 }
 
 difficulty_hard_ai = {
