@@ -8569,11 +8569,11 @@ HSK_ideas = {
 UES_ideas = {
 	start = {
 		infantry_power = 0.1
-		colonist = 1
+		colonists = 1
 	}
 	
 	bonus = {
-		colonist = 1
+		colonists = 1
 		global_manpower_modifier = 0.20
 	}
 
@@ -9146,7 +9146,7 @@ SMZ_ideas = {
 	}
 	
 	bonus = {
-		global_tax_modifier = 0.1
+		artillery_fire = 0.5
 	}
 
 	trigger = {
@@ -9155,7 +9155,7 @@ SMZ_ideas = {
 	free = yes
 	
 	smz_satsuma_hayato = {
-		land_morale = 0.1
+		global_tax_income = 0.1
 	}
 	
 	smz_satsunan_school = {
@@ -9175,7 +9175,6 @@ SMZ_ideas = {
 	}
 	
 	smz_ryukyu_trade = {
-		artillery_fire = 0.5
 		trade_steering = 0.2
 		
 	}

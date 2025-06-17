@@ -17,12 +17,14 @@ vij_north_conquest = {
 		required_missions = { }
 		completed_by = 1522.1.1
 		provinces_to_highlight = {
+			province_id = 1948
 			area = raichur_doab_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
+			1948 = { is_core = ROOT}
 			raichur_doab_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -44,6 +46,13 @@ vij_north_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 		ai_weight = {
 			factor = 500	#Historical Conquest

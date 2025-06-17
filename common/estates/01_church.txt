@@ -3,7 +3,7 @@ estate_church = {
 
 	# If true, country will get estate
 	trigger = {
-		ai = no
+		#ai = no
 		NOT = { has_reform = self_governing_colony_government }
 		NOT = { has_government_attribute = disables_estate_church }
 		NOT = { has_disabled_estate = { estate = estate_church } }
