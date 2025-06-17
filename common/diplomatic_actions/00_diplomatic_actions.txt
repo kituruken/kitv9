@@ -639,8 +639,22 @@ royal_marriage = {
 }
 
 guaranteeaction = {
+		condition = {
+		potential = {
+			
+		}
+		allow = {
+
+			FROM = { 
+				has_opinion = { who = ROOT value = 175 }
+				} 
+		}
+		
+
 	effect = {
 		change_asha_vahishta = { value = 1 }
+
+		}
 	}
 }
 threaten_war = {
@@ -663,15 +677,10 @@ warsubsidy = {
 	condition = {
 		tooltip = b_warsubsidy_action
 		potential = {
-			NOT = {
-				OR = {
-					FROM = { is_colonial_nation = yes }
-					FROM = { is_subject_of = ROOT }
-				}
-			}	
+
 		}
 		allow = {
-			always = no	
+	
 		}
 	}	
 }
@@ -680,15 +689,27 @@ offerloan = {
 	condition = {
 		tooltip = b_offerloan_action
 		potential = {
-			NOT = {
-				OR = {
-					FROM = { is_colonial_nation = yes }
-					FROM = { is_subject_of = ROOT }
-				}
-			}	
+
 		}
 		allow = {
 			always = no	
+		}
+	}
+}
+
+warningaction = {
+		condition = {
+		potential = {
+			
+		}
+		allow = {
+			always = no
+		}
+		
+
+	effect = {
+		change_asha_vahishta = { value = 1 }
+
 		}
 	}
 }
@@ -722,15 +743,10 @@ takeondebt = {
 	condition = {
 		tooltip = b_takeondebt_action
 		potential = {
-			NOT = {
-				OR = {
-					FROM = { is_colonial_nation = yes }
-					FROM = { is_subject_of = ROOT }
-				}
-			}	
+
 		}
 		allow = {
-			always = no	
+
 		}
 	}
 
