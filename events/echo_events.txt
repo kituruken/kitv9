@@ -352,7 +352,7 @@ country_event = {
     picture = COURT_eventPicture
 	hidden = yes
     trigger = {
-			is_great_power = yes	
+			great_power_rank = 4	
 			has_country_modifier = echo_development	
     }
     mean_time_to_happen = {
