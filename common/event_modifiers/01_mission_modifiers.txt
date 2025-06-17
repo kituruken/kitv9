@@ -2216,6 +2216,7 @@ strengthened_shinobi = {
 }
 strengthened_bushido = {
 	discipline = 0.015
+	core_creation = -0.15
 }
 divine_wind_modifier = {
 	navy_tradition = 0.25
@@ -4409,9 +4410,7 @@ kor_manchurian_expedition = {
 }
 
 kor_factional_upheaval = {
-	church_loyalty_modifier = -0.1
-	nobles_loyalty_modifier = -0.1
-	burghers_loyalty_modifier = -0.1
+   add_manpower = 10
 }
 
 kor_factional_unity = {

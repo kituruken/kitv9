@@ -746,7 +746,7 @@ japanse_missions_domestic = {
 		icon = mission_japanese_samurai
 		required_missions = { }
 		trigger = {
-			army_tradition = 40
+			army_tradition = 1
 		}
 		effect = {
 			add_country_modifier = {

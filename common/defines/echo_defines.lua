@@ -109,7 +109,7 @@ NDefines.NCountry.NATIVE_UPRISING_COOLDOWN_MONTHS = 120
 NDefines.NCountry.NATIVE_UPRISING_CHANCE_PER_AGGRESSIVENESS = -1
 NDefines.NCountry.INNOVATIVENESS_AHEAD_OF_TIME_BONUS = 0
 NDefines.NCountry.MONARCH_MIN_SKILL = 1
-NDefines.NCountry.MAX_PROVINCES_FOR_FREE_CITY = 8
+NDefines.NCountry.MAX_PROVINCES_FOR_FREE_CITY = 1
 NDefines.NCountry.MIN_POPULATION_FOR_TRADEGOOD_ASSIGNMENT = 1000 -- So ppl dont reroll tradegoods
 NDefines.NCountry.COUNTRIES_GETTING_SCORE = 0 -- disables countries getting monthly score, might help with performance
 NDefines.NEconomy.MAX_BUILDING_SLOTS = 18
@@ -212,4 +212,4 @@ NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest 
 
 NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
-NDefines.NCountry.DIVERT_TRADE_LIBERTY = 15
+NDefines.NCountry.DIVERT_TRADE_LIBERTY = 25

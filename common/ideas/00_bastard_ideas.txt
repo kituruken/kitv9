@@ -1734,6 +1734,7 @@ SPA_ideas = {
 	
 	bonus = {
 		discipline = 0.05
+		artillery_fire = 0.5
 	}
 	
 	trigger = {
@@ -3436,6 +3437,7 @@ KOR_ideas = {
 	}
 	hyanyak_system = {
 		production_efficiency = 0.10
+		discipline = 0.05
 	}
 	geobukseon = {
 		navy_tradition = 1

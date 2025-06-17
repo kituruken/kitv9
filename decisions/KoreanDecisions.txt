@@ -37,6 +37,9 @@ country_decisions = {
 			owns_core_province = 1013		#Cheongju			
 		}
 		effect = {
+			add_adm_power = 300
+			add_dip_power = 300
+			add_mil_power = 300
 			735 = {
 				move_capital_effect = yes
 			}

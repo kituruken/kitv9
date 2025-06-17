@@ -8568,12 +8568,13 @@ HSK_ideas = {
 
 UES_ideas = {
 	start = {
-		army_tradition_decay = -0.01
-		production_efficiency = 0.1
+		infantry_power = 0.1
+		colonist = 1
 	}
 	
 	bonus = {
-		infantry_power = 0.1
+		colonist = 1
+		global_manpower_modifier = 0.20
 	}
 
 	trigger = {
@@ -8582,15 +8583,17 @@ UES_ideas = {
 	free = yes
 	
 	ues_kanto_kanrei = {
-		diplomatic_upkeep = 1
+		global_colonial_growth = 15
+		global_ship_cost = -0.20
 	}
-	
+
 	ues_yamanouchi_and_ogigayatsu_branches = {
 		army_tradition = 0.5
+		development_cost = -0.10
 	}
 
 	ues_kamakura_office = {
-		reinforce_cost_modifier = -0.25
+		heavy_ship_power = 0.1
 	}
 	
 	ues_dragon_of_echigo = {
@@ -8599,6 +8602,7 @@ UES_ideas = {
 
 	ues_nokizaru = {
 		spy_offence = 0.2
+		galley_power = 0.1
 	}
 	
 	ues_agakita_shu = {
@@ -9171,7 +9175,9 @@ SMZ_ideas = {
 	}
 	
 	smz_ryukyu_trade = {
+		artillery_fire = 0.5
 		trade_steering = 0.2
+		
 	}
 	
 	smz_early_westernization = {
@@ -10973,6 +10979,7 @@ ODA_ideas = {
 		leader_land_shock = 1
 	}
 	oda_azuchi_castle = {
+		discipline = 0.05
 		leader_siege = 1
 	}
 	oda_triple_firing = {
