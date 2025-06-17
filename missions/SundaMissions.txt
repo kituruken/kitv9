@@ -459,7 +459,7 @@ sun_2 = {
 		}
 		trigger = {
 			calc_true_if = {
-				amount = 12
+				amount = 6
 				all_province = {
 					OR = {
 						area = north_sumatra_area
@@ -472,9 +472,13 @@ sun_2 = {
 			}
 		}
 		effect = {
-			add_adm_power = 100
-			add_dip_power = 100
-			add_mil_power = 100
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 	}
 }

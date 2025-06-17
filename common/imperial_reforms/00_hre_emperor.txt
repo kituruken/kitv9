@@ -154,11 +154,14 @@ emperor_reichstag_collegia = {
 	emperor = {
 		build_cost = -0.05
 	}
-	emperor_per_prince = {
-		global_tax_income = 1
+	elector_per_prince = {
+		 global_tax_income = 0.7
+	}
+    elector_per_prince = {
+		global_manpower = 0.25
 	}
 	elector_per_prince = {
-		advisor_cost = -0.0015
+		advisor_cost = -0.0028
 	}
 }
 
@@ -171,14 +174,12 @@ emperor_expand_gemeiner_pfennig = {
 		has_dlc = "Emperor"
 	}
 	emperor_per_prince = {
-		global_manpower = 0.3
+		global_manpower = 0.4
 	}
-	elector_per_prince = {
-		global_manpower = 0.15
+	emperor_per_prince = {
+		global_tax_income = 1.1
 	}
-	elector_per_prince = {
-		 global_tax_income = 0.5
-	}
+
 }
 
 emperor_rechenschaft = {

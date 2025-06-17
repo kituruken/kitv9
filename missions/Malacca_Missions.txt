@@ -635,19 +635,31 @@ mnd_mlc_2 = {
 		required_missions = { mnd_mlc_tributaries }
 		provinces_to_highlight = {
 			OR = {
-				owned_by = MAJ
-				area = surabaya_area
+					area = banten_area
+					area = west_java_area
 			}
 		}
 		trigger = {
-			NOT = { exists = MAJ }
-			surabaya_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			calc_true_if = {
+				amount = 6
+				all_province = {
+					OR = {
+						area = banten_area
+						area = west_java_area
+					}
+					country_or_non_sovereign_subject_holds = ROOT
+				}
 			}
 		}
 		effect = {
 			custom_tooltip = mlc_cb_tt
+			add_country_modifier = {
+				name = onurotuzbir
+				duration = 3650
+			 }
+			 add_treasury = 1000
+			 add_manpower = 30.0
+			 add_war_exhaustion = -10
 		}
 	}
 }

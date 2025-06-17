@@ -5,7 +5,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1101;1999;sea;1621;-1;-1;-1;-1;Hollhavai-Cocos-Islands
 1999;1998;sea;1624;-1;-1;-1;-1;Cocos-Islands-Christmas-Island
 1998;4790;sea;1353;-1;-1;-1;-1;Christmas-Island-Pangguyanan
-623;624;sea;1352;-1;-1;-1;-1;Tulangbewang-Banten
 1101;1248;sea;1623;-1;-1;-1;-1;Hollhavai-Maldives
 1248;4410;sea;1340;-1;-1;-1;-1;Maldives-Venad
 130;4753;sea;1308;-1;-1;-1;-1;Istria-Zara
@@ -25,8 +24,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 333;4559;sea;1300;-1;-1;-1;-1;Majorca-Minorca
 4560;333;sea;1295;-1;-1;-1;-1;Ibiza-Majorca
 366;4565;sea;1471;-1;-1;-1;-1;Canaries
-6;12;sea;1258;3008;1633;3000;1630;Sk�ne-Sjaelland
-12;14;sea;1258;2980;1631;2975;1631;Sjaelland-Fyn
 14;4142;sea;1258;2965;1635;2963;1641;Fyn-Aarhus
 14;4149;sea;1258;-1;-1;-1;-1;Fyn-Kolding
 14;1983;sea;1258;2975;1618;2978;1619;Fyn-Lolland
@@ -53,7 +50,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2159;666;sea;1370;-1;-1;-1;-1;Jiangmen-Hainan
 36;35;sea;1926;3171;1709;3165;1709;Estland-�sel
 35;39;sea;1256;3157;1684;3158;1694;�sel-Kurland
-597;620;sea;1361;4403;657;4415;672;Johor-Siak
 659;2677;sea;1361;4435;636;4433;631;Riau-Palembang
 972;874;sea;1558;-1;-1;-1;-1;Nootka-Salish
 972;973;sea;1558;-1;-1;-1;-1;Nootka-Squamish

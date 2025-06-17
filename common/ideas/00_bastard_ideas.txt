@@ -2820,6 +2820,7 @@ TIM_ideas = {
 	
 	bonus = {
 		discipline = 0.05
+
 	}
 	
 	trigger = {
@@ -3769,10 +3770,11 @@ MLC_ideas = {
 MSA_ideas = {
 	start = {
 		regiment_manpower_usage = -0.1
-		land_morale = 0.1
+		fire_damage_received = -0.1
 	}
 	bonus = {
-		discipline = 0.05
+		infantry_power = 0.1
+		allowed_marine_fraction = 0.25
 	}
 	trigger = {
 		tag = MSA

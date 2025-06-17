@@ -9155,7 +9155,7 @@ SMZ_ideas = {
 	free = yes
 	
 	smz_satsuma_hayato = {
-		global_tax_income = 0.1
+		global_tax_modifier = 0.15
 	}
 	
 	smz_satsunan_school = {
