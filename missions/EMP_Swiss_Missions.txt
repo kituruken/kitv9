@@ -325,44 +325,26 @@ FU_swiss_missions_2 = {
 			4720 = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = {
-			custom_tooltip = SWI_if_done_via_subjugation
-			GNV = {
-				custom_tooltip = SWI_make_canton
-			}
-			tooltip = {
-				add_adm_power = 50
-			}
-			custom_tooltip = SWI_if_done_via_direct_ownership
-			tooltip = {
-				add_republican_tradition = 5 
-				add_legitimacy = 10 
-				add_adm_power = 50 
-			}
-			
-			hidden_effect = {
-				hidden_effect = {
-					if = {
-						limit = {
-							GNV = { 
-								is_subject_of = ROOT 
-								NOT = { is_subject_of_type = canton } 
-							}
-						}
-						create_subject = {
-							subject_type = march
-							subject = GNV 
-						}
-						add_adm_power = 50 
-					}
-					else = {
-						add_republican_tradition = 5 
-						add_legitimacy = 10 
-						add_adm_power = 50 
-					}
+		 create_subject = {
+		subject_type = march
+		subject = GNV 
+		}
+		create_subject = {
+		subject_type = march
+		subject = WUR 
+		}
+		create_subject = {
+		subject_type = march
+			subject = ROT 
+		}
+		create_subject = {
+		subject_type = march
+		 subject = TIR 
+						
 				}
 			}
 		}
-	}
+	
 	
 	swi_coalition_turin = {
 		icon = glory_to_turin
@@ -877,34 +859,13 @@ FU_swiss_missions_4 = {
 		}
 		trigger = {
 			stability = 2 
-			if = {
-				limit = { has_dlc = "Mandate of Heaven" }
-				custom_trigger_tooltip = { 
-					tooltip = swi_prosperous_romandie_tt 
-					capital_scope = { is_prosperous = yes }
-				}
-			}
-			OR = {
-				has_idea = oasis_of_peace_and_prosperity
-				AND = {
-					NOT = { average_autonomy_above_min = 5 }
-					NOT = { average_unrest = 1 } 
-					has_any_disaster = no 
-					legitimacy_equivalent = 80
-				}
-			}
+			
 		}
 		effect = {
-			custom_tooltip = SWI_enable_the_peace_in_the_cantons
-			tooltip = {
-				add_country_modifier = {
-					name = swi_period_of_stability_modifier 
-					duration = -1 
-					desc = swi_period_of_stability_tt 
-				}
+			add_country_modifier = {
+				name = swi_period_of_stability_modifier 
+				duration = 7300
 			}
-			
-			set_country_flag = SWI_peace_in_the_cantons
 		}
 	}
 	

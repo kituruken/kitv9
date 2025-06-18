@@ -1466,8 +1466,8 @@ ROT_the_wine = {
 }
 
 swi_period_of_stability_modifier = {
-    idea_cost = -0.05
-	stability_cost_modifier = -0.25 
+    development_cost = -0.1
+	advisor_cost = -0.25
 }
 swi_swiss_linen_industry_modifier = {
 	trade_goods_size = 1 

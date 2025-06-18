@@ -537,21 +537,3 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = echo.23
-	title = echo.23.t
-	desc = echo.23.d
-	picture = BATTLE_eventPicture
-	hidden = yes
-	trigger = {
-		is_march = yes
-		NOT = {has_country_flag = march_ideas_taken}
-	}
-	mean_time_to_happen = {
-		months = 1
-	}
-	option = {
-		swap_free_idea_group = yes
-		set_country_flag = march_ideas_taken
-	}
-}

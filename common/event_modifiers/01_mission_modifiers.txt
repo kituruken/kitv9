@@ -2162,7 +2162,9 @@ oma_maritime_mod = {
 
 three_koreas_mod = {
 	local_tax_modifier = 0.1
-	local_development_cost = -0.1
+	expand_infrastructure_cost_modifier = -0.2
+	global_trade_goods_size_modifier = 0.2
+	local_build_cost = -0.1
 }
 
 # Orissan Missions
@@ -4323,7 +4325,8 @@ JAP_sengoku_contender = {
 # New Korean Missions
 
 hwacha_firepower_bonus = {
-	fire_damage = 0.25
+	fire_damage = 0.10
+	artillery_fire = 0.25
 }
 
 kor_conquest_manchuria = {
