@@ -4327,7 +4327,7 @@ JAP_sengoku_contender = {
 
 hwacha_firepower_bonus = {
 	fire_damage = 0.10
-	artillery_fire = 0.25
+	infantry_fire = 0.25
 }
 
 kor_conquest_manchuria = {

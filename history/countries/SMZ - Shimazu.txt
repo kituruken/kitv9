@@ -108,10 +108,10 @@ capital = 1012	# Satsuma
 	monarch = {
 		name = "Tadakuni"
 		dynasty = "Shimazu"
-		birth_date = 1403.5.22
+		birth_date = 1425.5.22
 #		death_date = 1470.2.21
 		adm = 5
-		dip = 4
+		dip = 5
 		mil = 4
 	}
 	clear_scripted_personalities = yes

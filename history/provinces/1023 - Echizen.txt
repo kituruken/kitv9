@@ -7,9 +7,9 @@ religion = shinto
 capital = "Takefu"
 trade_goods = paper
 hre = no
-base_tax = 3
-base_production = 4
-base_manpower = 2
+base_tax = 4
+base_production = 6
+base_manpower = 5
 is_city = yes
 add_core = ODA
 add_core = ASA
@@ -19,6 +19,11 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
+
+add_permanent_province_modifier = {
+	name = icelanding_fisher_sea
+	duration = -1
+}
 
 1471.7.1 = { owner = ASA controller = ASA }
 1471.7.1 = { capital = "Ichijodani" }
