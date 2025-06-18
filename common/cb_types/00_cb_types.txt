@@ -1385,7 +1385,7 @@ cb_humiliate_rotw = {
 
 	prerequisites = {
 		NOT = { has_reform = daimyo }
-		NOT = { has_reform = korean_monarchy }
+		NOT = { has_reform = confucian_bureaucracy }
 		NOT = {
 			truce_with = FROM
 		}

@@ -3408,8 +3408,8 @@ fo_korean_city_ideas = {
 
 KOR_ideas = {
 	start = {
-		build_cost = -0.1
 		land_morale = 0.1
+		idea_cost = -0.1
 	}
 	
 	bonus = {
@@ -3422,30 +3422,26 @@ KOR_ideas = {
 	free = yes
 
 	kor_uijeongbu = {
-		advisor_cost = -0.1
-		all_estate_loyalty_equilibrium = 0.05
+	production_efficiency = 0.15
 	}
 	metal_movable_type = {
 		adm_tech_cost_modifier = -0.05
 		innovativeness_gain = 0.5
 	}
 	choi_mu_seon_gunpower_engines = {
-		fire_damage = 0.1
+	      prestige = 1
 	}
 	korean_artisanery = {
-		prestige = 1
 		development_cost = -0.05
 	}
 	hyanyak_system = {
-		production_efficiency = 0.10
 		discipline = 0.05
 	}
 	geobukseon = {
 		navy_tradition = 1
-		has_geobukseon = yes
 	}
 	kyujanggak = {
-		idea_cost = -0.1
+		all_estate_loyalty_equilibrium = 0.1
 	}
 
 	#hanguel_alphabet = {
