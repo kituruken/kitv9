@@ -79,6 +79,7 @@ korea_nomad_group = {
 		}
 		
 		effect = {
+		   duration = 7650
 			add_prestige = 25
 			korea_region = {
 				limit = {
@@ -89,6 +90,10 @@ korea_nomad_group = {
 					duration = 10950
 				}
 			}
+			add_country_modifier = {
+				name = ori_coastal_trade
+				duration = 7650
+			 }
 			manchuria_region = {
 				limit = {
 					owned_by = ROOT

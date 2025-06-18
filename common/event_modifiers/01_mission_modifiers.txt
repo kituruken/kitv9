@@ -2162,15 +2162,16 @@ oma_maritime_mod = {
 
 three_koreas_mod = {
 	local_tax_modifier = 0.1
-	expand_infrastructure_cost_modifier = -0.2
-	global_trade_goods_size_modifier = 0.2
+	#expand_infrastructure_cost_modifier = -0.2
+	#global_trade_goods_size_modifier = 0.2
 	local_build_cost = -0.1
 }
 
 # Orissan Missions
 
 ori_coastal_trade = {
-	trade_efficiency = 0.15
+	expand_infrastructure_cost_modifier = -0.2
+	global_trade_goods_size_modifier = 0.2
 }
 
 ori_diamonds_golconda = {
