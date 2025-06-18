@@ -348,3 +348,15 @@ black_chamber_act_2:0 "The Black Chamber Act II"
 ###netherlands###
 mechanic_has_defense_of_the_united_provinces_yes:1 "Can use the §YDefend the United Provinces§! Decision during Defensive Wars"
 bastard_ned_formed:0 "Birth of the United Provinces"
+
+
+french_empire_title:0 "Proclaim the French Empire"
+french_empire_desc:0 "I'm literaly napoleon maxxing"
+proclaim_ottoman_empire_title:0 "Proclaim the Ottoman Empire"
+proclaim_ottoman_empire_desc:0 "The Osmanoglu rule over Europe and Middle East"
+OTTOMAN_EMPIRE:0 "Ottoman Empire"
+OTTOMAN_EMPIRE_ADJ:0 "Ottoman"
+
+gc_french_empire:0 "French Empire"
+gc_french_empire_desc:0 "Veillons au salut de l'Empire"
+

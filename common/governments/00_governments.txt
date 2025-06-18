@@ -129,6 +129,13 @@ monarchy = {
 				austrian_absolute_monarchy
 				merchant_aristocracy_reform
 				gothic_monarchy_reform
+				#gecko
+				mughal_government
+				silk_road_empire
+				gc_imperial_spain_reform
+				empire_of_hungary_reform
+				gc_greater_hungary_reform
+				gc_french_empire
 			}
 		}
 		hereditary_vs_nobility = {

@@ -2195,6 +2195,36 @@ beylik_government = {
 	}
 }
 
+silk_road_empire = { #tier 1
+	icon = "asian_scripture"
+	lock_level_when_selected = yes
+	potential = {
+
+		OR ={ tag = BUK tag = TRS}
+
+		}
+	modifiers = {
+		merchants = 2
+		missionaries = 1
+		trade_steering = 0.33
+		global_trade_power = 0.25
+		trade_range_modifier = 0.50
+		movement_speed = 0.20	
+		governing_capacity = 150
+		fort_maintenance_modifier = -0.2
+		
+	}
+	government_abilities = {
+		tribal_federation_mechanic
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+	}
+	ai = {
+		factor = 0.75 #generic
+	}
+}
+
 al_andalusia_government = {
 	icon = "noble_muslim"
 	allow_normal_conversion = yes

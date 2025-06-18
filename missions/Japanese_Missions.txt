@@ -746,13 +746,27 @@ japanse_missions_domestic = {
 		icon = mission_japanese_samurai
 		required_missions = { }
 		trigger = {
+			ai = no
 			army_tradition = 1
 		}
 		effect = {
+				  japan_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			   }
 			add_country_modifier = {
 				name = "strengthened_bushido"
 				duration = 7300
 			}
+			define_general = {
+            shock = 3
+            fire = 3
+            manuever = 2
+            siege = 3
+}
 		}
 	}
 	
@@ -843,17 +857,8 @@ japanse_missions_domestic = {
 			}
 		}
 		effect = {
-			1015 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
-				}
-			}
+			add_stability = 1
+			state_maintenance_modifier = -0.5
 		}
 	}
 	JAP_construct_the_gokaido = {

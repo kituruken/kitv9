@@ -2215,8 +2215,12 @@ strengthened_shinobi = {
 	global_spy_defence = 0.33
 }
 strengthened_bushido = {
-	discipline = 0.015
 	core_creation = -0.15
+	province_warscore_cost = -0.20
+	manpower_recovery_speed = 0.30
+	war_exhaustion = -0.3
+	global_monthly_devastation = -0.5
+	advisor_cost = -0.2
 }
 divine_wind_modifier = {
 	navy_tradition = 0.25

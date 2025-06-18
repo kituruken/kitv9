@@ -3180,8 +3180,8 @@ gendarmes_reform = {
 	modifiers = {
 		cavalry_power = 0.1 
 		nobles_loyalty_modifier = 0.05
-		morale_damage = 0.1
 		cav_to_inf_ratio = 0.1
+		morale_damage = 0.1
 	}
 	ai = {
 		factor = 1
