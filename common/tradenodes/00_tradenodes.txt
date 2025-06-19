@@ -540,6 +540,15 @@ hatton_bank = {
 			1361.000000 765.000000
 		}
 	}
+	outgoing={
+		name="girin"
+		path={
+			
+		}
+		control={
+			1361.000000 765.000000
+		}
+	}
 		
 	#outgoing={
 	#	name="north_sea"

@@ -476,3 +476,149 @@ loyal_conduct_act = {
 	}
  }
 
+the_importation_act = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = administrative_ideas
+	}
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = administrative_ideas
+	}
+	
+	trade_efficiency = 0.1
+	interest = -0.25
+	
+
+}
+
+
+trade_connection_policy = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = aristocracy_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = aristocracy_ideas
+		full_idea_group = trade_ideas
+	}
+
+	trade_efficiency = 0.1
+	merchants = 1
+
+
+}
+
+
+cloth_quality_edict = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = quality_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = quality_ideas
+	}
+	trade_efficiency = 0.15
+
+
+}
+
+production_quota_act = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = quantity_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = quantity_ideas
+	}
+	global_trade_goods_size_modifier = 0.2
+ 
+
+	ai_will_do = {
+		factor = 0.7
+	}
+}
+
+encouragement_of_merchant_navy = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = trade_ideas
+		has_idea_group = expansion_ideas
+	}
+	
+	allow = {
+		full_idea_group = trade_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	trade_efficiency = 0.1
+	trade_steering = 0.2
+ 
+
+}
+
+armed_neutrality_act = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	trade_steering = 0.25
+	merchants = 1
+
+}
+
+
+trade_kontor_network = {
+	monarch_power = DIP
+	potential = {
+		has_idea_group = plutocracy_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = plutocracy_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.1
+	placed_merchant_power = 15
+
+}
+
+public_road_act = {
+	monarch_power = DIP
+	
+	potential = {
+		has_idea_group = offensive_ideas
+		has_idea_group = trade_ideas
+	}
+	
+	allow = {
+		full_idea_group = offensive_ideas
+		full_idea_group = trade_ideas
+	}
+	
+	movement_speed = 0.10
+	trade_efficiency = 0.10
+
+	
+}
+

@@ -710,16 +710,14 @@ maritime_ideas = {
 	}
 	merchant_adventures = {
 		trade_range_modifier = 0.20
-		global_ship_cost = -0.1
-		global_ship_trade_power = 0.25
+
 	}
 	fast_negotiations = {
-		caravan_power = 0.15
 		trade_steering = 0.25
 	}
 	merchant_marine = {
-		allowed_marine_fraction = 0.2
-		shock_damage_received = -0.1
+		allowed_marine_fraction = 0.3
+		shock_damage_received = -0.05
 	}
 	overseas_merchants = {
 		merchants = 1
@@ -732,14 +730,12 @@ maritime_ideas = {
 	}
 	merchant_traditions = {
 		infantry_power = 0.05
-		sailors_recovery_speed = 0.15
-		regiment_disembark_speed = 0.25
-		leader_naval_manuever = 1
+		sailors_recovery_speed = 0.33
+
 	}
 	national_trade_policy = {
-		trade_efficiency = 0.10
-		mercantilism_cost = -0.15
-		reduced_trade_penalty_on_non_main_tradenode = 0.35
+	 	regiment_disembark_speed = 0.50
+		leader_naval_manuever = 1
 	}
 
 	ai_will_do = {
@@ -986,7 +982,7 @@ theocracy_gov_ideas = {
 		drill_decay_modifier = -0.25
 	}
 	flesh_is_weak = {
-		morale_damage_received = -0.25
+		morale_damage_received = -0.15
 	}
 	conviction_of_sin = {
 		global_missionary_strength = 0.01
@@ -997,6 +993,7 @@ theocracy_gov_ideas = {
 	}
 	martyrs = {
 		manpower_in_true_faith_provinces = 0.25
+		artillery_fire = 0.25
 
 	}
 	ai_will_do = {
@@ -1131,10 +1128,10 @@ defensive_ideas = {
 		drill_decay_modifier = -0.1
 	}
 	homeland_specialization = {
-		reinforce_speed = 0.33
-		war_exhaustion = -0.1
+        recover_army_morale_speed = 0.10
+		land_morale = 0.075
 	}
-	guerilla_warfare_defense = {
+	guerilla_warfare_defense = {					
 		hostile_attrition = 1
 		max_hostile_attrition = 1 
 	}
@@ -1200,7 +1197,7 @@ quality_ideas = {
 	category = MIL
 	
 	bonus = {
-		janissaries_loyalty_modifier = 0.1
+		infantry_power = 0.025
 		yearly_army_professionalism = 0.004
 	}
 	private_to_marshal = {
@@ -1226,7 +1223,6 @@ quality_ideas = {
 		
 	}
 	napoleonic_warfare = {
-		infantry_power = 0.025
 		discipline = 0.05
 	}
 	ai_will_do = {
@@ -1745,65 +1741,41 @@ trade_ideas = {
 	category = DIP
 
 	bonus = {
-		merchants = 1
-		burghers_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
-	}
-	
-	trigger = {
-		always = no
+		global_ship_cost = -0.1
+		global_ship_trade_power = 0.25
 	}
 
-	empty_1 = {
+	shrewd_commerce_practise = {
+ 		global_trade_power = 0.33
+  	}
+  	free_trade = {
+  		merchants = 2
+  	}
+	free_merchants = {
+		center_of_trade_upgrade_cost = -0.5
 	}
-	empty_2 = {
+	privateers = {
+		trade_efficiency = 0.15
 	}
-	empty_3 = {
+	national_conscripts = {
+		merchants = 1
+		placed_merchant_power = 25
 	}
-	empty_4 = {
+	trade_manipulation = {
+		trade_steering = 0.33
+		caravan_power = 0.25
 	}
-	empty_5 = {
-	}
-	empty_6 = {
-	}
-	empty_7 = {
+	rumourmongering = {
+		mercantilism_cost = -0.5
 	}
 	
 	ai_will_do = {
-		factor = 0.4
-		modifier = {
-			factor = 0
-			NOT = { num_of_cities = 6 }
-			NOT = { has_government_attribute = is_merchant_republic }
-		}
-		modifier = {
-			factor = 2
-			has_government_attribute = is_merchant_republic
-		}
-		modifier = {
-			factor = 1.25
-			personality = ai_capitalist 
-			trade_income_percentage = 0.35
-		}
-		modifier = {
-			factor = 1.25
-			home_trade_node = {
-				trade_share = {
-					country = ROOT 
-					share = 0.4
-				}
-			}
-		}
-		modifier = {
-			factor = 1.25
-			OR = {
-				has_idea_group = infrastructure_ideas
-				has_idea_group = economic_ideas
-			}
-		}
+		factor = 0
 	}
 }
+
+	
+
 
 #All of these ideas are localized.
 # Not commented out to avoid vanilla trigger errors.

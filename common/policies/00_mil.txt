@@ -1785,3 +1785,7 @@ hired_expeditions_act = {
 		factor = 1		
 	}
 }
+
+
+
+
