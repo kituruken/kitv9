@@ -30,8 +30,30 @@ KoK_YEM_missions_1 = {
 			391 = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = {
-			add_mil_power = 50
+            		 create_subject = {
+		subject_type = vassal
+		subject = NAJ 
+		}
+		create_subject = {
+		subject_type = vassal
+		subject = ALH 
+		}
+		create_subject = {
+		subject_type = vassal
+			subject = DAW 
+		}
+		create_subject = {
+		subject_type = vassal
+		 subject = HED 			
+				}
+				add_country_modifier = {
+					name = ara_crushed_the_catalan_estates_modifier
+					duration = 10950
+				}
+
 			
+			
+			add_mil_power = 50
 			custom_tooltip = " "
 			
 			if = {

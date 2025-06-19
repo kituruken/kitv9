@@ -3569,7 +3569,7 @@ pru_prutenic_tables = {
 	technology_cost = -0.1
 }
 pru_reaction_reforms = {
-	technology_cost = -0.25
+	technology_cost = -0.05
 
 }
 bra_berliner_unwille = {

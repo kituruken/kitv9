@@ -45,11 +45,11 @@ FU_swiss_missions_1 = {
 					limit = {
 						TTL = { 
 							is_subject_of = ROOT 
-							NOT = { is_subject_of_type = march } 
+							NOT = { is_subject_of_type = vassal } 
 						}
 					}
 					create_subject = {
-						subject_type = march
+						subject_type = vassal
 						subject = TTL 
 					}
 				}
@@ -67,7 +67,7 @@ FU_swiss_missions_1 = {
 		trigger = {
 			if = {
 				limit = { 
-					march = 1 
+					vassal = 2 
 				}
 				custom_trigger_tooltip = {
 					tooltip = swi_all_subject_lib_desire_tt
@@ -326,7 +326,7 @@ FU_swiss_missions_2 = {
 		}
 		effect = {
 		 create_subject = {
-		subject_type = march
+		subject_type = vassal
 		subject = GNV 
 		}
 		create_subject = {
@@ -334,7 +334,7 @@ FU_swiss_missions_2 = {
 		subject = WUR 
 		}
 		create_subject = {
-		subject_type = march
+		subject_type = vassal
 			subject = ROT 
 		}
 		create_subject = {
@@ -742,7 +742,7 @@ FU_swiss_missions_4 = {
 		required_missions = { swi_imperial_immediacy }
 		position = 2 
 		trigger = {
-			march = 2 
+			vassal = 2 
 			OR = {
 				has_parliament = yes 
 				full_idea_group = diplomatic_ideas 
@@ -1034,8 +1034,8 @@ FU_swiss_missions_5 = {
 				custom_tooltip = " "
 			}
 			
-			give_claims = { area = bourgogne_area }
-			give_claims = { area = west_burgundy_area }
+			give_claims = { area = lower_swabia_area }
+			give_claims = { area = upper_swabia_area }
 		}
 	}
 	
@@ -1230,7 +1230,7 @@ FU_swiss_missions_5 = {
 			hidden_effect = {
 				every_subject_country = {
 					limit = {
-						is_subject_of_type = march 
+						is_subject_of_type = vassal
 					}
 					add_country_modifier = {
 						name = swi_signed_the_treaty_of_stans_subject_modifier

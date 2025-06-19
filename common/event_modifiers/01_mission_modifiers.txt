@@ -9995,8 +9995,9 @@ ara_victory_over_provence_modifier = {
 }
 
 ara_crushed_the_catalan_estates_modifier = {
-	harsh_treatment_cost = -0.25
-	all_estate_loyalty_equilibrium = 0.1
+	vassal_forcelimit_bonus = 1
+	reduced_liberty_desire_on_same_continent = 25
+	
 }
 
 ara_unshackled_modifier = {
