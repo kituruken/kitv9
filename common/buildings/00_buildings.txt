@@ -1508,8 +1508,8 @@ cathedral = {
 
 
 university = {
-	cost = 6000
-	time = 12
+	cost = 10000
+	time = 24
 	one_per_country = yes
 	modifier = {
 		development_cost = -0.10
@@ -3182,7 +3182,7 @@ furnace = {
 				is_prosperous = yes
 				base_production = 10
 			}
-	}
+	
 
 	modifier = {
 		local_production_efficiency = 0.2

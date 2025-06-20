@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	monthly_reform_progress_modifier = 0.33
+	max_general_shock = 1
 
 	effect = {}
 	removed_effect = {}
@@ -32,8 +32,7 @@ vassal_taxation_policy = {
 		full_idea_group = administrative_ideas
 	}
 
-	artillery_cost = -0.1
-	reinforce_speed = 0.1
+    artillery_shock = 0.5
 
 	effect = {}
 	removed_effect = {}
@@ -105,6 +104,7 @@ public_welfare_act = {
 	}
 
 	land_morale = 0.05
+	development_cost = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -149,7 +149,8 @@ the_tolerance_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	reinforce_cost_modifier = -0.15
+	land_morale = 0.1
+	morale_damage = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -173,7 +174,7 @@ the_pioneer_policy = {
 		full_idea_group = expansion_ideas
 	}
 
-	land_morale = 0.05
+	shock_damage = 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -197,7 +198,8 @@ the_provincial_taxation_system = {
 		full_idea_group = quantity_ideas
 	}
 	
-	mil_advisor_cost = -0.25
+	mercenary_discipline = 0.05
+	merc_maintenance_modifier = -0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -221,7 +223,8 @@ the_education_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	global_tax_modifier = 0.15
+	fire_damage = 0.05
+	infantry_power = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -313,7 +316,8 @@ taxation_with_representation = {
 		full_idea_group = plutocracy_ideas
 	}
 	
-	administrative_efficiency = 0.075
+	mercenary_manpower = 0.15
+	mercenary_cost = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -383,8 +387,7 @@ anti_heresy_act = {
 		full_idea_group = offensive_ideas
 	}
 	
-	artillery_barrage_cost = -0.25
-	artillery_cost = -0.1
+	fire_damage = 0.15
 
 	effect = {}
 	removed_effect = {}
@@ -406,7 +409,7 @@ anti_heresy_act = {
  		full_idea_group = theocracy_gov_ideas
  	}
  	
- 	core_creation = -0.15
+ 	global_tax_modifier = 0.20
  	
  	effect = {}
  	removed_effect = {}
@@ -456,7 +459,7 @@ plutocratic_rule_act = {
 		full_idea_group = plutocracy_ideas 
 	}
 	
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.2
 
 	effect = {}
 	removed_effect = {}
@@ -479,7 +482,7 @@ plutocratic_rule_act = {
  	}
  	
  	leader_cost = -0.1
-	manpower_recovery_speed = 0.05
+	manpower_recovery_speed = 0.20
 	
  	effect = {}
  	removed_effect = {}

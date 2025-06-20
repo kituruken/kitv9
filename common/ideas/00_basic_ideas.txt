@@ -823,13 +823,15 @@ aristocracy_ideas = {
 	}
 	noble_resilience = {
 		leader_land_shock = 1
+		army_tradition_decay = -0.01
+
 	}
 	serfdom = {
 		global_manpower_modifier = 0.2
 	}
 	noble_officers = {
-		army_tradition_decay = -0.01
-		navy_tradition_decay = -0.01
+	discipline = 0.03
+
 	}
 	international_nobility = {
 		movement_speed = 0.1
@@ -953,7 +955,7 @@ theocracy_gov_ideas = {
 	category = MIL
 	
 	bonus = {
-		leader_land_shock = 1
+		leader_cost = -0.2
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1
@@ -1110,10 +1112,10 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		military_tactics = 0.1
+		military_tactics = 0.12
 	}
 	improved_body_armor = {
-		shock_damage_received = -0.1
+		shock_damage_received = -0.15
 	}
 	defensive_mentality = {
 		fort_maintenance_modifier = -0.5
