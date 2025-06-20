@@ -127,7 +127,7 @@ technology = { #Carracks & Caravel
 technology = { #The Flute
 	# Tech 10
 	year = 1531
-	
+	trade_depot = yes 
 	trade_efficiency		= 	0.01
 	trade_range				=	20
 	global_colonial_growth  = 	10
@@ -193,7 +193,7 @@ technology = { #The Galleon
 technology = { #Development of Maritime Law
 	# Tech 16
 	year = 1609
-	
+	drydock = yes
 	trade_efficiency 		= 	0.01
 	trade_range				=	20
 
@@ -207,7 +207,7 @@ technology = { #Merchantman
 	range					=	50
 	
 	
-	trade_depot = yes 
+
 
 
 	enable = merchantman
@@ -232,7 +232,7 @@ technology = { #The War Galleon
 	naval_maintenance		= 	0.1	
 	range					=	50
 	
-	drydock = yes 
+ 
 	
 	
 	enable = wargalleon

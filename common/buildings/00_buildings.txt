@@ -803,7 +803,7 @@ coastal_defence = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 100
+	cost = 160
 	time = 12
 	modifier = {
 		#local_state_maintenance_modifier = -0.1
@@ -811,6 +811,8 @@ courthouse = {
 		local_governing_cost_increase = -10
 		local_friendly_movement_speed = 0.1
 		allowed_num_of_buildings = 1
+		local_tax_modifier = 0.1
+		local_governing_cost = -0.05
 	}
 	on_built = {
 		bastard_dev_cost_terrain_add_from_buildings = yes
@@ -1506,12 +1508,18 @@ cathedral = {
 
 
 university = {
-	cost = 150
+	cost = 6000
 	time = 12
+	one_per_country = yes
 	modifier = {
-		local_development_cost = -0.10
-		allowed_num_of_buildings = 1
+		development_cost = -0.10
 	}
+    build_trigger = {
+        development = 45
+		is_capital = yes
+	}
+
+
 
 	on_built = {
 		bastard_dev_cost_add_from_buildings = yes
@@ -2246,6 +2254,8 @@ town_hall = {
 		allowed_num_of_buildings = 1
 		local_friendly_movement_speed = 0.2
 		local_governing_cost_increase = -20
+		local_governing_cost = -0.1
+		
 	}
 
 	on_built = {
@@ -3161,40 +3171,61 @@ mills = {
 }
 
 furnace = {
-	manufactory = {
-		coal
-	}
+	cost = 600
+	time = 12
 
-	potential = {
-		has_dlc = "Rule Britannia"
+	# build_trigger = {
+	# 	has_port = yes
+	# }
+	build_trigger = {
+				development = 30
+				is_prosperous = yes
+				base_production = 10
+			}
 	}
 
 	modifier = {
-		global_trade_goods_size_modifier = 0.05 #National Bonus
+		local_production_efficiency = 0.2
+	    trade_value = 8
 	}
-	onmap = yes
+	# bonus_modifier = {
+	# 	local_sailors = 250
+	# 	ship_recruit_speed = -0.1
+	# 	local_ship_cost = -0.05
+	# }
+	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
 	on_built = {
 		bastard_dev_cost_add_from_buildings = yes
 		add_development_from_building = {
-			building = manufactory
-			type = production
+			building = furnace
+			type = manpower
 			value = 2
+		}
+		add_dev_from_building = {
+			building = furnace 
+			type = manpower 
+			value = 1 
 		}
 	}
 	on_destroyed = {
 		bastard_dev_cost_remove_from_buildings = yes
 		remove_development_from_building = {
-			building = manufactory
-			type = production
+			building = furnace
+			type = manpower
 			value = 2
+		}
+		remove_dev_from_building = {
+			building = furnace 
+			type = manpower 
+			value = 1 
 		}
 	}
 	on_obsolete = {
 	}
 
 	ai_will_do = {
-		factor = 3000
+		factor = 1
 	}
 }
 
@@ -3358,7 +3389,7 @@ soldier_households = {
 }
 
 impressment_offices = {
-	cost = 400
+	cost = 500
 	time = 12
 
 	# build_trigger = {
@@ -3369,20 +3400,15 @@ impressment_offices = {
 				owner = {
 					tag = ROOT
 				}
-				type = all
-				has_manpower_building_trigger = yes
-				development = 30
-				is_prosperous = yes
-				base_manpower = 10
 			}
 	}
 
 	modifier = {
-		local_manpower_modifier = 1
-		local_sailors_modifier = 2
-		# local_sailors = 750
-		# ship_recruit_speed = -0.1
-		# local_ship_cost = -0.05
+		#local_manpower_modifier = 1
+		local_sailors_modifier = 1
+		 local_sailors = 100
+		 ship_recruit_speed = -0.1
+		 local_ship_cost = -0.1
 	}
 	# bonus_modifier = {
 	# 	local_sailors = 250
@@ -3514,8 +3540,7 @@ armory = {
 				}
 				type = all
 				has_forcelimit_building_trigger = yes
-				development = 30
-				is_prosperous = yes
+				development = 20
 			}
 	}
 	

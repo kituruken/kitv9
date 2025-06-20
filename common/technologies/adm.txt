@@ -116,6 +116,7 @@ technology = { #Modern Theocracy
 	allowed_idea_groups = 3
 	theocratic_government = yes
 	governing_capacity = 100
+	furnace = yes
 }
 
 technology = { #Textile Manufactory
@@ -153,6 +154,8 @@ technology = { #Scientific Experimentation
 	allowed_idea_groups	= 4
 	administrative_efficiency = 0.025
 	development_cost_modifier = -0.025
+	cathedral = yes
+	town_hall = yes
 }
 
 technology = { #Military Administration
@@ -168,7 +171,7 @@ technology = { #Military Administration
 technology = { #Metallurgy
 	# Tech 16
 	year = 1609
-	
+	university = yes
 	mills = yes
 	production_efficiency 	=	0.01
 	administrative_efficiency = 0.025
@@ -180,7 +183,7 @@ technology = { #University
 	# Tech 17
 	year = 1622
 	
-	university = yes	
+	
 	governing_capacity = 250
 	
 	administrative_efficiency = 0.025
@@ -192,15 +195,13 @@ technology = { #National Sovereignty
 	year = 1635
 	
 	allowed_idea_groups	= 5
-	town_hall = yes
 }
 
 technology = { #Cathedral
 	# Tech 19
 	year = 1648	
-	
+	counting_house = yes
 	#Cathedral
-	cathedral = yes
 }
 
 technology = { #Absolute Rulership
@@ -221,7 +222,6 @@ technology = { #Land Clearance
 	production_efficiency 	=	0.01
 	administrative_efficiency = 0.025
 	development_cost_modifier = -0.025
-	furnace = yes
 }
 
 technology = { #The Constitution
@@ -247,8 +247,7 @@ technology = { #Bonds and Tontines
 	# Tech 24
 	year = 1715
 	administrative_efficiency = 0.025
-	development_cost_modifier = -0.025
-	counting_house = yes  
+	development_cost_modifier = -0.025  
 	governing_capacity = 250
 }
 
