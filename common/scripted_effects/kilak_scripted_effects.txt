@@ -11,3 +11,7 @@ add_cardinals_to_player_slots = {
 	112 = { add_cardinal = yes } #Venice
 	116 = {remove_cardinal = yes} #Frienze cuz its AI
 }
+
+
+
+

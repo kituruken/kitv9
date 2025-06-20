@@ -2264,11 +2264,11 @@ expanded_infrastructure = {
 	allowed_num_of_manufactories = 1
 	regiment_recruit_speed = -0.125
 	ship_recruit_speed = -0.125
-	#local_defensiveness = 0.1
+	local_defensiveness = 0.1
 	garrison_growth = 0.1
 	local_development_cost = -0.1
-	local_production_efficiency = 0.075
-	local_tax_modifier = 0.075
+	local_production_efficiency = 0.1
+	local_tax_modifier = 0.1
 	local_manpower_modifier = 0.1
 	local_sailors_modifier = 0.1
 	local_ship_repair = 0.1
@@ -2280,8 +2280,8 @@ expanded_infrastructure = {
 	local_governing_cost_increase = 15
 	local_governing_cost = 0.1
 	local_great_project_upgrade_cost = -0.125
-	land_forcelimit = 0.75
-	naval_forcelimit = 0.75
+	land_forcelimit = 1
+	naval_forcelimit = 1
 }
 
 centralize_state = {

@@ -149,7 +149,7 @@ NDefines.NMilitary.FLAGSHIP_REQUIRED_NAVY_SIZE_IN_SAILORS = 750
 NDefines.NMilitary.SIEGE_BONUS_FOOD_SHORTAGE = 1
 NDefines.NMilitary.SIEGE_BONUS_WATER_SHORTAGE = 1
 NDefines.NMilitary.SIEGE_BONUS_DEFENDERS_DESERT = 1
-NDefines.NMilitary.NAVAL_DOCTRINE_SAILORS_COST = 0.05			-- Cost for switching naval doctrine (Share of sailors)
+NDefines.NMilitary.NAVAL_DOCTRINE_SAILORS_COST = 0.01			-- Cost for switching naval doctrine (Share of sailors)
 NDefines.NMilitary.NAVAL_DOCTRINE_MIN_FORCE_LIMIT = 15
 NDefines.NMilitary.BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.0	-- Multiplier for morale damage taken by backrow
 NDefines.NMilitary.BACK_LINE_STRENGTH_DAMAGE_TAKEN_MODIFIER = 0.0
@@ -213,3 +213,5 @@ NDefines.NGame.DAYS_BEHIND_LOWER_SPEED = 90			-- In multiplayer, if the slowest 
 NDefines.NCountry.RAZE_PROVINCE_DEVELOPMENT_DECREASE = 0
 NDefines.NCountry.RAZE_PROVINCE_POWER_PER_DEVELOPMENT = 0
 NDefines.NCountry.DIVERT_TRADE_LIBERTY = 25
+
+NDefines.NGovernment.EXPAND_INFRASTRUCTURE_ADM_COST = 75,

@@ -195,7 +195,7 @@ custom_button = {
 				adm_power = 100
 				dip_power = 100
 				mil_power = 100
-				splendor = 200
+				splendor = 50
 				if = {
 					limit = { tag = POR }
 					hidden_trigger = {
