@@ -349,11 +349,9 @@ woc_moghulistan_2 = {
 		position = 1
 
 		trigger = {  
-			OR = {
 				army_size_percentage = 0.9
 				army_size = 25
 			}
-			num_of_generals = 1
 		} 
 
 		effect = {  

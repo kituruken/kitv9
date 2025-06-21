@@ -1372,12 +1372,15 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 }
 
 in_golden_era = {
-	land_morale = 0.1
-	naval_morale = 0.1
-	#max_general_fire = 1
-	#max_general_shock = 1
-	max_absolutism = 5
-	max_revolutionary_zeal = 10
+	#land_morale = 0.1
+	#naval_morale = 0.1
+	leader_siege = 1
+	leader_land_shock= 1
+	army_tradition_from_battle = 0.5
+	global_manpower = 5
+	mercenary_cost = -0.2
+	prestige_from_land = 0.5
+	manpower_recovery_speed = 0.1
 }
 
 absolutism = {
@@ -1395,6 +1398,7 @@ high_army_professionalism = {
 	fire_damage = 0.10
 	shock_damage = 0.10
 	discipline = 0.05
+	morale_damage_received = -0.1
 	#drill_decay_modifier = -0.5
 	allowed_samurai_fraction = 0.1
 	reinforce_speed = 0.33

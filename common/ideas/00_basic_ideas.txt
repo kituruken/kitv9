@@ -601,10 +601,13 @@ influence_ideas = {
 	integrated_elites = {
 		leader_cost = -0.1
 	}
-	diplomatic_influence = {
-		monarch_diplomatic_power = 1
-		monarch_power_tribute = 1
+	marcher_lords = {
+		vassal_forcelimit_bonus = 0.25
+		vassal_naval_forcelimit_bonus = 0.25
+		vassal_manpower_bonus = 0.25
+		vassal_sailors_bonus = 0.5
 	}
+
 
 	i82 = {
 		land_forcelimit = 1
@@ -1292,11 +1295,12 @@ quantity_ideas = {
 		land_forcelimit_modifier = 0.30
 		num_of_pronoiars = 1
 		possible_mil_policy = 1
+		global_manpower = 5
 	}
 	mass_army = {
 		global_manpower_modifier = 0.40
 		allowed_marine_fraction = 0.33
-		global_manpower = 10
+		global_manpower = 5
 	}
 	the_young_can_serve = {
 		manpower_recovery_speed = 0.20
