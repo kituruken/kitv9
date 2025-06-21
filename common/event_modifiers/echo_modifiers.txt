@@ -93,3 +93,8 @@ echo_por_colonist = {
 
 enacted_states_general_reform = {
 }
+
+
+university_war_score_cost = { 
+	province_warscore_cost = 0.30
+}

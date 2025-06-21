@@ -23,7 +23,6 @@ innovativeness_ideas = {
 	}
 	empiricism = {
 		reform_progress_growth = 0.25
-		yearly_innovativeness = 0.25
 	}
 	print_culture = {
 		global_institution_spread = 0.25
@@ -526,7 +525,7 @@ diplomatic_ideas = {
 	category = DIP
 	bonus = {
 		reduced_stab_impacts = yes
-		interest = -0.5
+		interest = -0.25
 	}
 	
 	grand_banquets = {
@@ -534,10 +533,10 @@ diplomatic_ideas = {
 		monthly_splendor = 2
 	}
 	foreign_embassies = {
-		idea_cost = -0.1
+		idea_cost = -0.05
 	}
 	cabinet = {
-		advisor_cost = -0.15
+		advisor_cost = -0.10
 	}
 	benign_diplomats = {
 		free_policy = 1
@@ -551,7 +550,7 @@ diplomatic_ideas = {
 		province_warscore_cost = -0.1
 	}
 	diplomatic_corps = {
-		technology_cost = -0.1
+		technology_cost = -0.05
 	}
 
 	ai_will_do = {
@@ -955,10 +954,11 @@ theocracy_gov_ideas = {
 	category = MIL
 	
 	bonus = {
-		leader_cost = -0.2
+		leader_cost = -0.1
 		church_loyalty_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.1
 		brahmins_muslim_loyalty_modifier = 0.1
+		backrow_artillery_damage = 0.1
 	}
 	
 	#trigger = {
@@ -1123,7 +1123,7 @@ defensive_ideas = {
 
 	}
 	until_the_last_man = {
-		morale_damage_received = -0.2
+		morale_damage_received = -0.1
 		drill_decay_modifier = -0.1
 	}
 	homeland_specialization = {

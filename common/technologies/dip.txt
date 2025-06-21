@@ -83,7 +83,7 @@ technology = { #Basic Financial Instruments
 technology = { #Shipyards
 	# Tech 6
 	year = 1479
-	
+    stock_exchange = yes
 	dock = yes	
 	may_steal_maps = yes
 
@@ -267,7 +267,6 @@ technology = { #Limes
 	naval_maintenance		= 	0.1
 	
 
-	stock_exchange = yes
 
 	enable = twodecker
 	enable = trabakul

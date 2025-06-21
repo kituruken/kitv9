@@ -480,7 +480,7 @@ military_zeal_act = {
 	}
 	
 	morale_damage = 0.1
-	land_morale = 0.025
+	land_morale = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -569,7 +569,7 @@ local_army_organisation = {
  		full_idea_group = offensive_ideas
  	}
  	
-      technology_cost = 0.05
+      technology_cost = -0.05
 	  global_trade_goods_size_modifier = 0.1
 	
  	effect = {}
@@ -660,7 +660,8 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	infantry_power = 0.075
+	allowed_marine_fraction = 0.2
+
 
 	effect = {}
 	removed_effect = {}

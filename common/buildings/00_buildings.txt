@@ -2120,13 +2120,14 @@ fort_17th = {
 # Tier 4, 18th Century Buildings
 ################################################
 stock_exchange = {
-	cost = 400
+	cost = 4000
 	time = 12
-
-	make_obsolete = trade_depot
+	one_per_country = yes
 
 	modifier = {
-		province_trade_power_modifier = 1.25
+		global_colonial_growth = 35
+		reduced_liberty_desire_on_other_continent = 10
+		colonist_placement_chance = 0.15
 	}
 
 	on_built = {
@@ -2824,7 +2825,7 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 400
+	cost = 500
 	time = 60
 	modifier = {
 		trade_goods_size = 0.8

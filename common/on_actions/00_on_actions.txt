@@ -30,6 +30,7 @@ on_startup = {
 	#Add Cardinals at game Start to Capitals of all Catholic Player Slots
 	add_cardinals_to_player_slots = yes #found in kielak_scripted_effects.txt
 
+
 	if = {
 		limit = {
 			AND = {
@@ -4650,6 +4651,18 @@ on_province_owner_change = {
 		}
 		remove_building = fort_15th
 	}
+	if = {
+        every_owned_province = {
+            limit = {
+                has_building = university
+            }
+            add_province_modifier = { 
+            name = university_war_score_cost
+            duration = -1
+            }
+
+        }
+    }
 }
 
 # country
