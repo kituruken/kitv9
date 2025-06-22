@@ -1508,7 +1508,7 @@ cathedral = {
 
 
 university = {
-	cost = 10000
+	cost = 7000
 	time = 24
 	one_per_country = yes
 	modifier = {

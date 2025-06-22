@@ -1,26 +1,26 @@
 
-client_state_act = { 
-	monarch_power = DIP
+# client_state_act = { 
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = mercenary_ideas
-		has_idea_group = influence_ideas   
-	}
+# 	potential = {
+# 		has_idea_group = mercenary_ideas
+# 		has_idea_group = influence_ideas   
+# 	}
 	
-	allow = {
-		full_idea_group = mercenary_ideas
-		full_idea_group = influence_ideas 
-	}
+# 	allow = {
+# 		full_idea_group = mercenary_ideas
+# 		full_idea_group = influence_ideas 
+# 	}
 	
-	vassal_forcelimit_bonus = 0.5
-	allow_client_states = yes 
+# 	vassal_forcelimit_bonus = 0.5
+# 	allow_client_states = yes 
 	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1		
-	}
-}
+# 	effect = {}
+# 	removed_effect = {}
+# 	ai_will_do = {
+# 		factor = 1		
+# 	}
+# }
 
 vassal_obligations_act = {
 	monarch_power = DIP
@@ -57,7 +57,7 @@ overseas_dominions = {
 		full_idea_group = expansion_ideas
 	}	
 	
-	trade_efficiency = 0.1
+	trade_efficiency = 0.15
 	
 	ai_will_do = {
 		factor = 1		
@@ -77,7 +77,7 @@ cultural_unity = {
 		full_idea_group = religious_ideas
 	}	
 	province_warscore_cost = -0.05
-	global_tax_modifier = 0.25
+	global_tax_modifier = 0.20
 
 	
 	ai_will_do = {
@@ -355,7 +355,8 @@ the_spy_network_act = {
 		full_idea_group = spy_ideas
 	}
 	
-	state_governing_cost = -0.15
+	state_governing_cost = -0.10
+	advisor_cost = -0.05
 
 	effect = {}
 	removed_effect = {}
@@ -377,7 +378,8 @@ the_spy_network_act = {
  		full_idea_group = diplomatic_ideas 
  	}
  	
- 	production_efficiency = 0.15
+ 	great_project_upgrade_cost = -0.15
+	global_trade_goods_size_modifier = 0.05
  
  	effect = {}
  	removed_effect = {}
@@ -433,19 +435,20 @@ centralization_power_act = {
  #Merc Ideas Policies 
 
 loyal_conduct_act = { 
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
-		has_idea_group = mercenary_ideas
+		has_idea_group = trade_ideas
 		has_idea_group = spy_ideas   
 	}
 	
 	allow = {
-		full_idea_group = mercenary_ideas
+		full_idea_group = trade_ideas
 		full_idea_group = spy_ideas 
 	}
 	
-	siege_ability = 0.15
+	global_trade_power = 0.1
+	center_of_trade_upgrade_cost = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -454,27 +457,27 @@ loyal_conduct_act = {
 	}
 }
 
- diplomatic_arms_act = { 
- 	monarch_power = MIL
+#  diplomatic_arms_act = { 
+#  	monarch_power = MIL
  	
- 	potential = {
- 		has_idea_group = mercenary_ideas
- 		has_idea_group = diplomatic_ideas   
- 	}
+#  	potential = {
+#  		has_idea_group = mercenary_ideas
+#  		has_idea_group = diplomatic_ideas   
+#  	}
  	
- 	allow = {
- 		full_idea_group = mercenary_ideas
- 		full_idea_group = diplomatic_ideas 
- 	}
+#  	allow = {
+#  		full_idea_group = mercenary_ideas
+#  		full_idea_group = diplomatic_ideas 
+#  	}
  	
- 	mercenary_discipline = 0.03
+#  	mercenary_discipline = 0.03
  	
- 	effect = {}
- 	removed_effect = {}
- 	ai_will_do = {
-		factor = 1		
-	}
- }
+#  	effect = {}
+#  	removed_effect = {}
+#  	ai_will_do = {
+# 		factor = 1		
+# 	}
+#  }
 
 the_importation_act = {
 	monarch_power = DIP

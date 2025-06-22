@@ -335,23 +335,36 @@ woc_moghulistan_2 = {
 	potential_on_load = {
 		has_dlc = "Winds of Change"
 	}
-	potential = {
-			OR = {
-				tag = CHG
-				tag = KAS
-				tag = BUK
-				tag = SHY
+	potential = { 
+		OR = {
+			is_moghulistan_nation = yes 
+			AND = {
+				was_moghulistan_nation = yes
+				OR = {
+					is_mongol_nation = yes
+					is_tatar_nation = yes
+					tag = MGE
+					tag = YUA
+					tag = ILK
+					tag = GLH
+				}
 			}
+		}
+		NOT = { was_mongol_nation = yes }
+		NOT = { was_tatar_nation = yes }
 		has_dlc = "Winds of Change"
 	}
+
 	moghulistan_at_the_centre_of_asia = {
 		icon = mission_central_asian_steppes
 		position = 1
 
 		trigger = {  
+			OR = {
 				army_size_percentage = 0.9
 				army_size = 25
 			}
+			num_of_generals = 0
 		} 
 
 		effect = {  
@@ -363,54 +376,6 @@ woc_moghulistan_2 = {
 		}
 	}
 
-	moghulistan_revenge_against_timur = {
-		icon = aq_qoyunlu_dethrone_the_timurids
-		position = 2
-		required_missions = { moghulistan_at_the_centre_of_asia } 
-		provinces_to_highlight = {  
-			if = {
-				limit = {
-					exists = TIM
-				}
-				is_capital_of = TIM
-			}
-			else = {
-				province_id = 454
-				NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			}
-		} 
-
-		trigger = {  
-			if = {
-				limit = {
-					exists = TIM
-				}
-				OR = {
-					has_won_war_against = {
-						who = TIM
-						max_years_since = 25
-					}
-					war_score_against = {
-						who = TIM
-						value = 80
-					}
-				}
-			}
-			else = {
-				454 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-			}
-		} 
-
-		effect = {  
-			give_claims = { region = khorasan_region }
-			
-			custom_tooltip = SEPERATOR_TOOLTIP
-			
-			create_general_with_pips = { tradition = 60 add_siege = 1 }
-		} 
-	}
 
 	moghulistan_into_iran = {
 		icon = per_protect_the_west_iranian

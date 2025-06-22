@@ -2106,6 +2106,7 @@ estate_burghers_mountain_expansion = {
 	is_valid = {
 		OR = { 
 			TAG = CSH
+			TAG = AFG
 			has_unlocked_estate_privilege = { estate_privilege = estate_burghers_mountain_expansion }
 		}
 	}
