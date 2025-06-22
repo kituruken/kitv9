@@ -38,6 +38,8 @@ free_colonist = {
 urbanisation = {
 	all_power_cost = -0.1
 	global_trade_goods_size_modifier = 0.1
+	monarch_diplomatic_power = 1
+	monarch_admin_power = 1
 }
 
 

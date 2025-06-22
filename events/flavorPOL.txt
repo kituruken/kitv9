@@ -1832,9 +1832,10 @@ country_event = {
 			factor = 25
 		}
 		define_ruler = {
+			name = Kitten
 			mil = 5
 			adm = 5
-			dip = 5
+			dip = 6
 			claim = 100
 			culture = polish
 		}
