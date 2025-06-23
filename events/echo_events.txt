@@ -342,6 +342,37 @@ country_event = { #Recruit Mil Advisor
 		name = echo.12.h
 		#nothing
 	}
+option = {
+		name = gecko.11.d
+		
+		add_adm_power  = -25
+		create_advisor = gc_drill_master		
+	}
+	option = {
+		name = gecko.11.e
+		
+		add_adm_power  = -25
+		create_advisor = siege_specialist	
+	}
+	option = {
+		name = gecko.11.f
+		
+		add_adm_power  = -25
+		create_advisor = infantry_leader		
+	}
+	option = {
+		name = gecko.11.g
+		
+		add_adm_power  = -25
+		create_advisor = cavalry_leader	
+	}
+	option = {
+		name = gecko.11.k
+		
+		add_adm_power  = -25
+		create_advisor = gc_arty_officer	
+	}
+
 }
 
 # ###remove we stand alone dev event####

@@ -15,6 +15,13 @@
 ######################################################
 philosopher = {
 	monarch_power = ADM
+
+    skill_scaled_modifier = { 
+		modifier = { 
+			monthly_splendor = 1
+		} 
+	}
+
 	skill_scaled_modifier = {
 		trigger = {
 			owner = {
@@ -42,7 +49,7 @@ philosopher = {
 	}
 	
 	# Bonus
-	prestige = 1
+	monthly_splendor = 1
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -175,7 +182,12 @@ natural_scientist = {
 	}
 	
 	# Bonus
-	production_efficiency = 0.10
+	production_efficiency = 0.025
+	skill_scaled_modifier = { 
+		modifier = { 
+			production_efficiency = 0.025
+		} 
+	}
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -298,8 +310,12 @@ artist = {
 	}
 	
 	# Bonus
-	#stability_cost_modifier = -0.10
-	monthly_splendor = 2
+	state_maintenance_modifier = -0.1
+	skill_scaled_modifier = { 
+		modifier = { 
+			state_maintenance_modifier = -0.05
+		} 
+	}
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -441,7 +457,15 @@ treasurer = {
 	}
 	
 	# Bonus
-	global_tax_modifier = 0.1
+	global_tax_modifier = 0.05
+
+     skill_scaled_modifier = { 
+		modifier = { 
+			meritocracy = 0.25
+			global_tax_modifier = 0.05
+		} 
+	}
+
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -575,7 +599,13 @@ theologian = {
 	}
 	
 	# Bonus
-	global_unrest = -2
+	yearly_innovativeness = 0.1
+
+	skill_scaled_modifier = { 
+		modifier = { 
+         yearly_innovativeness = 0.05
+		} 
+	}
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -729,7 +759,13 @@ master_of_mint = {
 	}
 	
 	# Bonus
-	global_own_trade_power = 0.15
+	global_own_trade_power = 0.05
+   skill_scaled_modifier = { 
+		modifier = { 
+			global_own_trade_power = 0.05
+		} 
+	}
+
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -872,7 +908,15 @@ inquisitor = {
 	}
 	
 	# Bonus
-	global_missionary_strength = 0.02
+	global_missionary_strength = 0.01
+
+	skill_scaled_modifier = { 
+		modifier = { 
+			meritocracy = 0.25
+           	global_missionary_strength = 0.01
+		} 
+	}
+	
 	skill_scaled_modifier = {
 		trigger = { owner = {  has_government_attribute = reform_progress_from_advisors  } }
 		modifier = { reform_progress_growth = 0.03 }
@@ -1020,6 +1064,13 @@ statesman = {
 	# Bonus
 	diplomatic_reputation = 1
 
+    	skill_scaled_modifier = { 
+		modifier = { 
+         diplomatic_reputation =1
+		} 
+	}
+
+
 	skill_scaled_modifier = {
 		trigger = {
 			owner = { 
@@ -1146,7 +1197,14 @@ naval_reformer = {
 	
 	# Bonus
 	
-	naval_morale = 0.1 
+	naval_morale = 0.025
+
+	skill_scaled_modifier = { 
+		modifier = { 
+			naval_morale = 0.025
+		} 
+	}
+
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1252,7 +1310,13 @@ trader = {
 	}
 	
 	# Bonus
-	trade_efficiency = 0.10
+	trade_efficiency = 0.025
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			trade_efficiency = 0.025
+		} 
+	}
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1374,7 +1438,14 @@ spymaster = {
 	}
 	
 	# Bonus
-	spy_offence = 0.25
+	spy_offence = 0.15
+
+    	skill_scaled_modifier = { 
+		modifier = { 
+			spy_offence = 0.05
+		} 
+	}
+
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1451,7 +1522,14 @@ colonial_governor = {
 	}
 	
 	# Bonus
-	global_tariffs = 0.10
+	global_tariffs = 0.05
+
+    	skill_scaled_modifier = { 
+		modifier = { 
+			global_tariffs = 0.05
+		} 
+	}
+	 
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1536,7 +1614,14 @@ diplomat = {
 	}
 	
 	# Bonus
-	improve_relation_modifier = 0.2
+	improve_relation_modifier = 0.1
+
+    	skill_scaled_modifier = { 
+		modifier = { 
+			improve_relation_modifier = 0.1
+		} 
+	}
+
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1637,7 +1722,13 @@ navigator = {
 	}
 	
 	# Bonus
-	global_colonial_growth = 25
+	inflation_reduction = -0.05
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			inflation_reduction = -0.05
+		} 
+	}
 	
 	skill_scaled_modifier = {
 		trigger = {
@@ -1723,7 +1814,14 @@ army_reformer = {
 	}
 	
 	# Bonus
-	land_morale = 0.10
+	land_morale = 0.05
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			meritocracy = 0.25
+			land_morale = 0.01
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -1800,7 +1898,14 @@ army_organiser = {
 	}
 	
 	# Bonus
-	land_forcelimit_modifier = 0.15
+	land_forcelimit_modifier = 0.075
+
+	
+	skill_scaled_modifier = { 
+		modifier = { 
+			land_forcelimit_modifier = 0.025
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -1908,7 +2013,13 @@ commandant = {
 	}
 	
 	# Bonus
-	discipline = 0.05
+	discipline = 0.025
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			discipline = 0.005
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -1974,7 +2085,15 @@ quartermaster = {
 	}
 	
 	# Bonus
-	reinforce_speed = 0.33
+	reinforce_speed = 0.15
+
+	
+	skill_scaled_modifier = { 
+		modifier = { 
+			reinforce_speed = 0.05
+		} 
+	}
+
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -2053,7 +2172,14 @@ recruitmaster = {
 	}
 	
 	# Bonus
-	manpower_recovery_speed = 0.20
+	manpower_recovery_speed = 0.125
+
+	
+	skill_scaled_modifier = { 
+		modifier = { 
+			manpower_recovery_speed = 0.025
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -2133,7 +2259,13 @@ fortification_expert = {
 	}
 	
 	# Bonus
-	defensiveness = 0.2
+	defensiveness = 0.1
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			defensiveness = 0.05
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {
@@ -2209,7 +2341,14 @@ grand_captain = {
 	}
 	
 	# Bonus
-	land_maintenance_modifier = -0.10
+	land_maintenance_modifier = -0.05
+
+		skill_scaled_modifier = { 
+		modifier = { 
+			meritocracy = 0.25
+			land_maintenance_modifier = -0.025
+		} 
+	}
 
 	skill_scaled_modifier = {
 		trigger = {

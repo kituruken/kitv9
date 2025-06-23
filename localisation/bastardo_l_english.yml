@@ -360,3 +360,122 @@ OTTOMAN_EMPIRE_ADJ:0 "Ottoman"
 gc_french_empire:0 "French Empire"
 gc_french_empire_desc:0 "Veillons au salut de l'Empire"
 
+  NGF:0 "North German Federation"
+  NGF_ADJ:0 "North German"
+  SGF:0 "South German Federation"
+  SGF_ADJ:0 "South German"
+
+   #Germans
+ gc_form_ngf_title:0 "Unite North Germany"
+ gc_form_ngf_desc:0 ""
+
+ gc_form_sgf_title:0 "Unite South Germany"
+ gc_form_sgf_desc:0 ""
+
+ #South German
+  SGF_ideas:0 "South German Ideas"
+  SGF_ideas_start:0 "South German Traditions"
+  SGF_ideas_bonus:0 "South German Ambition"
+
+  SGF_national_idea_1:0 "Mandatory Service"
+  SGF_national_idea_2:0 "Forwards to Unity"
+  SGF_national_idea_3:0 "Austrian Chain of Command"
+  SGF_national_idea_4:0 "Prosperous Nation"
+  SGF_national_idea_5:0 "Hessian Mercenaries"
+  SGF_national_idea_6:0 "South German Infantry"
+  SGF_national_idea_7:0 "South German Court"
+
+  SGF_national_idea_1_desc:0 "Every man above the age of 16 must serve a mandatory time in the Army."
+  SGF_national_idea_2_desc:0 "The first steps towards German Unity have been made. We must pursue the Unity of Germany."
+  SGF_national_idea_3_desc:0 "The Austrians have a very efficent way to deliver orders on the battlefield and to home."
+  SGF_national_idea_4_desc:0 "The South German Valleys are great for Urbanization."
+  SGF_national_idea_5_desc:0 "Hessian Mercenaries are famous for their efficency."
+  SGF_national_idea_6_desc:0 "The South German Army composes of many different formidable Armies."
+  SGF_national_idea_7_desc:0 "The South German Federation houses many competent Advisors."
+  
+
+  #North German
+  NGF_ideas:0 "North German Ideas"
+  NGF_ideas_start:0 "North German Traditions"
+  NGF_ideas_bonus:0 "North German Ambition"
+
+  NGF_national_idea_1:0 "North German Infantry"
+  NGF_national_idea_2:0 "Forwards to Unity"
+  NGF_national_idea_3:0 "Mandatory Service"
+  NGF_national_idea_4:0 "National Militarisation"
+  NGF_national_idea_5:0 "Reichsbank"
+  NGF_national_idea_6:0 "The Reichsflotte"
+  NGF_national_idea_7:0 "The Hanseatic Merchants"
+
+  NGF_national_idea_1_desc:0 "The North German Military is composed of many different Infantry Corps from various German regions. These Corps are formidable foes on their own."
+  NGF_national_idea_2_desc:0 "The first steps towards German Unity have been made. We must pursue the Unity of Germany."
+  NGF_national_idea_3_desc:0 "Every man above the age of 16 must serve a mandatory time in the Army."
+  NGF_national_idea_4_desc:0 "The Military is the focus of North German Society."
+  NGF_national_idea_5_desc:0 "The Reichsbank is responsible for the National Economy."
+  NGF_national_idea_6_desc:0 "Although Germany is not the greatest Naval Power, it can rely on the Reichsflotte to protect the German shore."
+  NGF_national_idea_7_desc:0 "The Hansa is incorporated into the Reichsbank and acts in interest for Germany."
+
+
+   #Advisor Events
+ gc_advisor_events.1.t:0 "$GC_ARTY_OFFICER$"
+ gc_advisor_events.1.d:0 "An Artillery Officer par excellence, $GC_ARTY_OFFICER$ has turned our Artillery Crews into clockwork automatons that don't fail on the battlefield."
+ gc_advisor_events.1.a:0 "Perhaps another Time"
+ gc_advisor_events.1.b:0 "$GC_ARTY_OFFICER_CAP_POSS_PRONOUN$ efforts will be admired throughout the nation."
+ gc_advisor_events.1.c:0 "$GC_ARTY_OFFICER_CAP_POSS_PRONOUN$ reputation will reach further than our borders."
+
+ gc_advisor_events.2.t:0 "$GC_DRILL_MASTER$"
+ gc_advisor_events.2.d:0 "A drillmaster par excellence, $GC_DRILL_MASTER$ has turned our army into clockwork automatons that don't flinch on the battlefield."
+ gc_advisor_events.2.a:0 "Perhaps another Time" 
+ gc_advisor_events.2.b:0 "$GC_DRILL_MASTER_CAP_POSS_PRONOUN$ efforts will be admired throughout the nation."
+ gc_advisor_events.2.c:0 "$GC_DRILL_MASTER_CAP_POSS_PRONOUN$ reputation will reach further than our borders."
+
+ gc_advisor_events.3.t:0 "$SIEGE_SPECIALIST$"
+ gc_advisor_events.3.d:0 "A Siege Specialist par excellence, $SIEGE_SPECIALIST$ has turned our pioneers into a force to be reckoned with."
+ gc_advisor_events.3.a:0 "Perhaps another Time" 
+ gc_advisor_events.3.b:0 "$SIEGE_SPECIALIST_CAP_POSS_PRONOUN$ efforts will be admired throughout the nation."
+ gc_advisor_events.3.c:0 "$SIEGE_SPECIALIST_CAP_POSS_PRONOUN$ reputation will reach further than our borders."
+
+ gc_advisor_events.4.t:0 "$INFANTRY_LEADER$"
+ gc_advisor_events.4.d:0 "An Infantry Leader par excellence, $INFANTRY_LEADER$ has turned our Infantry into clockwork automatons that don't flinch on the battlefield."
+ gc_advisor_events.4.a:0 "Perhaps another Time" 
+ gc_advisor_events.4.b:0 "$INFANTRY_LEADER_CAP_POSS_PRONOUN$ efforts will be admired throughout the nation."
+ gc_advisor_events.4.c:0 "$INFANTRY_LEADER_CAP_POSS_PRONOUN$ reputation will reach further than our borders."
+
+ gc_advisor_events.5.t:0 "$CAVALRY_LEADER$"
+ gc_advisor_events.5.d:0 "A Cavalry Leader par excellence, $CAVALRY_LEADER$ has turned our Cavalry into a tool of fear."
+ gc_advisor_events.5.a:0 "Perhaps another Time" 
+ gc_advisor_events.5.b:0 "$CAVALRY_LEADER_CAP_POSS_PRONOUN$ efforts will be admired throughout the nation."
+ gc_advisor_events.5.c:0 "$CAVALRY_LEADER_CAP_POSS_PRONOUN$ reputation will reach further than our borders."
+
+  GC_infantry_leader_cooldown_tooltip:0 "Infantry Leader"
+ GC_cavalry_leader_cooldown_tooltip:0 "Cavalry Leader"
+ GC_arty_officer_cooldown_tooltip:0 "Arty Officer
+
+  gecko.11.k:0 "Recruit Artillery Officer"
+   gecko.11.g:0 "Recruit Cavalry Leader"
+    gecko.11.e:0 "Recruit Siege Specialist"
+ gecko.11.f:0 "Recruit Infantry Leader"
+  gecko.11.d:0 "Recruit Drillmaster"
+
+
+l_english:
+ gc_drill_master:0 "Drill Master"
+ gc_drill_master_desc:0 "Drill drill drill"
+
+ gc_arty_officer:0 "Artillery Officer"
+ gc_arty_officer_desc:0 "Cannon goes boom"
+
+ gc_inquisitor:0 "Minister of Culture"
+ gc_inquisitor_dec:0 "Uhhh"
+
+ siege_specialist:0 "Siege Specialist"
+ siege_specialist_desc:0 "Once more into the breach"
+ 
+ infantry_leader:0 "Infantry Leader"
+ infantry_leader_desc:0 "Rage my soldiers!"
+ cavalry_leader:0 "Cavalry Leader"
+ cavalry_leader_desc:0 "Chaaaaaaaaaaaaarge!"
+#drillmaster
+ excellent_drill:0 "Excellent Drill"
+ drillmaster_events.1.t:0 "$DRILLMASTER$"
+ drillmaster_events.1.d:0 "One of our advisors, $DRILLMASTER$ has drilled our men to the pitch of military efficiency. Like a coiled spring we cannot maintain this high level for too long. Still, for a while our armies will stand where lesser men would run."

@@ -530,7 +530,7 @@ country_decisions = {
 	swabia_nation = {
 		major = yes
 		potential = {
-			always = no
+			TAG = SWI
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			was_never_german_regional_tag_trigger = yes
@@ -538,10 +538,6 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
-			}
-			OR = {
-				is_free_or_tributary_trigger = yes
-				ai = no
 			}
 			NOT = { exists = SWA }
 			is_colonial_nation = no
@@ -552,7 +548,6 @@ country_decisions = {
 					ai = no
 				}
 			}
-			primary_culture = swabian
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -582,7 +577,7 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			#adm_tech = 10
+			adm_tech = 10
 			owns_core_province = 70 #Wurttemberg
 			owns_core_province = 1872 #Ulm
 			num_of_owned_provinces_with = {
@@ -594,7 +589,6 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SWA
-			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			lower_swabia_area = {
 				limit = {
@@ -646,9 +640,9 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 			set_country_flag = formed_swabia_flag
-		
+
 			if = {
 				limit = {
 					OR = {

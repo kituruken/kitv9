@@ -820,7 +820,7 @@ country_event = { #Ottoman Ruler Failsafe
 
 	trigger = {
 		tag = TUR
-		NOT = { has_ruler = "Mehmed II Fatih" }
+		NOT = { has_ruler = "Mehmet II Fatih" }
 		NOT = { is_year = 1480 }
 	}
 
@@ -856,7 +856,7 @@ country_event = { #Ottoman Ruler Failsafe
 	 }
 
 	mean_time_to_happen = {
-		months = 12
+		months = 1
 	}
 
 	option = {

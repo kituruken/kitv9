@@ -195,6 +195,18 @@ country_decisions = {
 				NOT = { has_country_modifier = echo_grand_captain_cooldown }
 				NOT = { has_country_modifier = echo_grand_captain_cooldown_100 }
 			}
+			custom_trigger_tooltip = { #ICA 
+				tooltip = GC_infantry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = gc_infantry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #CCA 
+				tooltip = GC_cavalry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = gc_cavalry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #ACA 
+				tooltip = GC_arty_officer_cooldown_tooltip
+				NOT = { has_country_modifier = gc_arty_officer_cooldown }
+			}
 		}
 		effect = {
 		}

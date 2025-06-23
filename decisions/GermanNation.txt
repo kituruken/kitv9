@@ -141,7 +141,9 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 20
+			adm_tech = 18
+			tag = SGF
+			tag = NGF
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no

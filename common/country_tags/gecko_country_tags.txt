@@ -14,3 +14,7 @@ FO7 = "countries/Dongye.txt"
 
 DSA = "countries/SouthAfrica.txt"
 ORJ = "countries/Oranje.txt"
+
+
+NGF = "countries/NorthGermanFederation.txt"
+SGF = "countries/SouthGermanFederation.txt"
