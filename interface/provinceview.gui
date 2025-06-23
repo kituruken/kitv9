@@ -2990,6 +2990,17 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 				}
+					instantTextBoxType = {
+					name = "expand_infrastructure_IV" # Idea Variation
+					position = { x = 100 y = 587 }
+					textureFile = ""
+					font = "vic_22"
+					borderSize = {x = 2 y = 2}
+					text = "expand_infrastructure_flogi"
+					maxWidth = 256
+					maxHeight = 32
+					format = left
+				}
 				
 				guiButtonType =
 				{
