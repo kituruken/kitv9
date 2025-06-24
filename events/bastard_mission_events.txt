@@ -725,7 +725,7 @@ country_event = { #Poland Ruler Failsafe
 	trigger = {
 		tag = POL
 		NOT = { adm = 6 dip = 6 mil = 6 }
-		NOT = { is_year = 1475 }
+		NOT = { is_year = 1465 }
 		is_free_or_tributary_trigger = yes
 		has_country_flag = gecko_localnoble
 	}
@@ -821,7 +821,7 @@ country_event = { #Ottoman Ruler Failsafe
 	trigger = {
 		tag = TUR
 		NOT = { has_ruler = "Mehmet II Fatih" }
-		NOT = { is_year = 1480 }
+		NOT = { is_year = 1470 }
 	}
 
 	 immediate = {
@@ -872,7 +872,7 @@ country_event = { #Ottoman Ruler Failsafe
 			adm = 6
 			dip = 4
 			mil = 5
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_tur_nobles = {
@@ -916,7 +916,7 @@ country_event = { #Persian Ruler Failsafe
 	trigger = {
 		tag = AKK
 		NOT = { has_ruler = "Uzun Hasan" }
-		NOT = { is_year = 1500 }
+		NOT = { is_year = 1465 }
 	}
 
 	 immediate = {
@@ -967,7 +967,7 @@ country_event = { #Persian Ruler Failsafe
 			adm = 4
 			dip = 4
 			mil = 6
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_per_nobles = {
@@ -1011,7 +1011,7 @@ country_event = { #Mughal Ruler Failsafe
 	trigger = {
 		tag = CHG
 		NOT = { has_ruler = "Esen Boga" }
-		NOT = { is_year = 1500 }
+		NOT = { is_year = 1465 }
 	}
 
 	 immediate = {
@@ -1053,7 +1053,7 @@ country_event = { #Mughal Ruler Failsafe
 			adm = 4
 			dip = 4
 			mil = 5
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_mug_nobles = {
@@ -1201,7 +1201,7 @@ country_event = { #Mughal Ruler Failsafe
 	trigger = {
 		tag = TRS
 		NOT = { has_ruler = "Ulugh Beg" }
-		NOT = { is_year = 1480 }
+		NOT = { is_year = 1470 }
 	}
 
 	 immediate = {
@@ -1252,7 +1252,7 @@ country_event = { #Mughal Ruler Failsafe
 			adm = 6
 			dip = 4
 			mil = 5
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_trs_nobles = {
@@ -1341,7 +1341,7 @@ country_event = { #Ethopian Ruler Failsafe
 	trigger = {
 		tag = ETH
 		NOT = { has_ruler = "Zara Yakob" }
-		NOT = { is_year = 1475 }
+		NOT = { is_year = 1465 }
 	}
 
 	 immediate = {
@@ -1392,7 +1392,7 @@ country_event = { #Ethopian Ruler Failsafe
 			adm = 6
 			dip = 5
 			mil = 4
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_eth_nobles = {
@@ -1437,7 +1437,7 @@ country_event = { #Ottoman Ruler Failsafe
 	trigger = {
 		tag = POL
 		NOT = { has_ruler = "Kitten" }
-		NOT = { is_year = 1475 }
+		NOT = { is_year = 1465 }
 	}
 
 	 immediate = {
@@ -1488,7 +1488,7 @@ country_event = { #Ottoman Ruler Failsafe
 			adm = 5
 			dip = 5
 			mil = 5
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_pol_nobles = {
@@ -1533,7 +1533,7 @@ country_event = { #Ottoman Ruler Failsafe
 	trigger = {
 		tag = CRI
 		NOT = { has_ruler = "Haji I" }
-		NOT = { is_year = 1475 }
+		NOT = { is_year = 1465 }
 	}
 
 	 immediate = {
@@ -1584,7 +1584,7 @@ country_event = { #Ottoman Ruler Failsafe
 			adm = 5
 			dip = 3
 			mil = 5
-			age = 30
+			age = 35
 			claim = 20
 		}
 		event_target:gecko_cri_nobles = {

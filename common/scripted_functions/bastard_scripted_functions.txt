@@ -98,7 +98,6 @@ can_colonize_province = {
 		allow = {
 				NOT = {
 					OR = {
-						region = east_siberia_region
 						region = west_siberia_region
 						region = ural_region
 					}

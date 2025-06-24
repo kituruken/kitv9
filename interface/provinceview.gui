@@ -2990,7 +2990,7 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 				}
-					instantTextBoxType = {
+								instantTextBoxType = {
 					name = "expand_infrastructure_IV" # Idea Variation
 					position = { x = 100 y = 587 }
 					textureFile = ""

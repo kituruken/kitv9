@@ -3031,50 +3031,36 @@ DOM_japanse_missions_5 = {
 		required_missions = { jap_proliferation_firearms }
 		position = 4
 		provinces_to_highlight = {
-			OR = { 
-				province_id = 1018
-				province_id = 4184
-				province_id = 4189
+               OR = {
+					area = mexico_area
+					area = michoacan_area
+					area = tierra_caliente_area
+					area = jalisco_area
 			}
-			OR = { 
-				NOT = { base_production = 10 } 
-				has_production_building_trigger = no 
-				has_manufactory_trigger = no 
-			}
+			NOT = { country_or_non_sovereign_subject_holds = root }
 		}
 		trigger = {
-			1018 = { 
-				has_production_building_trigger = yes 
-				has_manufactory_trigger = yes 
-				base_production = 10
+			mexico_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			4184 = { 
-				has_production_building_trigger = yes 
-				has_manufactory_trigger = yes 
-				base_production = 10
+			michoacan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
-			4189 = { 
-				has_production_building_trigger = yes 
-				has_manufactory_trigger = yes 
-				base_production = 10
+			tierra_caliente_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jalisco_area = {
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			#if = {
-			#	limit = { has_dlc = "Cradle of Civilization" }
-			#	custom_tooltip = jap_army_buildings_grant_ap_tt
-			#}
-			#else = { 
-			#	add_country_modifier = {
-			#		name = jap_high_quality_weapons_modifier
-			#		duration = 9125
-			#	}
-			#}
-			
-			change_ruler_stat = {
-				type = mil
-				amount = 1
-			} 
+				add_country_modifier = {
+					name = jap_high_quality_weapons_modifier
+					duration = -1
+				}
 		}
 	}
 	

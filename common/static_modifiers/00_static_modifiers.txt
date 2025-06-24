@@ -74,6 +74,7 @@ difficulty_normal_ai = {
 	global_autonomy = -0.1
 	yearly_corruption = -0.1
 	diplomatic_upkeep = -2
+	merchants = -2
 	
 }
 

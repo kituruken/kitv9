@@ -9677,7 +9677,7 @@ jap_shinto_warriors_modifier = {
 	manpower_in_true_faith_provinces = 0.1
 	enforce_religion_cost = -0.5
 	missionaries = 1 
-	land_morale = 0.15
+	land_morale = 0.05
 	religion = yes
 }
 
@@ -9759,8 +9759,8 @@ jap_firearm_production_modifier = {
 }
 
 jap_high_quality_weapons_modifier = {
-	army_tradition = 1 
-	global_regiment_cost = -0.05
+	 special_unit_forcelimit = 0.4
+	 infantry_power = 0.1
 }
 
 jap_trade_west_modifier = {
