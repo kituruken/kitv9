@@ -256,3 +256,6 @@ bastard_convert_trib_to_vassal_tt:0 "§YCan Convert Tributary States to Vassals�
 
  i82:0 "Strong Subjects"
  i82_desc:0 "§TPer our dip tech§! level, our vassals and marches gain:\n§G+8§! Yearly Tax Income\n§G+1§! Forcelimit\n§G+1,500§! Manpower\n"
+
+  kits_blessing:0 "Kit's Blessing"
+ kits_blessing_desc:0 "'§YIndebted to the [Root.GetBurghersName]§!' Estate Privilege §Ggrants 10§! Loans."

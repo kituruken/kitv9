@@ -264,27 +264,6 @@ the_mercenary_registration_act = {
 
 
 
-the_mining_act = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = expansion_ideas
-		has_idea_group = quality_ideas
-	}
-	allow = {
-		full_idea_group = expansion_ideas
-		full_idea_group = quality_ideas
-	}
-	
-	infantry_shock = 0.15
-	infantry_power = 0.05
-	
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1		
-	}
-}
 
 the_liquor_act = {
 	monarch_power = MIL
@@ -490,6 +469,28 @@ military_zeal_act = {
 	}
 }
 
+military_zeal_act = {
+	monarch_power = MIL
+	
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = court_ideas
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = court_ideas
+	}
+	
+	infantry_power = 0.075
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
 field_priests = {
 	monarch_power = MIL
 
@@ -672,28 +673,7 @@ trained_marines_act = {
 	}
 }
 
- faith_advisors_policy = { 
- 	monarch_power = MIL
- 	
- 	potential = {
- 		has_idea_group = theocracy_gov_ideas
- 		has_idea_group = diplomatic_ideas
- 	}
- 	
- 	allow = {
- 		full_idea_group = theocracy_gov_ideas
- 		full_idea_group = diplomatic_ideas
- 	}
- 	
- 	shock_damage_received = -0.1
-	morale_damage_received = -0.1
-	
- 	effect = {}
- 	removed_effect = {}
- 	ai_will_do = {
- 		factor = 1	
- 	}
- }
+
 		
  the_tenures_abolition_act = {
  	monarch_power = MIL
@@ -1279,28 +1259,6 @@ sturdy_argument_act = {
 	}
 }
 
-special_forces_act = { 
-	monarch_power = MIL
-	
-	potential = {
-		has_idea_group = court_ideas
-		has_idea_group = quality_ideas 
-	}
-	
-	allow = {
-		full_idea_group = court_ideas
-		full_idea_group = quality_ideas 
-	}
-	
-	global_regiment_cost = -0.1
-	yearly_army_professionalism = 0.002
-
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1		
-	}
-}
 
 plentiful_materials_act = { 
 	monarch_power = MIL
@@ -1399,7 +1357,7 @@ religious_spread_policy = {
 	potential = {
 		has_idea_group = religious_ideas
 		has_idea_group = aristocracy_ideas
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 	}
 	
 	allow = {
@@ -1424,13 +1382,13 @@ religious_spread_policy = {
 	potential = {
 		has_idea_group = religious_ideas
 		has_idea_group = aristocracy_ideas
-		mil_tech = 15
-		NOT = {mil_tech = 22}
+		mil_tech = 12
+		NOT = {mil_tech = 17}
 	}
 	
 	allow = {
 		NOT = { has_active_policy = the_witchcraft_act }
-		mil_tech = 15
+		mil_tech = 12
 		full_idea_group = religious_ideas
 		full_idea_group = aristocracy_ideas
 	}
@@ -1450,13 +1408,13 @@ the_witchcraft_act_2 = {
 	potential = {
 		has_idea_group = religious_ideas
 		has_idea_group = aristocracy_ideas
-		mil_tech = 22
+		mil_tech = 17
 		NOT = {mil_tech = 32}
 	}
 	
 	allow = {
 		NOT = { has_active_policy = the_witchcraft_act_1 }
-		mil_tech = 22
+		mil_tech = 17
 		full_idea_group = religious_ideas
 		full_idea_group = aristocracy_ideas
 	}
@@ -1476,7 +1434,7 @@ the_licensing_of_the_press_act = {
 	potential = {
 		has_idea_group = administrative_ideas
 		has_idea_group = aristocracy_ideas
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 	}
 	
 	allow = {
@@ -1499,13 +1457,13 @@ the_licensing_of_the_press_act_1 = {
 	potential = {
 		has_idea_group = administrative_ideas
 		has_idea_group = aristocracy_ideas
-		mil_tech = 15
-		NOT = {mil_tech = 22}
+		mil_tech = 12
+		NOT = {mil_tech = 17}
 	}
 	
 	allow = {
 		NOT = { has_active_policy = the_licensing_of_the_press_act }
-		mil_tech = 15
+		mil_tech = 12
 		full_idea_group = administrative_ideas
 		full_idea_group = aristocracy_ideas
 	}
@@ -1525,13 +1483,12 @@ the_licensing_of_the_press_act_2 = {
 	potential = {
 		has_idea_group = administrative_ideas
 		has_idea_group = aristocracy_ideas
-		NOT = {mil_tech = 32}
-		mil_tech = 22
+		mil_tech = 17
 	}
 	
 	allow = {
 		NOT = { has_active_policy = the_licensing_of_the_press_act_1 }
-		mil_tech = 22
+		mil_tech = 17
 		full_idea_group = administrative_ideas
 		full_idea_group = aristocracy_ideas
 	}
@@ -1551,7 +1508,7 @@ aristocratic_rule_act = {
 	potential = {
 		has_idea_group = infrastructure_ideas
 		has_idea_group = aristocracy_ideas 
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 		NOT = { has_active_policy = aristocratic_rule_act_1 }
 		NOT = { has_active_policy = aristocratic_rule_act_2 }
 	}
@@ -1559,7 +1516,7 @@ aristocratic_rule_act = {
 	allow = {
 		full_idea_group = infrastructure_ideas
 		full_idea_group = aristocracy_ideas 
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 	}
 
 	cavalry_shock = 0.25
@@ -1578,14 +1535,14 @@ aristocratic_rule_act_1 = {
 	potential = {
 		has_idea_group = infrastructure_ideas
 		has_idea_group = aristocracy_ideas
-		mil_tech = 15
-		NOT = {mil_tech = 22}
+		mil_tech = 12
+		NOT = {mil_tech = 17}
 	}
 	
 	allow = {
 		full_idea_group = infrastructure_ideas
 		full_idea_group = aristocracy_ideas 
-		NOT = {mil_tech = 22}
+		NOT = {mil_tech = 17}
 		NOT = { has_active_policy = aristocratic_rule_act }
 	}
 
@@ -1605,7 +1562,7 @@ aristocratic_rule_act_2 = {
 	potential = {
 		has_idea_group = infrastructure_ideas
 		has_idea_group = aristocracy_ideas 
-		mil_tech = 22
+		mil_tech = 17
 	}
 	
 	allow = {
@@ -1634,13 +1591,13 @@ formalized_measures = {
 		has_idea_group = economic_ideas
 		NOT = { has_active_policy = formalized_measures_1 }
 		NOT = { has_active_policy = formalized_measures_2 }
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 	}
 	
 	allow = {
 		full_idea_group = plutocracy_ideas
 		full_idea_group = economic_ideas
-		NOT = {mil_tech = 15}
+		NOT = {mil_tech = 12}
 	}	
 
 	infantry_fire = 0.15
@@ -1659,14 +1616,14 @@ formalized_measures_1 = {
 	potential = {
 		has_idea_group = plutocracy_ideas
 		has_idea_group = economic_ideas
-		mil_tech = 15
-		NOT = {mil_tech = 22}
+		mil_tech = 12
+		NOT = {mil_tech = 16}
 	}
 	
 	allow = {
 		full_idea_group = plutocracy_ideas
 		full_idea_group = economic_ideas
-		NOT = {mil_tech = 22}
+		NOT = {mil_tech = 16}
 		NOT = { has_active_policy = formalized_measures }
 	}	
 
@@ -1686,7 +1643,7 @@ formalized_measures_2 = {
 	potential = {
 		has_idea_group = plutocracy_ideas
 		has_idea_group = economic_ideas
-		mil_tech = 22
+		mil_tech = 16
 	}
 	
 	allow = {
@@ -1708,15 +1665,15 @@ black_chamber_act = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = spy_ideas
+		has_idea_group = trade_ideas
 		has_idea_group = offensive_ideas
 		NOT = { has_active_policy = black_chamber_act_1 }
 		NOT = { has_active_policy = black_chamber_act_2 }
-		NOT = {mil_tech = 16}
+		NOT = {mil_tech = 12}
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
+		full_idea_group = trade_ideas
 		full_idea_group = offensive_ideas
 	}
 	
@@ -1732,16 +1689,16 @@ black_chamber_act_1 = {
 	monarch_power = MIL
 		
 	potential = {
-		mil_tech = 16
-		NOT = {mil_tech = 22}
-		has_idea_group = spy_ideas
+		mil_tech = 12
+		NOT = {mil_tech = 16}
+		has_idea_group = trade_ideas
 		has_idea_group = offensive_ideas
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
+		full_idea_group = trade_ideas
 		full_idea_group = offensive_ideas
-		NOT = {mil_tech = 22}
+		NOT = {mil_tech = 16}
 		NOT = { has_active_policy = black_chamber_act }
 	}
 	
@@ -1757,13 +1714,13 @@ black_chamber_act_2 = {
 	monarch_power = MIL
 	
 	potential = {
-		has_idea_group = spy_ideas
+		has_idea_group = trade_ideas
 		has_idea_group = offensive_ideas
-		mil_tech = 22
+		mil_tech = 16
 	}
 	
 	allow = {
-		full_idea_group = spy_ideas
+		full_idea_group = trade_ideas
 		full_idea_group = offensive_ideas
 		NOT = {mil_tech = 32}
 		NOT = { has_active_policy = black_chamber_act_1 }
@@ -1799,6 +1756,169 @@ black_chamber_act_2 = {
 # 	}
 # }
 
+
+shocking_measures = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = theocracy_gov_ideas
+		has_idea_group = diplomatic_ideas
+		NOT = { has_active_policy = shocking_measures_1 }
+		NOT = { has_active_policy = shocking_measures_2 }
+		NOT = {mil_tech = 12}
+	}
+	
+	allow = {
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = diplomatic_ideas
+		NOT = {mil_tech = 12}
+	}	
+
+	artillery_shock = 0.25
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
+shocking_measures_1 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = theocracy_gov_ideas
+		has_idea_group = diplomatic_ideas
+		mil_tech = 12
+		NOT = {mil_tech = 16}
+	}
+	
+	allow = {
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = diplomatic_ideas
+		NOT = {mil_tech = 16}
+		NOT = { has_active_policy = shocking_measures }
+	}	
+
+	artillery_shock = 0.50
+
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
+shocking_measures_2 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = theocracy_gov_ideas
+		has_idea_group = diplomatic_ideas
+		mil_tech = 16
+	}
+	
+	allow = {
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = diplomatic_ideas
+		NOT = {mil_tech = 32}
+		NOT = { has_active_policy = shocking_measures_1 }
+	}	
+
+	artillery_shock = 0.75
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
+
+another_shocking_measures = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = expansion_ideas
+		NOT = { has_active_policy = another_shocking_measures_1 }
+		NOT = { has_active_policy = another_shocking_measures_2 }
+		NOT = {mil_tech = 12}
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = expansion_ideas
+		NOT = {mil_tech = 12}
+	}	
+
+	infantry_shock = 0.15
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
+another_shocking_measures_1 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = expansion_ideas
+		mil_tech = 12
+		NOT = {mil_tech = 16}
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = expansion_ideas
+		NOT = {mil_tech = 16}
+		NOT = { has_active_policy = another_shocking_measures }
+	}	
+
+	infantry_shock = 0.25
+
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
+
+another_shocking_measures_2 = {
+	monarch_power = MIL
+
+
+	potential = {
+		has_idea_group = quality_ideas
+		has_idea_group = expansion_ideas
+		mil_tech = 16
+	}
+	
+	allow = {
+		full_idea_group = quality_ideas
+		full_idea_group = expansion_ideas
+		NOT = {mil_tech = 32}
+		NOT = { has_active_policy = another_shocking_measures_1 }
+	}	
+
+     infantry_shock = 0.35
+
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1		
+	}
+}
 
 
 

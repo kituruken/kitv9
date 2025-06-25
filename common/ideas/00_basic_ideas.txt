@@ -197,8 +197,9 @@ economic_ideas = {
 		gold_depletion_chance_modifier = -0.25
 		monthly_gold_inflation_modifier = -0.25
 	}
-	debt_and_loans = {
-		interest = -0.5
+	kits_blessing = {
+		burghers_loyalty_modifier = 0.1
+		jains_loyalty_modifier = 0.1
 	}
 	smithian_economics = { 
 		#Mechanic: +1/-1 Dev from Manufactories		#Note for modders; the two mechanics introduced in 1.35   
@@ -486,7 +487,7 @@ spy_ideas = {
 		idea_cost = -0.1
 	}
 	destabilising_efforts = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 	efficient_spies = {
 		yearly_corruption = -0.25
@@ -999,7 +1000,7 @@ theocracy_gov_ideas = {
 	}
 	martyrs = {
 		manpower_in_true_faith_provinces = 0.25
-		artillery_fire = 0.25
+		artillery_shock = 0.25
 
 	}
 	ai_will_do = {

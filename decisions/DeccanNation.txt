@@ -5,8 +5,10 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			tag = VIJ
-			tag = BAH
+            OR = {
+				tag = VIJ
+				tag = BAH
+			}
 		}
 		provinces_to_highlight = {
 			OR = {

@@ -283,6 +283,7 @@ estate_jains_indebted_to_jains = {
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		if = {
+			has_idea = kits_blessing
 			limit = { NOT = { has_government_attribute = no_mercantilism_loss_from_privilege } }
 			add_mercantilism = -1
 		}
@@ -291,29 +292,62 @@ estate_jains_indebted_to_jains = {
 		}
 		hidden_effect = {
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2
 				duration = 60
 				estate_loan = yes
 			}
 			add_loan = {
-				fixed_interest = 1
+				fixed_interest = 2
 				duration = 60
 				estate_loan = yes
+			}
+			if = {
+				limit = {
+					OR = { 
+					has_idea = kits_blessing
+					has_country_flag = BYZ_buff_burgher_loans_flag
+					}
+				}
+				add_loan = {
+					fixed_interest = 2
+					duration = 60
+					estate_loan = yes
+				}
+				add_loan = {
+					fixed_interest = 2
+					duration = 60
+					estate_loan = yes
+				}
+					add_loan = {
+					fixed_interest = 2
+					duration = 60
+					estate_loan = yes
+				}
+					add_loan = {
+					fixed_interest = 2
+					duration = 60
+					estate_loan = yes
+				}
+					add_loan = {
+					fixed_interest = 2	
+					duration = 60
+					estate_loan = yes
+				}
 			}
 		}
 	}

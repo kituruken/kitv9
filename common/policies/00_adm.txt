@@ -20,7 +20,7 @@ the_combination_act = {
 }
 
 vassal_taxation_policy = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = offensive_ideas
@@ -32,7 +32,8 @@ vassal_taxation_policy = {
 		full_idea_group = administrative_ideas
 	}
 
-    artillery_shock = 0.5
+    assault_fort_ability = 0.15
+	fire_damage = 0.05
 
 	effect = {}
 	removed_effect = {}
@@ -138,7 +139,7 @@ enforce_religious_law = {
 }
 
 the_tolerance_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = religious_ideas
@@ -187,7 +188,7 @@ the_pioneer_policy = {
 
 
 the_provincial_taxation_system = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = administrative_ideas
@@ -378,7 +379,7 @@ taxation_with_representation = {
  }
 
 anti_heresy_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = religious_ideas
@@ -472,7 +473,7 @@ plutocratic_rule_act = {
 }
 
  theocratic_rule_act = { 
- 	monarch_power = ADM
+ 	monarch_power = MIL
  	
  	potential = {
  		has_idea_group = infrastructure_ideas
@@ -484,7 +485,7 @@ plutocratic_rule_act = {
  		full_idea_group = theocracy_gov_ideas 
  	}
  	
-    fire_damage = 0.1
+    shock_damage = 0.1
 	
  	effect = {}
  	removed_effect = {}
