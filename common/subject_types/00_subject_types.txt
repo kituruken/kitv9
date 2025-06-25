@@ -278,6 +278,196 @@ vassal = {
 			}
 		}
 	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_3
+		trigger = {
+			overlord = {
+				has_idea = i82
+				dip_tech = 3
+				NOT = { dip_tech = 4 }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_4
+		trigger = {
+			overlord = {
+				dip_tech = 4
+				NOT = { dip_tech = 5 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_5
+		trigger = {
+			overlord = {
+				dip_tech = 5
+				NOT = { dip_tech = 6 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_6
+		trigger = {
+			overlord = {
+				dip_tech = 6
+				NOT = { dip_tech = 7 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_7
+		trigger = {
+			overlord = {
+				dip_tech = 7
+				NOT = { dip_tech = 8 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_8
+		trigger = {
+			overlord = {
+				dip_tech = 8
+				NOT = { dip_tech = 9 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_9
+		trigger = {
+			overlord = {
+				dip_tech = 9
+				NOT = { dip_tech = 10 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_10
+		trigger = {
+			overlord = {
+				dip_tech = 10
+				NOT = { dip_tech = 11 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_11
+		trigger = {
+			overlord = {
+				dip_tech = 11
+				NOT = { dip_tech = 12 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_12
+		trigger = {
+			overlord = {
+				dip_tech = 12
+				NOT = { dip_tech = 13 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_13
+		trigger = {
+			overlord = {
+				dip_tech = 13
+				NOT = { dip_tech = 14 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_14
+		trigger = {
+			overlord = {
+				dip_tech = 14
+				NOT = { dip_tech = 15 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_15
+		trigger = {
+			overlord = {
+				dip_tech = 15
+				NOT = { dip_tech = 16 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_16
+		trigger = {
+			overlord = {
+				dip_tech = 16
+				NOT = { dip_tech = 17 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_17
+		trigger = {
+			overlord = {
+				dip_tech = 17
+				NOT = { dip_tech = 18 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_18
+		trigger = {
+			overlord = {
+				dip_tech = 18
+				NOT = { dip_tech = 19 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_19
+		trigger = {
+			overlord = {
+				dip_tech = 19
+				NOT = { dip_tech = 20 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_20
+		trigger = {
+			overlord = {
+				dip_tech = 20
+				NOT = { dip_tech = 21 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_21
+		trigger = {
+			overlord = {
+				dip_tech = 21
+				NOT = { dip_tech = 22 }
+				has_idea = i82
+			}
+		}
+	}
 
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
@@ -359,6 +549,196 @@ march = {
 			overlord = {
 				has_government_attribute = same_religion_subject_bonus
 				religion = PREV
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_3
+		trigger = {
+			overlord = {
+				has_idea = i82
+				dip_tech = 3
+				NOT = { dip_tech = 4 }
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_4
+		trigger = {
+			overlord = {
+				dip_tech = 4
+				NOT = { dip_tech = 5 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_5
+		trigger = {
+			overlord = {
+				dip_tech = 5
+				NOT = { dip_tech = 6 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_6
+		trigger = {
+			overlord = {
+				dip_tech = 6
+				NOT = { dip_tech = 7 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_7
+		trigger = {
+			overlord = {
+				dip_tech = 7
+				NOT = { dip_tech = 8 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_8
+		trigger = {
+			overlord = {
+				dip_tech = 8
+				NOT = { dip_tech = 9 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_9
+		trigger = {
+			overlord = {
+				dip_tech = 9
+				NOT = { dip_tech = 10 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_10
+		trigger = {
+			overlord = {
+				dip_tech = 10
+				NOT = { dip_tech = 11 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_11
+		trigger = {
+			overlord = {
+				dip_tech = 11
+				NOT = { dip_tech = 12 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_12
+		trigger = {
+			overlord = {
+				dip_tech = 12
+				NOT = { dip_tech = 13 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_13
+		trigger = {
+			overlord = {
+				dip_tech = 13
+				NOT = { dip_tech = 14 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_14
+		trigger = {
+			overlord = {
+				dip_tech = 14
+				NOT = { dip_tech = 15 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_15
+		trigger = {
+			overlord = {
+				dip_tech = 15
+				NOT = { dip_tech = 16 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_16
+		trigger = {
+			overlord = {
+				dip_tech = 16
+				NOT = { dip_tech = 17 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_17
+		trigger = {
+			overlord = {
+				dip_tech = 17
+				NOT = { dip_tech = 18 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_18
+		trigger = {
+			overlord = {
+				dip_tech = 18
+				NOT = { dip_tech = 19 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_19
+		trigger = {
+			overlord = {
+				dip_tech = 19
+				NOT = { dip_tech = 20 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_20
+		trigger = {
+			overlord = {
+				dip_tech = 20
+				NOT = { dip_tech = 21 }
+				has_idea = i82
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = influence_ideas_per_dip_tech_21
+		trigger = {
+			overlord = {
+				dip_tech = 21
+				NOT = { dip_tech = 22 }
+				has_idea = i82
 			}
 		}
 	}

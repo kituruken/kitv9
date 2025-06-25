@@ -607,8 +607,8 @@ influence_ideas = {
 		vassal_manpower_bonus = 0.25
 		vassal_sailors_bonus = 0.5
 	}
-	local_traditions = {
-		land_forcelimit_modifier = 0.15
+	i82 = {
+		land_forcelimit = 1
 	}
 
 
@@ -823,6 +823,7 @@ aristocracy_ideas = {
 	}	
 	local_nobility = {
 		leader_cost = -0.1
+		special_unit_forcelimit = 0.15
 		nobles_loyalty_modifier = 0.1
 		nomadic_tribes_loyalty_modifier = 0.1
 	}
@@ -1034,7 +1035,6 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		special_unit_forcelimit = 0.15
 		fire_damage = 0.05
 		shock_damage = 0.05
 	}
@@ -1059,7 +1059,6 @@ offensive_ideas = {
 	fort_breaker = {
 		assault_fort_cost_modifier = -1
 		artillery_barrage_cost = -0.50
-		discipline = 0.03
 	}
 	superior_firepower = {
 		artillery_power = 0.1

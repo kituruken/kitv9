@@ -2055,7 +2055,7 @@ RUS_ideas = {
 		artillery_power = 0.1
 	}
 	life_long_conscription  = {
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.20
 	}
 	abolish_the_mestnichestvo = {
 		reinforce_speed = 0.2
@@ -2066,7 +2066,7 @@ RUS_ideas = {
 	}	
 	curriculum_of_the_cadet_corps = {
 		land_morale = 0.05
-		fire_damage_received = -0.1
+		fire_damage = 0.1
 	}
 }
 
