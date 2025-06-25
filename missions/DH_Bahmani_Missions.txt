@@ -9,7 +9,6 @@ bah_indigenization = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -182,7 +181,6 @@ bah_gharbians = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -417,7 +415,6 @@ bah_persian_branch = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -655,7 +652,6 @@ bah_vijayanagari_branch = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -825,7 +821,6 @@ bah_delhi_branch = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -920,7 +915,6 @@ bah_coromandel_branch = {
 	potential = {
 		OR = {
 			tag = BAH
-			tag = DEC
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }

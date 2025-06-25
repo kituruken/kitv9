@@ -142,8 +142,12 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 18
-			tag = SGF
-			tag = NGF
+			
+			OR = {
+						tag = SGF
+						tag = NGF
+					}
+			
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -187,11 +191,16 @@ country_decisions = {
 			change_tag = GER
 			on_change_tag_effect = yes
 			restore_country_name_effect = yes
+			swap_non_generic_missions = yes
 			if = {
 				limit = {
 					is_emperor = yes
 				}
 				dismantle_hre = yes
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
 			else = {
 				emperor = {

@@ -5,39 +5,8 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_deccan_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			OR = {
-				is_free_or_tributary_trigger = yes
-				ai = no
-			}
-			OR = {
-				NOT = { exists = DEC }
-				ai = no
-			}
-			religion_group = muslim
-			OR = {
-				culture_group = dravidian
-				primary_culture = marathi
-			}
-			OR = {
-				ai = no
-				AND = {
-					ai = yes
-					num_of_cities = 10
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
-				}
-			}
+			tag = VIJ
+			tag = BAH
 		}
 		provinces_to_highlight = {
 			OR = {

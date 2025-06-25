@@ -518,7 +518,7 @@ estate_cossacks_recruit_cossack_generals = {
 	penalties = {
 	}
 	benefits = {
-		army_tradition = 0.5
+		army_tradition = 0.25
 		#leader_land_shock = 1
 	}
 	conditional_modifier = {

@@ -3159,6 +3159,9 @@ chinese_ideas = {
 	
 	trigger = {
 		NOT = {	
+			tag = YUA
+		}
+		NOT = {	
 			tag = CSH
 		}
 		NOT = {
@@ -3245,11 +3248,11 @@ BAH_ideas = {
 DEC_ideas = {
 	start = {
 		administrative_efficiency = 0.05
-		land_morale = 0.05
+		land_morale = 0.10
 	}
 
 	bonus = {
-		cavalry_power = 0.1
+		infantry_power = 0.1
 	}
 	
 	trigger = {

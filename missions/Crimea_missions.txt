@@ -74,7 +74,7 @@ X_CRI_slot_1 = {
 		}
 		position = 3
 		trigger = {
-			stability = 3
+			stability = 1
 			legitimacy_equivalent = 75
 			if = {
 				limit = { exists = GOL }	
@@ -294,7 +294,7 @@ X_CRI_slot_3 = {
 			province_id = 284
 		}
 		trigger = {
-			stability = 2
+			stability = 1
 			if = {
 				limit = {
 					has_estate = estate_nomadic_tribes

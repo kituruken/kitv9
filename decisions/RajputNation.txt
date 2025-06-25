@@ -50,7 +50,6 @@ country_decisions = {
 				province_id = 2075 #Gurjaratra
 				province_id = 2067 #Mount Abu
 				province_id = 506 #Multan
-				province_id = 2095 #Varanasi
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -74,7 +73,6 @@ country_decisions = {
 			owns_core_province = 2075 	#Gurjaratra
 			owns_core_province = 2067 	#Mount Abu
 			owns_core_province = 506 	#Multan
-			owns_core_province = 2095 	#Varanasi
 			owns_core_province = 4497 	#Kannauj
 			4497 = {					#Kannauj
 				is_state = yes

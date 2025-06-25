@@ -26,8 +26,6 @@ mid_power_dominance_established = {
 }
 master_of_india = {
 	governing_capacity = 500
-	land_morale = 0.1
-	fire_damage = 0.1
 	num_accepted_cultures = 3
 }
 

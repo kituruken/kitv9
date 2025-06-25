@@ -14173,6 +14173,12 @@ TIM_full_army_trad = {
 TIM_full_army_prof = {
 	yearly_army_professionalism = 0.01 
 }
+solis4245 = {
+	discipline = 0.05
+	shock_damage_received = -0.1
+	is_marine_modifier = yes 
+}
+
 
 #Perisna Influence Counter
 used_persian_influece_interaction_1 = { influence_to_vassal_elevation_cost = -20 }
