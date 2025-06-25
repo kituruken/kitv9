@@ -982,7 +982,7 @@ theocracy_gov_ideas = {
 	}
 	friends_in_high_places = {
 		same_religion_advisor_cost = -0.1
-		drill_decay_modifier = -0.25
+		drill_decay_modifier = -0.15
 	}
 	flesh_is_weak = {
 		morale_damage_received = -0.15

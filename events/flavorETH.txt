@@ -1862,7 +1862,7 @@ country_event = {
 		change_unit_type = western
 		add_country_modifier = {
 			name = eth_modernized_army
-			duration = 9125
+			duration = -1
 		}
 		add_mil_power = -200
 	}

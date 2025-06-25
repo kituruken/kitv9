@@ -701,7 +701,7 @@ sicily_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_norman_navy_modifier
-				duration = -1
+				duration = 7300
 			}
 			add_yearly_sailors = 3			
 			if = {

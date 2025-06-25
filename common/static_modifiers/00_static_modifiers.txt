@@ -2068,8 +2068,8 @@ zaidi_scholar_modifier = {
 regiment_drill_modifier = { # Used by individual regiments
 	shock_damage = 0.1
 	fire_damage = 0.1
-	fire_damage_received = -0.25
-	shock_damage_received = -0.25
+	fire_damage_received = -0.15
+	shock_damage_received = -0.15
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
@@ -2114,8 +2114,8 @@ streltsy_regiment = {
 }
 
 tercio_regiment = {
-	shock_damage_received = -0.3
-	#morale_damage_received = -0.1
+	infantry_power = 0.1
+	infantry_fire = 0.1
 }
 
 musketeer_regiment = {

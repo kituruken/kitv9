@@ -1722,7 +1722,7 @@ navigator = {
 	}
 	
 	# Bonus
-	inflation_reduction = -0.05
+	inflation_reduction = 0.05
 
 		skill_scaled_modifier = { 
 		modifier = { 

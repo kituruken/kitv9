@@ -10978,11 +10978,10 @@ ODA_ideas = {
 		leader_land_shock = 1
 	}
 	oda_azuchi_castle = {
-		discipline = 0.05
 		leader_siege = 1
 	}
 	oda_triple_firing = {
-		fire_damage = 0.1
+		discipline = 0.05
 	}
 	oda_patronization_of_the_west = {
 		technology_cost = -0.05

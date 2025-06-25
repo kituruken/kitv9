@@ -13,6 +13,7 @@ system_of_councils_mechanic = {
 				modifier = {
 					administrative_efficiency = 0.05
 					monthly_splendor = 4
+					artillery_power = 0.15
 				}
 			}
 		}

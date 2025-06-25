@@ -542,7 +542,7 @@ estate_nobles_right_of_counsel = {
 		ai=no
 	}
 	benefits = {
-		cav_to_inf_ratio = 0.15
+		cavalry_flanking = 0.25
 		cavalry_power = 0.05
 	}
 	on_granted = {
