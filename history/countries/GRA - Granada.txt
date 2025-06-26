@@ -12,6 +12,7 @@ historical_rival = MZB
 historical_rival = TGT
 historical_rival = GHD
 historical_rival = FZA
+historical_rival = KBA
 change_estate_land_share = {
 	estate = estate_nobles
 	share = 8

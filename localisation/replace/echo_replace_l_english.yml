@@ -85,7 +85,7 @@ unite_mongol_culture_tt:1 "All owned provinces with §YKazakh§!, §YTurkmeni§!
 
  l_english: 
  aristocracy_ideas:0 "Cavalry Ideas"
- bureaucracy_desc:0 " Building §YChurches§! now grants §G+1 Building Slot§! in the Province they are built. Deleting them removes the extra Slot." 
+ bureaucracy_desc:0 " Building §YChurches§! now grants §G+1 Building Slot§! in the Province they are built.(u have to built after u get this idea) Deleting them removes the extra Slot." 
  free_trade:0 " Building §YMarketplaces§! now grants §G+1 Building Slot§! in the Province they are built. Deleting them removes the extra Slot." 
 
  

@@ -2129,6 +2129,7 @@ estate_burghers_mountain_expansion = {
 			TAG = SWI
 			TAG = ETH
 			TAG = RAS
+			TAG = MOR
 			has_unlocked_estate_privilege = { estate_privilege = estate_burghers_mountain_expansion }
 		}
 	}

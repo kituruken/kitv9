@@ -3397,6 +3397,7 @@ impressment_offices = {
 	# 	has_port = yes
 	# }
 	build_trigger = {
+		has_port = yes
 		area_for_scope_province = {
 				owner = {
 					tag = ROOT

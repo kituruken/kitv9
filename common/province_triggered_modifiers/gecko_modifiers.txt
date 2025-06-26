@@ -122,7 +122,7 @@ conquest_of_constantinople = {
 	}
 	infantry_power = 0.05
 	cavalry_power = 0.05
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -157,7 +157,7 @@ conquest_of_paris = {
 	}
 	discipline = 0.025
 	land_morale = 0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -184,7 +184,7 @@ conquest_of_baghdad = {
 		}	
      yearly_innovativeness = 0.5
 	 development_cost = -0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -204,6 +204,7 @@ conquest_of_vienna = {
 		owner = {
 			NOT = { tag = HAB }
 			NOT = { tag = AHU }
+			NOT = { tag = SGF }
 			NOT = { 	
 					has_global_modifier_value = {
 					which = discipline
@@ -221,7 +222,7 @@ conquest_of_vienna = {
 	}
 	discipline = 0.025
 	land_morale = 0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -263,7 +264,7 @@ conquest_of_cairo = {
 	}	
 	infantry_power = 0.05
 	cavalry_power = 0.05
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -303,7 +304,7 @@ conquest_of_fez = {
 		gold_depletion_chance_modifier = -0.5
 		monthly_gold_inflation_modifier = -0.5
 		land_morale = 0.05
-	
+	    possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -328,7 +329,7 @@ conquest_of_amsterdam = {
 		has_owner_accepted_culture = yes
 		}	
      development_cost = -0.05
-	
+	 possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -354,7 +355,7 @@ conquest_of_berlin = {
 		has_owner_accepted_culture = yes
 	}
 	yearly_army_professionalism = 0.0025
- 
+    possible_policy = 1
 	
 	#Province scope
 	on_activation = {
@@ -396,7 +397,7 @@ conquest_of_moscow = {
 	}	
 	infantry_power = 0.05
 	cavalry_power = 0.05
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -431,7 +432,7 @@ conquest_of_tabriz = {
 		}	
 	infantry_power = 0.05
 	cavalry_power = 0.05
- 
+    possible_policy = 1
 	
 	#Province scope
 	on_activation = {
@@ -495,7 +496,7 @@ conquest_of_delhi = {
 	}	
 	discipline = 0.025
 	land_morale = 0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -533,7 +534,7 @@ conquest_of_pest = {
 		}	
 	land_morale = 0.025
 	discipline = 0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -559,7 +560,7 @@ conquest_of_rome = {
 		}	
 	papal_influence = 2.0
 	local_defender_dice_roll_bonus = 1
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -587,7 +588,7 @@ conquest_of_warszawa = {
 		}	
 	cavalry_flanking = 0.5
 	cav_to_inf_ratio = 0.15
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -614,7 +615,7 @@ conquest_of_copenhagen = {
 	
      ship_trade_power_modifier = 0.20
 	 province_trade_power_value = 30.0		
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -680,6 +681,7 @@ conquest_of_toledo = {
 		gold_depletion_chance_modifier = -0.5
 		monthly_gold_inflation_modifier = -0.5
 		land_morale = 0.05
+		possible_policy = 1
 
 	
 	#Province scope
@@ -719,7 +721,7 @@ conquest_of_ayutthaya = {
 		}	
 	discipline = 0.025
 	land_morale = 0.025
-	
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -756,6 +758,7 @@ conquest_of_brunei = {
 		}	
 	ship_durability = 0.025
 	naval_morale = 0.025
+	possible_policy = 1
 	
 	#Province scope
 	on_activation = {
@@ -795,6 +798,7 @@ b_conquest_of_beijing = {
 	discipline = 0.025
 	land_morale = 0.025
 	imperial_mandate = 0.02
+	possible_policy = 1
 	
 	#Province scope
 	on_activation = {
@@ -844,12 +848,42 @@ conquest_of_frankfurt = {
 		owner = {
 				NOT = { tag = HES }
 				NOT = { tag = WES }
+				NOT = { tag = NGF }
 			}
 		controlled_by = ROOT	
 		}	
 
 	land_morale = 0.025
 	discipline = 0.025
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_frankfurt = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = SWI }
+				NOT = { tag = SWA }
+				NOT = { tag = SGF }
+			}
+		controlled_by = ROOT	
+		}	
+
+	mercenary_manpower = 0.2
+	possible_policy = 1
  
 	
 	#Province scope

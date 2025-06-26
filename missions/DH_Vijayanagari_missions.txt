@@ -457,18 +457,8 @@ vij_tamil_conquest = {
 		completed_by = 1530.1.1
 		trigger = {
 			stability = 1
-			custom_trigger_tooltip = {
-				tooltip = vij_tamil_trade.tooltip
-				NOT = {
-					any_owned_province = {
-						culture = tamil
-						OR = {
-							local_autonomy = 50
-							unrest = 2
-						}
-					}
-				}
-			}
+			
+			
 			south_carnatic_area = {
 				type = all
 				owned_by = ROOT

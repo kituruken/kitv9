@@ -342,7 +342,7 @@ administrative_ideas = {
 	category = ADM
 
 	bonus = {
-		monarch_military_power = 1
+		country_admin_power = 1 
 	}
 	stable_government = {
 		stability_cost_modifier = -0.10 
@@ -364,7 +364,7 @@ administrative_ideas = {
 		interest = -0.25
 	}
 	cultural_regulations = {
-		development_cost = -0.05
+		development_cost = -0.075
 	}
 	resilient_state = {
 		manpower_recovery_speed = 0.1
@@ -419,7 +419,7 @@ infrastructure_ideas = {
 	category = ADM
 	
 	bonus = {
-		development_cost = -0.075
+		development_cost = -0.1
 	}
 	state_efficiency = {
 		global_prosperity_growth = 0.25
@@ -534,7 +534,7 @@ diplomatic_ideas = {
 		monthly_splendor = 2
 	}
 	foreign_embassies = {
-		idea_cost = -0.05
+		idea_cost = -0.10
 	}
 	cabinet = {
 		advisor_cost = -0.10
@@ -639,15 +639,19 @@ court_ideas = {
 
 	bonus = {
 		all_estate_possible_privileges = 1
+
 	}
 
 	court_embassies = {
 		monarch_diplomatic_power = 1 
+		monarch_military_power = 1
+		monarch_admin_power = 1
 		diplomats = 1
 	}
 	welcoming_ceremonies = {
 		global_prosperity_growth = 0.25
 		global_trade_goods_size_modifier = 0.1
+		trade_goods_size = 0.20
 	}
 	tranquil_coordination = {
 		reform_progress_growth = 0.2
@@ -667,7 +671,7 @@ court_ideas = {
 		great_project_upgrade_time = -0.25
 		}
 	respected_authority = {
-		max_absolutism = 20
+		force_march = yes
 		prestige_from_land = 0.25
 		land_morale = 0.05
 	}
@@ -720,8 +724,9 @@ maritime_ideas = {
 		 add_country_modifier = {
 			 name= solis4245
 			  duration = -1 
-			  } }
-	}
+			  } } 
+			  removed_effect = { remove_country_modifier = solis4245 }
+	} 
 	overseas_merchants = {
 		merchants = 1
 		center_of_trade_upgrade_cost = -0.2
@@ -867,7 +872,7 @@ plutocracy_ideas = {
 		mercenary_cost = -0.1
 	}
 	abolished_serfdom = {
-		land_morale = 0.10
+		morale_damage = 0.15
 		global_unrest = -2
 	}
 	knowledge_transfer = {
@@ -1036,8 +1041,7 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		fire_damage = 0.05
-		shock_damage = 0.05
+		discipline = 0.03
 	}
 
 	shock_tactics = {
@@ -1051,15 +1055,15 @@ offensive_ideas = {
 		fire_damage = 0.1
 	}
 	engineer_corps = {
-		siege_ability = 0.15
 		artillery_levels_available_vs_fort = 1
+		artillery_barrage_cost = -0.50
 	}
 	melee_combat_training = {
 		land_forcelimit_modifier = 0.15
 	}
 	fort_breaker = {
 		assault_fort_cost_modifier = -1
-		artillery_barrage_cost = -0.50
+
 	}
 	superior_firepower = {
 		artillery_power = 0.1
@@ -1142,7 +1146,7 @@ defensive_ideas = {
 	}
 	ditch_defense = {
 		garrison_damage = 0.25
-		garrison_size = 0.5
+		garrison_size = 0.25
 		may_refill_garrison = yes
 	}
 	terrain_defence = {
@@ -1756,7 +1760,7 @@ trade_ideas = {
   		merchants = 2
   	}
 	free_merchants = {
-		center_of_trade_upgrade_cost = -0.5
+		center_of_trade_upgrade_cost = -0.25
 	}
 	privateers = {
 		trade_efficiency = 0.15

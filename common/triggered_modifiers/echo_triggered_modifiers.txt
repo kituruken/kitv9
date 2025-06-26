@@ -575,21 +575,11 @@ Berber_Raids = {
 					alliance_with = MOR
 				}
 			}	
-			NOT = { is_lacking_institutions = yes }
-			NOT = {	
-				maghreb_region = {
-						owner = {
-							OR = {
-							  culture_group = latin
-							  culture_group = iberian
-							  }
-						}
-				}											
-			}			
+			NOT = { is_lacking_institutions = yes }	
 		}
 	}
 	defensiveness = 0.15
-	available_province_loot = 1
+	available_province_loot = 0.5
 	coast_raid_range = 1
 }
 

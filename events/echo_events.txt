@@ -177,59 +177,73 @@ country_event = {
 	}
 }
 country_event = { #Recruit Adm Advisor
-	id = echo.10
-	title = echo.10.title
-	desc = echo.10.desc
-	picture = AULIC_COUNCIL_eventPicture
+    id = echo.10
+    title = echo.10.title
+    desc = echo.10.desc
+    picture = AULIC_COUNCIL_eventPicture
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
-	option = {
-		name = echo.10.a
-
-		add_adm_power = -25
-		create_advisor = philosopher
-	}
-	option = {
-		name = echo.10.b
-
-		add_adm_power = -25
-		create_advisor = natural_scientist
-	}
-	option = {
-		name = echo.10.c
-
-		add_adm_power = -25
-		create_advisor = artist
-	}
-	option = {
-		name = echo.10.d
-
-		add_adm_power = -25
-		create_advisor = treasurer
-	}
-	option = {
-		name = echo.10.e
-
-		add_adm_power = -25
-		create_advisor = theologian 
-	}
-	option = {
-		name = echo.10.f
-
-		add_adm_power = -25
-		create_advisor = master_of_mint
-	}
-	option = {
-		name = echo.10.g
-
-		add_adm_power = -25
-		create_advisor = inquisitor
-	}
-	option = {
-		name = echo.10.h
-		#nothing
-	}
+    option = {
+        name = echo.10.a
+        hire_advisor = {
+            type = philosopher
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.b
+        hire_advisor = {
+            type = natural_scientist
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.c
+        hire_advisor = {
+            type = artist
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.d
+        hire_advisor = {
+            type = treasurer
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.e
+        hire_advisor = {
+            type = theologian
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.f
+        hire_advisor = {
+            type = master_of_mint
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.g
+        hire_advisor = {
+            type = inquisitor
+            skill = 1
+        }
+        add_treasury = -33
+    }
+    option = {
+        name = echo.10.h
+        #nothing
+    }
 }
 
 country_event = { #Recruit Dip advisor
@@ -243,44 +257,65 @@ country_event = { #Recruit Dip advisor
 	option = {
 		name = echo.11.a
 
-		add_dip_power = -25
-		create_advisor = statesman
+		             hire_advisor = {
+            type = statesman
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.b
 
-		add_dip_power = -25
-		create_advisor = naval_reformer
+		             hire_advisor = {
+            type = naval_reformer
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.c
 
-		add_dip_power = -25
-		create_advisor = trader
+		             hire_advisor = {
+            type = trader
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.d
 
-		add_dip_power = -25
-		create_advisor = spymaster
+		             hire_advisor = {
+            type = spymaster
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.e 
 
-		add_dip_power = -25
-		create_advisor = colonial_governor
+		             hire_advisor = {
+            type = colonial_governor
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.f
 
-		add_dip_power = -25
-		create_advisor = diplomat
+		             hire_advisor = {
+            type = diplomat
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.g
 
-		add_dip_power = -25
-		create_advisor = navigator
+		             hire_advisor = {
+            type = navigator
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.11.h
@@ -298,45 +333,64 @@ country_event = { #Recruit Mil Advisor
 
 	option = {
 		name = echo.12.a
+             hire_advisor = {
+            type = army_reformer
+            skill = 1
+        }
+        add_treasury = -33
+    }
 
-		add_mil_power = -25
-		create_advisor = army_reformer
-	}
 	option = {
 		name = echo.12.b
-
-		add_mil_power = -25
-		create_advisor = army_organiser
+             hire_advisor = {
+            type = army_organiser
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.c
-
-		add_mil_power = -25
-		create_advisor = commandant
+             hire_advisor = {
+            type = commandant
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.d
 
-		add_mil_power = -25
-		create_advisor = quartermaster
+		             hire_advisor = {
+            type = quartermaster
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.e
 
-		add_mil_power = -25
-		create_advisor = recruitmaster
+		             hire_advisor = {
+            type = recruitmaster
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.f
 
-		add_mil_power = -25
-		create_advisor = fortification_expert
+		             hire_advisor = {
+            type = fortification_expert
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.g
 
-		add_mil_power = -25
-		create_advisor = grand_captain
+		             hire_advisor = {
+            type = grand_captain
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = echo.12.h
@@ -345,32 +399,47 @@ country_event = { #Recruit Mil Advisor
 option = {
 		name = gecko.11.d
 		
-		add_adm_power  = -25
-		create_advisor = gc_drill_master		
+		             hire_advisor = {
+            type = gc_drill_master
+            skill = 1
+        }
+        add_treasury = -33	
 	}
 	option = {
 		name = gecko.11.e
 		
-		add_adm_power  = -25
-		create_advisor = siege_specialist	
+		             hire_advisor = {
+            type = siege_specialist
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = gecko.11.f
 		
-		add_adm_power  = -25
-		create_advisor = infantry_leader		
+		             hire_advisor = {
+            type = infantry_leader
+            skill = 1
+        }
+        add_treasury = -33		
 	}
 	option = {
 		name = gecko.11.g
 		
-		add_adm_power  = -25
-		create_advisor = cavalry_leader	
+		             hire_advisor = {
+            type = cavalry_leader
+            skill = 1
+        }
+        add_treasury = -33
 	}
 	option = {
 		name = gecko.11.k
 		
-		add_adm_power  = -25
-		create_advisor = gc_arty_officer	
+		             hire_advisor = {
+            type = gc_arty_officer
+            skill = 1
+        }
+        add_treasury = -33	
 	}
 
 }
