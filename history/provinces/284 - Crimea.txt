@@ -13,7 +13,7 @@ capital = "Qirq Yer"
 is_city = yes
 add_core = CRI
 fort_15th = yes #Qirq Yer
-
+add_province_triggered_modifier = conquest_of_crimea
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

@@ -2026,7 +2026,7 @@ religious_permanent_revolution_reform = {
 		#custom_tooltip = world_crusade_tt
 	}
 	modifiers = {
-		possible_policy = 1
+		global_tax_modifier = 0.10
 	}
 	# custom_attributes = {
 	# 	has_upgraded_holy_wars = yes

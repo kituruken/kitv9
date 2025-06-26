@@ -41,7 +41,6 @@ innovativeness_ideas = {
 		land_morale = 0.05
 	}
 	expanded_policies = {
-		possible_policy = 1
 		free_policy = 1
 	}
 
@@ -541,7 +540,6 @@ diplomatic_ideas = {
 	}
 	benign_diplomats = {
 		free_policy = 1
-		possible_policy = 1
 		diplomats = 1
 	}
 	experienced_diplomats  = {

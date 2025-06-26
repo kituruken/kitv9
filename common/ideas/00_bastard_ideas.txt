@@ -1312,6 +1312,7 @@ MUG_ideas = {
 	
 	mansabdari_system = {
 		cavalry_power = 0.1
+		possible_policy = 1
 	}
 	tureh = {
 		global_manpower_modifier = 0.2
@@ -1959,7 +1960,6 @@ SWE_ideas = {
 		republican_tradition = 0.3
 		meritocracy = 1	#For completion's sake
 		horde_unity = 1
-		possible_policy = 1
 	}
 	hakkapelitta = {
 		shock_damage = 0.15
@@ -2002,7 +2002,6 @@ SCA_ideas = {
 		build_cost = -0.05
 	}
 	sca_unified_scandinavian = {
-		possible_policy = 1
 		administrative_efficiency = 0.05
 	}
 	sca_danish_baltic_fleet = {
@@ -3264,19 +3263,19 @@ DEC_ideas = {
 		#Copied from BAH
 	}
 	dec_diwan_funding = {
-		free_adm_policy = 1
+		possible_policy = 1
 	}
 	dec_foreign_trade_privileges = {
 		global_trade_power = 0.1
 	}
 	dec_empower_paigah = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.1
 	}
 	dec_modernize_the_sarf_e_khas = {
 		discipline = 0.05
 	}
 	dec_jewels_of_the_nizams = {
-		diplomatic_reputation = 1
+		cavalry_power = 0.1
 	}
 	dec_encourage_industries = {
 		global_trade_goods_size_modifier = 0.1
@@ -3321,7 +3320,7 @@ MER_ideas = {
 }
 RJP_ideas = {
 	start = {
-		free_mil_policy = 1
+		possible_policy = 1
 		defensiveness = 0.15
 	}
 
@@ -3811,7 +3810,7 @@ AUS_ideas = { #Australia
 	}
 	
 	bonus = {
-		possible_mil_policy = 1
+		global_tax_modifier = 0.10
 	}
 	
 	trigger = {

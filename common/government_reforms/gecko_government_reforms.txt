@@ -151,7 +151,7 @@ gecko_noble_regiments_reform = { #Noble Regiments
 	}
 	modifiers = {
 		land_morale = 0.075
-		possible_policy = 1
+		global_tax_modifier = 0.10
 	}
 }
 

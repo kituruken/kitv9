@@ -14,7 +14,7 @@ capital = "Messina"
 is_city = yes 
 #add_core = NAP
 add_core = SIC
-
+add_province_triggered_modifier = conquest_of_messina
 
 
 discovered_by = western

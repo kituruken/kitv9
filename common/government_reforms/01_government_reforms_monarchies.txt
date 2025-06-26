@@ -6666,7 +6666,7 @@ peoples_kingdom_reform = {
 	icon = "peasant_republic"
 	allow_normal_conversion = yes
 	modifiers = {
-		possible_policy = 1
+		global_tax_modifier = 0.10
 	}
 	ai = {
 		factor = 1

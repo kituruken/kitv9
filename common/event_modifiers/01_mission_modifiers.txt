@@ -13866,7 +13866,7 @@ boh_premyslid_heritage_2 = {
 boh_premyslid_heritage_3 = {
 	governing_capacity = 200
 	diplomatic_annexation_cost = -0.15
-	possible_policy = 1
+	global_tax_modifier = 0.10
 }
 
 czech_nationalism = {

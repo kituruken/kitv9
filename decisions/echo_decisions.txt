@@ -31,6 +31,14 @@ country_decisions = {
 				province_id = 600
 				province_id = 636
 				province_id = 667
+				province_id = 649
+				province_id = 584
+				province_id = 2121
+				province_id = 416
+				province_id = 390
+				province_id = 2762
+				province_id = 341
+				province_id = 284
 			}
 			OR = {
 				NOT = { owned_by = ROOT }

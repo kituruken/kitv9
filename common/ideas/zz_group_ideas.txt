@@ -118,7 +118,7 @@ barbary_pirate_ideas = {
 	}
 	barbary_board_of_captains = {
 		pr_captains_influence = 0.1
-		possible_mil_policy = 1
+		global_tax_modifier = 0.10
 	}
 }
 
@@ -208,7 +208,7 @@ cossack_ideas = {
 		years_of_nationalism = -5
 	}
 	cossacks_registered = {
-		possible_mil_policy = 1
+		global_tax_modifier = 0.10
 	}
 }
 

@@ -460,6 +460,7 @@ conquest_of_nogay = {
 	#horde_unity = 0.5
 	cavalry_cost = -0.1
 	merchants = 1
+	possible_policy = 1
 	#Province scope
 	on_activation = {
 	
@@ -827,6 +828,7 @@ conquest_of_herat = {
 		has_owner_accepted_culture = yes
 		}	
      yearly_innovativeness = 0.25
+	 possible_policy = 1
 	
 	#Province scope
 	on_activation = {
@@ -868,7 +870,7 @@ conquest_of_frankfurt = {
 	}
 }
 
-conquest_of_frankfurt = {
+conquest_of_bern = {
 	potential = {
 		normal_or_historical_nations = yes
 	}
@@ -895,3 +897,230 @@ conquest_of_frankfurt = {
 	
 	}
 }
+
+conquest_of_sana = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = RAS }
+				NOT = { tag = ARB }
+			}
+		controlled_by = ROOT	
+		}	
+
+	land_morale = 0.05
+	special_unit_forcelimit = 0.1
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_gonder = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = ETH }
+				NOT = { tag = AKS }
+			}
+		controlled_by = ROOT	
+		}	
+
+	gold_depletion_chance_modifier = -0.5
+	fire_damage_received = -0.025
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_tunis = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = TUN }
+				NOT = { tag = ADU }
+			}
+		controlled_by = ROOT	
+		}	
+
+	fire_damage_received = -0.05
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_messina = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = SIC }
+			}
+		controlled_by = ROOT	
+		}	
+
+	infantry_power = 0.05
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_crimea = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = CRI }
+				NOT = { tag = GLH }
+				NOT = { tag = BUK }
+			}
+		controlled_by = ROOT	
+		}	
+
+	special_unit_forcelimit = 0.2
+	cav_to_inf_ratio = 0.15
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+conquest_of_kuqa = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = YUA }
+				NOT = { tag = CHG }
+				NOT = { tag = BUK }
+			}
+		controlled_by = ROOT	
+		}	
+
+    trade_steering = 0.33
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+
+conquest_of_ava = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = AVA }
+			}
+		controlled_by = ROOT	
+		}	
+
+    backrow_artillery_damage = 0.1
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+
+conquest_of_ternate = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+				NOT = { tag = AVA }
+			}
+		controlled_by = ROOT	
+		}	
+
+    trade_goods_size_modifier = 0.1
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+
+
+
+
+
+

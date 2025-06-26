@@ -52,7 +52,6 @@ norse_ideas = {
 
 HLR_ideas = {
 	start = {
-		possible_policy = 1
 		diplomatic_reputation = 2
 	}
 	
@@ -14266,7 +14265,7 @@ LFA_ideas = {
 		infantry_power = 0.1
 	}
 	bonus = {
-		possible_policy = 1
+		global_tax_modifier = 0.10
 	}
 	trigger = {
 		tag = LFA

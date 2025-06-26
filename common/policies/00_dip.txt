@@ -423,7 +423,7 @@ centralization_power_act = {
 		full_idea_group = court_ideas 
 	}
 	
-	development_cost_in_primary_culture = -0.05
+	production_efficiency = 0.15
 
 	effect = {}
 	removed_effect = {}

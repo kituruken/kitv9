@@ -3589,7 +3589,7 @@ stability_principle_reform = {
 	icon = "soldiers_6"
 	allow_normal_conversion = yes
 	modifiers = {
-		possible_mil_policy = 1
+		global_tax_modifier = 0.10
 	}
 }
 
