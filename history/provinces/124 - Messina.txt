@@ -15,7 +15,10 @@ is_city = yes
 #add_core = NAP
 add_core = SIC
 add_province_triggered_modifier = conquest_of_messina
-
+add_permanent_province_modifier = {
+	name = Pokemon
+	duration = -1
+}
 
 discovered_by = western
 discovered_by = eastern

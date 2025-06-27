@@ -13,7 +13,10 @@ fort_15th = yes #Vienna + Outer ring of fortifications
 capital = "Wien" 
 is_city = yes
 hre = yes
-
+add_permanent_province_modifier = {
+	name = Pokemon
+	duration = -1
+}
 add_province_triggered_modifier=conquest_of_vienna
 
 discovered_by = KAZ

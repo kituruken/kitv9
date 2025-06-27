@@ -1386,6 +1386,7 @@ in_golden_era = {
 	prestige_from_land = 0.5
 	manpower_recovery_speed = 0.1
 	monarch_military_power = 2
+	republican_tradition = 0.25
 }
 
 absolutism = {
