@@ -4618,189 +4618,36 @@ DOM_Qing_Missions_3_b = {
 		position = 10
 		required_missions = {  }
 		provinces_to_highlight = {
-			OR = {
-				region = south_china_region
-				region = xinan_region
-			}
-			NOT = {
-				owned_by = ROOT
-			}
+						superregion = china_superregion
+			NOT = { country_or_non_sovereign_subject_holds = ROOT } 
 		}
 		trigger = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				OR = {
-					region = south_china_region
-					region = xinan_region
-				}
-				value = 20
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					superregion = china_superregion 
+					value = 85
 			}
-			if = {
-				limit = {
-					exists = YUE
-					YUE = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				YUE = {
-					is_at_war = no
-				}
-			}
-			if = {
-				limit = {
-					exists = WUU
-					WUU = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				WUU = {
-					is_at_war = no
-				}
-			}
-			if = {
-				limit = {
-					exists = CDL
-					CDL = {
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				CDL = {
-					is_at_war = no
-				}
-			}
+			# OR = {
+			# 	crown_land_share = 95 
+			# 	absolutism = 50 
+			# }
+			# power_projection = 50 
+			# if = {
+			# 	limit = {
+			# 		OR = {
+			# 			has_dlc = "Emperor" 
+			# 			has_dlc = "Rights of Man"
+			# 		}
+			# 	}
+			# 	NOT = { great_power_rank = 2 } 
+			# }
+			# total_development = 1500 
 		}
 		effect = {
-			if = { 
-				limit = { is_emperor_of_china = yes } 
-				add_mandate = 20 
-			}
-			if = {
-				limit = {
-					exists = YUE
-					YUE = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				add_casus_belli = {
-					target = YUE
-					type = cb_vassalize_mission
-					months = 180
-				}
-			}
-			else = {
-				add_prestige = 25
-				add_army_tradition = 10
-			}
-			if = {
-				limit = {
-					exists = WUU
-					WUU = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				add_casus_belli = {
-					target = WUU
-					type = cb_vassalize_mission
-					months = 180
-				}
-			}
-			if = {
-				limit = {
-					exists = CDL
-					CDL = {
-						is_at_war = no
-						OR = {
-							AND = {
-								is_subject_of = MNG
-								OR = {
-									is_subject_of_type = vassal
-									is_subject_of_type = march
-								}
-							}
-							is_subject = no
-						}
-					}
-				}
-				add_casus_belli = {
-					target = CDL
-					type = cb_vassalize_mission
-					months = 180
-				}
-				if = {
-					limit = {
-						has_leader = "Wu Sangui"
-						CDL = { is_subject_of = ROOT } 
-					}
-					CDL = {
-						define_ruler = {
-							name = "Sangui"
-							dynasty = "Wu"
-							adm = 3
-							dip = 3
-							mil = 4
-						}
-						change_tag = CZH
-						on_change_tag_effect = yes
-					}
-					kill_leader = { type = "Wu Sangui" }
-				}
-			}
-			if = {	
-				limit = { 
-					has_dlc = "Rights of Man" 
-					NOT = { num_of_ruler_traits = { amount = 3 } }
-					is_emperor_of_china = yes 
-				}
-				add_ruler_personality = benevolent_personality
-			}
-			else = { add_dip_power = 50 }
+			set_emperor_of_china = ROOT
+			# add_country_modifier = {
+			# 	name = era_of_the_great_dragon_modifier
+			# 	duration = -1 
+			# }
 		}
 	}
 	
@@ -6807,42 +6654,11 @@ DOM_Qing_Missions_5 = {
 		required_missions = { mjz_mount_paektu }
 		position = 3
 		trigger = {
-			OR = { 
-				custom_trigger_tooltip = {
-					tooltip = yellow_shamanism_tt
-					has_country_modifier = yellow_shamanism_modifier
-				}
-				custom_trigger_tooltip = {
-					tooltip = black_shamanism_tt
-					has_country_modifier = black_shamanism_modifier
-				}
-				AND = { 
-					is_emperor_of_china = yes 
-					religion = confucianism 
-					harmony = 80 
-				}
-			}
 			religious_unity = 0.95 
 			stability = 1 
 		}
 		
-		effect = { 
-			custom_tooltip = yellow_shamanism_reward_tt
-			tooltip = { 
-				add_country_modifier = { 
-					name = mjz_formalized_yellow_shamanism_modifier 
-					duration = 9125 
-				}
-			}
-			
-			custom_tooltip = black_shamanism_reward_tt
-			tooltip = { 
-				add_country_modifier = { 
-					name = mjz_formalized_black_shamanism_modifier 
-					duration = 9125 
-				}
-			}
-			
+		effect = { 		
 			custom_tooltip = confucianism_reward_tt
 			tooltip = { 
 				add_country_modifier = { 

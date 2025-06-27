@@ -676,7 +676,7 @@ estate_burghers_patronage_of_the_arts = {
 	}
 	conditional_modifier = {
 		trigger = { NOT = { has_country_flag = ned_patronage_buff_flag } }
-		modifier = { global_tax_modifier = -0.05 }
+		modifier = { global_tax_modifier = -0.01 }
 	}
 	
 	conditional_modifier = {
@@ -2768,46 +2768,46 @@ estate_burghers_expanded_monopoly_rights = {
 		}
 	}
 }
-estate_burghers_force_impressment = {
-	icon = privilege_heavy_ship
-	loyalty = 0.0
-	influence = 0.05
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	is_valid = {
-		has_dlc = "Domination"
-		primitives = no
-	}
-	can_select = {
-		ai=no
-		num_of_ports = 1
-	}
-	benefits = {
-		global_sailors_modifier = 0.15
-	}
-	on_granted = {
-		enable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
-		}
-	}
-	on_revoked = {
-		disable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
-		}
-	}
-	on_invalid = {
-		disable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
-		}
-	}
-	conditional_modifier = {
-		trigger = { has_government_mechanic = russian_modernization_mechanic }
-		modifier = { monthly_russian_modernization = -0.03 }
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
+# estate_burghers_force_impressment = {
+# 	icon = privilege_heavy_ship
+# 	loyalty = 0.0
+# 	influence = 0.05
+# 	max_absolutism = -5
+# 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+# 	is_valid = {
+# 		has_dlc = "Domination"
+# 		primitives = no
+# 	}
+# 	can_select = {
+# 		ai=no
+# 		num_of_ports = 1
+# 	}
+# 	benefits = {
+# 		global_sailors_modifier = 0.15
+# 	}
+# 	on_granted = {
+# 		enable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
+# 		}
+# 	}
+# 	on_revoked = {
+# 		disable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
+# 		}
+# 	}
+# 	on_invalid = {
+# 		disable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_BURGHERS
+# 		}
+# 	}
+# 	conditional_modifier = {
+# 		trigger = { has_government_mechanic = russian_modernization_mechanic }
+# 		modifier = { monthly_russian_modernization = -0.03 }
+# 	}
+# 	ai_will_do = {
+# 		factor = 0
+# 	}
+# }
 estate_burghers_naval_school_right = {
 	icon = privilege_navy_tradition
 	loyalty = 0.0

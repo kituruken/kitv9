@@ -663,21 +663,6 @@ vij_east_conquest = {
 		completed_by = 1530.1.1
 		trigger = {
 			stability = 1
-			custom_trigger_tooltip = {
-				tooltip = vij_tamil_rebels.tooltip
-				OR = {
-					NOT = {
-						current_age = age_of_discovery
-					}
-					AND = {
-						has_country_flag = had_vaduga_event
-						has_country_flag = chellappa_mission_flag
-					}
-				}
-			}
-			NOT = {
-				num_of_rebel_armies = 1
-			}
 		}
 		effect = {
 			andhra_area = {

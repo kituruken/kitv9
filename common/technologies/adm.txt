@@ -55,6 +55,7 @@ technology = { #Medieval Administration
 	year = 1440
 	production_efficiency	=	0.01
 	#may_support_rebels = yes
+	ramparts = yes
 }
  
 technology = { #Temples
@@ -62,7 +63,7 @@ technology = { #Temples
 	year = 1453
 	# Temple
 	temple = yes
-	ramparts = yes
+
 }
 
 technology = { #National Ideas

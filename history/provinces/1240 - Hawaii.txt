@@ -9,6 +9,11 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 discovered_by = polynesian_tech
+add_permanent_province_modifier = {
+	name = Pokemon
+	duration = -1
+}
+add_province_triggered_modifier = conquest_of_hawaii
 
 
 1555.1.1 = { discovered_by = SPA }

@@ -2125,9 +2125,8 @@ stock_exchange = {
 	one_per_country = yes
 
 	modifier = {
-		global_colonial_growth = 35
 		reduced_liberty_desire_on_other_continent = 10
-		colonist_placement_chance = 0.15
+		colonists = 1
 	}
 
 	on_built = {

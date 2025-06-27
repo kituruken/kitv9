@@ -141,6 +141,7 @@ QNG_ideas = {
 	
 	bonus = {
 		advisor_cost = -0.15
+		special_unit_cost_modifier = -0.20
 	}
 	
 	trigger = {
@@ -151,6 +152,7 @@ QNG_ideas = {
 	
 	expand_the_banners = {
 		leader_land_shock = 1
+		cavalry_power = 0.15
 	}
 	the_green_standard_army = {
 		manpower_recovery_speed = 0.2
@@ -158,10 +160,11 @@ QNG_ideas = {
 	}
 	the_chinese_rules = {
 		administrative_efficiency = 0.05
+		cav_to_inf_ratio = 0.15
 	}
 	qing_viceroyalties = {
 		technology_cost = -0.1
-		global_autonomy = -0.05
+		special_unit_forcelimit = 0.2
 	}
 	qng_bogda_khan = {
 		years_of_nationalism = -5
@@ -176,7 +179,7 @@ QNG_ideas = {
 		prestige_from_land = 0.5
 	}
 	pigtail_or_death = {
-		global_unrest = -2
+		max_general_shock = 1
 	}
 }
 
@@ -3018,7 +3021,7 @@ MOS_ideas = {
 
 TUN_ideas = {
 	start = {
-		development_cost_in_primary_culture = -0.05
+		development_cost_in_primary_culture = -0.1
 		navy_tradition = 1		
 	}
 	bonus = {
@@ -3783,6 +3786,7 @@ MSA_ideas = {
 	}
 	msa_advanced_galley_warfare = {
 		movement_speed = 0.1
+		possible_policy = 1
 	}
 	msa_expert_haggling = {
 		trade_efficiency = 0.15

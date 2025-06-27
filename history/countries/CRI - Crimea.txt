@@ -11,6 +11,10 @@ set_government_rank = 2
 add_truce_with = GEN
 #######
 add_manpower = 12
+add_permanent_province_modifier = {
+	name = Pokemon
+	duration = -1
+}
 
 1420.1.1 = { leader = {	name = "Kaghan Hudaverdi"		type = general	fire = 3	shock = 4	manuever = 3	siege = 2	death_date = 1453.1.1 } }
 

@@ -206,16 +206,11 @@ Transoxiana_missions_slot_3 = {
 			transoxiana_rival_the_hordes
 		}
 		trigger = {
-			OR = {
-				custom_trigger_tooltip = {
-					tooltip = TRANSOXIANA_HAS_COMPLETED_CLAIM_THE_EMPIRE_EVENT
-					has_country_flag = transoxiana_allows_mission_completion
-				}
-				balkh_area = {
+				herat_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-			}
+			
 		}
 		effect = {
 			define_general = {

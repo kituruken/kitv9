@@ -634,6 +634,7 @@ influence_ideas = {
 
 court_ideas = {
 	category = DIP
+	trigger = { is_colonial_nation = no }
 
 	bonus = {
 		all_estate_possible_privileges = 1
@@ -647,9 +648,9 @@ court_ideas = {
 		diplomats = 1
 	}
 	welcoming_ceremonies = {
-		global_prosperity_growth = 0.25
 		global_trade_goods_size_modifier = 0.1
-		trade_goods_size = 0.20
+		global_prosperity_growth = 0.25
+		global_trade_goods_size = 0.20
 	}
 	tranquil_coordination = {
 		reform_progress_growth = 0.2
@@ -1299,7 +1300,6 @@ quantity_ideas = {
 	bonus = {
 		land_forcelimit_modifier = 0.30
 		num_of_pronoiars = 1
-		possible_mil_policy = 1
 	}
 	mass_army = {
 		global_manpower_modifier = 0.33

@@ -1239,42 +1239,42 @@ estate_vaisyas_expanded_guild_rights = {
 		}
 	}
 }
-estate_vaisyas_force_impressment = {
-	icon = privilege_heavy_ship
-	loyalty = 0.0
-	influence = 0.05
-	max_absolutism = -5
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	is_valid = {
-		has_dlc = "Domination"
-		primitives = no
-	}
-	can_select = {
-		ai=no
-		num_of_ports = 1
-	}
-	benefits = {
-		global_sailors_modifier = 0.15
-	}
-	on_granted = {
-		enable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
-		}
-	}
-	on_revoked = {
-		disable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
-		}
-	}
-	on_invalid = {
-		disable_estate_action = {
-			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
-		}
-	}
-	ai_will_do = {
-		factor = 0
-	}
-}
+# estate_vaisyas_force_impressment = {
+# 	icon = privilege_heavy_ship
+# 	loyalty = 0.0
+# 	influence = 0.05
+# 	max_absolutism = -5
+# 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+# 	is_valid = {
+# 		has_dlc = "Domination"
+# 		primitives = no
+# 	}
+# 	can_select = {
+# 		ai=no
+# 		num_of_ports = 1
+# 	}
+# 	benefits = {
+# 		global_sailors_modifier = 0.15
+# 	}
+# 	on_granted = {
+# 		enable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
+# 		}
+# 	}
+# 	on_revoked = {
+# 		disable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
+# 		}
+# 	}
+# 	on_invalid = {
+# 		disable_estate_action = {
+# 			estate_action = COMISSION_MERCHANT_SHIPS_FOR_WAR_VAISYAS
+# 		}
+# 	}
+# 	ai_will_do = {
+# 		factor = 0
+# 	}
+# }
 estate_vaisyas_financial_demand = {
 	icon = privilege_ducats
 	loyalty = 0.0

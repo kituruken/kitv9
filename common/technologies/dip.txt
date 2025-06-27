@@ -86,6 +86,7 @@ technology = { #Shipyards
     stock_exchange = yes
 	dock = yes	
 	may_steal_maps = yes
+	impressment_offices 	= yes
 
 }
 
@@ -141,7 +142,7 @@ technology = { #Wharf
 	
 	range					= 	100
 	wharf = yes
-	impressment_offices 	= yes
+
 
 }
 
