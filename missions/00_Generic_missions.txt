@@ -227,7 +227,7 @@ diplomatic_missions = {
 				skill = 1
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -449,7 +449,7 @@ administrative_missions = {
 				skill = 1
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}

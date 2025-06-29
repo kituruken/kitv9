@@ -1135,7 +1135,7 @@ country_event = {
 				limit = { has_building = university }
 				add_base_production = 2
 			}
-			else = { add_building = university }
+			else = { add_building = counting_house }
 		}
 		custom_tooltip = mam_adm_advisors_generate_idea_cost_tt
 		hidden_effect = {
@@ -1351,7 +1351,7 @@ country_event = { #A Competent Ethiopian Noble
 			skill = 3
 			culture = amhara
 			religion = coptic
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 
 		change_government_reform_progress = 50

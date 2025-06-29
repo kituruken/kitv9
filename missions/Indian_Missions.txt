@@ -946,7 +946,7 @@ gen_hindu = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -1939,7 +1939,7 @@ gen_south_india_5 = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}

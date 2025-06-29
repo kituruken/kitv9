@@ -2204,19 +2204,19 @@ ming_missions_2_b = {
 				define_advisor = {
 					name = "Buwei Zhao" 
 					type = natural_scientist
-					cost_multiplier = 0.33 
+					cost_multiplier = 0.75
 					skill = 2
 				}
 				define_advisor = {
 					name = "Yilong Ma" 
 					type = trader
-					cost_multiplier = 0.33
+					cost_multiplier = 0.75
 					skill = 2
 				}
 				define_advisor = {
 					name = "Chao Meng" 
 					type = quartermaster
-					cost_multiplier = 0.33
+					cost_multiplier = 0.75
 					skill = 2
 				}
 			}
@@ -2229,19 +2229,19 @@ ming_missions_2_b = {
 					define_advisor = {
 						name = "Buwei Zhao" 
 						type = natural_scientist
-						cost_multiplier = 0.33 
+						cost_multiplier = 0.75
 						skill = 2
 					}
 					define_advisor = {
 						name = "Yilong Ma" 
 						type = trader
-						cost_multiplier = 0.33
+						cost_multiplier = 0.75
 						skill = 2
 					}
 					define_advisor = {
 						name = "Chao Meng" 
 						type = quartermaster
-						cost_multiplier = 0.33
+						cost_multiplier = 0.75
 						skill = 2
 					}
 				}
@@ -4027,7 +4027,7 @@ DOM_Qing_Missions_3 = {
 				define_advisor = { 
 					type = diplomat 
 					skill = 2
-					cost_multiplier = 0.5
+					cost_multiplier = 0.75
 				}
 			}
 			
@@ -4074,7 +4074,7 @@ DOM_Qing_Missions_3 = {
 						}
 						define_advisor = { 
 							type = diplomat 
-							cost_multiplier = 0.5
+							cost_multiplier = 0.75
 						}
 					}
 					add_country_modifier = { 
@@ -4083,7 +4083,7 @@ DOM_Qing_Missions_3 = {
 					}
 					define_advisor = { 
 						type = diplomat 
-						cost_multiplier = 0.5
+						cost_multiplier = 0.75
 					}
 				}
 				else_if = {
@@ -4681,7 +4681,7 @@ DOM_Qing_Missions_3_b = {
 			define_advisor = {
 				type = commandant 
 				skill = 3 
-				cost_multiplier = 0.25 
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -6899,7 +6899,7 @@ ming_missions_5_b = {
 					limit = { mission_completed = mng_repeal_haijin_policy }
 					define_advisor = {
 						type = trader 
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 					}
 					if = { 
 						limit = { 

@@ -195,7 +195,7 @@ technology = {
 	infantry_fire		= 	0.25
 	cavalry_shock		=	0.3
 
-	
+	armory = yes
 	regimental_camp = yes
 }
 
@@ -268,7 +268,7 @@ technology = {
 	artillery_fire 		= 	0.2
 	
 	weapons = yes
-	armory = yes
+
 	combat_width = 2
 }
 	

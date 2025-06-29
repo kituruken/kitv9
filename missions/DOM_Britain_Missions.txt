@@ -1757,7 +1757,7 @@ gbr_row_3 = {
 			define_advisor = {
 				type = trader
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 			country_event_with_insight = {
 				id = flavor_gbr.10
@@ -4179,14 +4179,14 @@ ave_row_5 = {
 				skill = 3
 				religion = ROOT
 				culture = ROOT
-				cost_multiplier = 0.1
+				cost_multiplier = 0.75
 			}
 			define_advisor = {
 				type = naval_reformer
 				skill = 3
 				religion = ROOT
 				culture = ROOT
-				cost_multiplier = 0.1
+				cost_multiplier = 0.75
 			}
 		}
 		ai_weight = {
@@ -4564,14 +4564,14 @@ gbr_ave_row_3 = {
 		
 		effect = {
 			237 = {
-				add_building = university
+				add_building = counting_house
 				add_province_modifier = {
 					name = eng_most_esteemed_university
 					duration = -1
 				}
 			}
 			4370 = {
-				add_building = university
+				add_building = counting_house
 				add_province_modifier = {
 					name = eng_most_esteemed_university
 					duration = -1

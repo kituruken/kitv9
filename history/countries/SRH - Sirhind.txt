@@ -5,6 +5,7 @@ primary_culture = panjabi
 religion = hinduism
 capital = 510 #Sirhind
 add_truce_with = MER
+add_historical_rival = JNP
 
 #Lodis
 1431.1.1 = {
@@ -16,7 +17,7 @@ add_truce_with = MER
 		ADM = 4
 		DIP = 5
 		MIL = 6
-		leader = { name = "Bahl�l Lodi"		type = general	fire = 4	shock = 5	manuever = 4	siege = 2 }
+		leader = { name = "Bahl�l Lodi"		type = general	fire = 1	shock = 1	manuever = 1	siege = 1 }
 	}
 	government = monarchy
 	add_government_reform = indian_sultanate_reform

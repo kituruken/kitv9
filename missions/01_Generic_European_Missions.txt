@@ -54,7 +54,7 @@ gen_europe = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -138,7 +138,7 @@ gen_europe_hre = {
 				skill = 2
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}

@@ -852,7 +852,7 @@ polish_missions_slot_5 = {
 				culture = polish
 				religion = jewish
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 			add_country_modifier = {
 				name = "pol_thriving_jewish_community"

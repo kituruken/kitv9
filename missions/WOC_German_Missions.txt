@@ -278,7 +278,7 @@ JHC_GER_2 = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5 
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -2342,8 +2342,7 @@ JHC_GER_4_hlr = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
-			}
+				cost_multiplier = 0.75
 			
 			custom_tooltip = " "
 			

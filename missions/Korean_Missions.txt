@@ -1244,7 +1244,7 @@ kor_harmony_with_japan = {
 				type = theologian
 				religion = shinto
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -2007,17 +2007,17 @@ korean_missions_eoc_2 = {
 			tooltip = {
 				define_advisor = {
 					type = natural_scientist
-					cost_multiplier = 0.33 
+					cost_multiplier = 0.75
 					skill = 2
 				}
 				define_advisor = {
 					type = trader
-					cost_multiplier = 0.33
+					cost_multiplier = 0.75
 					skill = 2
 				}
 				define_advisor = {
 					type = quartermaster
-					cost_multiplier = 0.33
+					cost_multiplier = 0.75
 					skill = 2
 				}
 			}
@@ -2029,17 +2029,17 @@ korean_missions_eoc_2 = {
 				else = { 
 					define_advisor = {
 						type = natural_scientist
-						cost_multiplier = 0.33 
+						cost_multiplier = 0.75
 						skill = 2
 					}
 					define_advisor = {
 						type = trader
-						cost_multiplier = 0.33
+						cost_multiplier = 0.75
 						skill = 2
 					}
 					define_advisor = {
 						type = quartermaster
-						cost_multiplier = 0.33
+						cost_multiplier = 0.75
 						skill = 2
 					}
 				}
@@ -2994,7 +2994,7 @@ korean_missions_eoc_5 = {
 			tooltip = {
 				define_advisor = {
 					type = trader 
-					cost_multiplier = 0.1 
+					cost_multiplier = 0.75
 				}
 				if = { 
 					limit = { 
@@ -3012,7 +3012,7 @@ korean_missions_eoc_5 = {
 					limit = { mission_completed = mng_repeal_haijin_policy }
 					define_advisor = {
 						type = trader 
-						cost_multiplier = 0.1 
+						cost_multiplier = 0.75
 					}
 					if = { 
 						limit = { 

@@ -18,8 +18,8 @@ gecko_mercs = {
 	################################
 	[[update]
 		gecko_mercs_base_system = {
-			mercenary_cost = 30
-			mercenary_cavalry_cost_multiplier = 2.5
+			mercenary_cost = 25
+			mercenary_cavalry_cost_multiplier = 2
 			development = yes
 			mercenary_forcelimit_percentage = 100
 			minor_forcelimit_modifier = 4

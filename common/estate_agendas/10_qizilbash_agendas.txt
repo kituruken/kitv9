@@ -506,7 +506,7 @@ estate_qizilbash_recruit_more_qizilbash = {
 		}
 		define_advisor = {
 			type = commandant
-			cost_multiplier = 0.25
+			cost_multiplier = 0.75
 		}
 	}
     failing_effect = {

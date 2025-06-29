@@ -52,7 +52,7 @@ praeclara_carissimi = {
 
 immensa_aeterni_dei = {
     modifier = {
-        advisor_cost = -0.2
+        advisor_cost = -0.1
     }
     mechanics = {
         cardinals_spread_institution

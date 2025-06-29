@@ -7,6 +7,12 @@ vassal = {
 	start_date = 1444.1.1
 	end_date = 1445.3.12
 }
+vassal = {
+	first = SAV
+	second = GNV
+	start_date = 1444.1.1
+	end_date = 1445.3.12
+}
 
 # Naples and Provence
 union = {

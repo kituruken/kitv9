@@ -998,7 +998,7 @@ JHC_ITA_unification_branch = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -3189,7 +3189,7 @@ ITA_non_conquest_4 = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.33
+				cost_multiplier = 0.75
 			}
 			
 			custom_tooltip = " "

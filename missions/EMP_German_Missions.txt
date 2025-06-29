@@ -308,7 +308,7 @@ emp_germany_hlr_2_ger = {
 			define_advisor = {
 				type = statesman
 				skill = 3
-				cost_multiplier = 0.1
+				cost_multiplier = 0.75
 			}
 			add_country_modifier = {
 				name = "ger_chancellorship"

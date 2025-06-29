@@ -1389,7 +1389,7 @@ emp_hab_german_expansion_branch_2 = {
 					define_advisor = {
 						type = army_reformer
 						skill = 5
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 						culture = prussian
 						religion = PRU
 					}
@@ -1398,7 +1398,7 @@ emp_hab_german_expansion_branch_2 = {
 					define_advisor = {
 						type = army_reformer
 						skill = 3
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 						culture = prussian
 						religion = PRU
 					}
@@ -1409,7 +1409,7 @@ emp_hab_german_expansion_branch_2 = {
 				define_advisor = {
 					type = army_reformer
 					skill = 5
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 					culture = saxon
 				}
 			}
@@ -1417,7 +1417,7 @@ emp_hab_german_expansion_branch_2 = {
 				define_advisor = {
 					type = army_reformer
 					skill = 3
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 					culture = saxon
 				}
 			}

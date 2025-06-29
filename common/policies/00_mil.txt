@@ -765,7 +765,7 @@ noble_loyalty_act = {
 
 
 streamlined_galley_production = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = maritime_ideas
 		has_idea_group = quantity_ideas

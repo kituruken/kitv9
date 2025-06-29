@@ -2530,7 +2530,7 @@ country_event = { #Collegium Maius & the Growth of Thought
 					NOT = { has_building = university } 
 				}
 			}
-			262 = { add_building = university } 
+			262 = { add_building = trade_depot } 
 		}
 		else_if = {
 			limit = { has_dlc = "Rights of Man" } 

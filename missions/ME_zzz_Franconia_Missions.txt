@@ -612,7 +612,7 @@ FKN_Missions_1 = {
 				skill = 1
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.25
 			}
 			add_papal_influence = 25
 			add_church_power = 25

@@ -1,22 +1,22 @@
-Splendid_Court= {
-	potential = {
-		current_age = age_of_discovery
-		ai = no
-	}
+# Splendid_Court= {
+# 	potential = {
+# 		current_age = age_of_discovery
+# 		ai = no
+# 	}
 	
 
-	trigger = {
-		NOT = {is_colonial_nation = yes }
-		is_at_war = no
-		OR = {
-			has_adm_advisor_3 = yes
-			has_dip_advisor_3 = yes
-			has_mil_advisor_3 = yes
-		}	
-	}
-	advisor_cost = -0.1
-	development_cost = -0.05
-}
+# 	trigger = {
+# 		NOT = {is_colonial_nation = yes }
+# 		is_at_war = no
+# 		OR = {
+# 			has_adm_advisor_3 = yes
+# 			has_dip_advisor_3 = yes
+# 			has_mil_advisor_3 = yes
+# 		}	
+# 	}
+# 	advisor_cost = -0.1
+# 	development_cost = -0.05
+# }
 
 #Steppe_rule = {
 #	potential = {
@@ -67,17 +67,16 @@ Minor = {
 	}
 	
 	trigger = {
-		NOT = {total_own_and_non_tributary_subject_development = 400 }	
+		NOT = {total_own_and_non_tributary_subject_development = 300 }	
 		NOT = { is_emperor = yes }
 		NOT = { is_colonial_nation = yes }
 		NOT = {is_great_power = yes}
 		
 	}
-	advisor_cost = -0.25
 	interest = -0.25
-	global_regiment_cost = -0.1
-	#mercenary_cost = -0.25
-	#merc_maintenance_modifier = -0.25
+	global_regiment_cost = -0.2
+	mercenary_cost = -0.25
+	merc_maintenance_modifier = -0.25
 	ae_impact = -0.1
 	fort_maintenance_modifier = -0.67
 }

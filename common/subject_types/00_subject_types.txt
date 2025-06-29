@@ -850,7 +850,7 @@ appanage = {
 	
 	# Subject Interactions
 	seize_court_resources = no
-	request_extra_levies = yes
+	request_extra_levies = no
 	grant_administrative_autonomy = yes
 	#(disable)
 	scutage = yes
@@ -1394,7 +1394,7 @@ core_eyalet = {
 	pays_overlord = 1.5
 	forcelimit_to_overlord = 0.2						# Percent of subject FL to use as base for modifiers
 	naval_forcelimit_to_overlord = 0.2					# Percent of subject FL to use as base for modifiers
-	manpower_to_overlord = 0.2							# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
 	sailors_to_overlord = 0.2							# Percent of subject FL to use as base for modifiers
 	annex_cost_per_development = 6.0					# annex/integrate cost per development
 	must_accept_cta_from_overlord = no

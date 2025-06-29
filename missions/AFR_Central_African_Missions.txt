@@ -510,7 +510,7 @@ central_africa_religion_missions = {
 				skill = 2
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 		ai_weight = {

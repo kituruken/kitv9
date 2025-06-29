@@ -416,7 +416,7 @@ FU_swiss_missions_2 = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 	}
@@ -1268,7 +1268,7 @@ FU_swiss_missions_5 = {
 					name = "Huldrych Zwingli"
 					type = theologian
 					skill = 3 
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 				add_fervor = 25 
 				add_church_power = 50 
@@ -1279,7 +1279,7 @@ FU_swiss_missions_5 = {
 				define_advisor = {
 					type = inquisitor
 					skill = 3 
-					cost_multiplier = 0.25
+					cost_multiplier = 0.75
 				}
 				add_papal_influence = 25
 				custom_tooltip = " "
@@ -1304,7 +1304,7 @@ FU_swiss_missions_5 = {
 						name = "Huldrych Zwingli"
 						type = theologian
 						skill = 3 
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 					}
 				}
 				if = {
@@ -1331,7 +1331,7 @@ FU_swiss_missions_5 = {
 					define_advisor = {
 						type = inquisitor
 						skill = 3 
-						cost_multiplier = 0.25
+						cost_multiplier = 0.75
 					}
 					add_papal_influence = 25
 				}

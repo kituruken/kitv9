@@ -474,7 +474,7 @@ HES_Missions_5 = {
 					limit = {
 						NOT = { has_building = university }
 					}
-					add_building = university
+					add_building = counting_house
 				}
 				else = {
 					add_base_tax = 1

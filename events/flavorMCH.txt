@@ -1,7 +1,7 @@
 ########################################
 # Flavor Events for Manchu
 #
-# Scripted by Sara Wendel-Örtqvist
+# Scripted by Sara Wendel-ï¿½rtqvist
 ########################################
 
 namespace = flavor_mch
@@ -537,7 +537,7 @@ country_event = { #Nurhaci
 			name = "Nurhachi" 
 			type = commandant 
 			skill = 3 
-			cost_multiplier = 0.1 
+			cost_multiplier = 0.75 
 		}
 		add_mil_power = 100 
 		

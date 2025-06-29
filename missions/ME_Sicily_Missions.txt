@@ -596,11 +596,10 @@ sicily_mission_3 = {
 			}
 			define_general = {
 				name = "Sergio di Discordia"
-				fire = 2
-				shock = 4
+				fire = 1
+				shock = 3
 				manuever = 3
-				siege = 1
-				trait = master_of_arms_personality
+				siege = 3
 			}
 		}
 	}
@@ -701,7 +700,7 @@ sicily_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_norman_navy_modifier
-				duration = 7300
+				duration = 3650
 			}
 			add_yearly_sailors = 3			
 			if = {
@@ -1009,6 +1008,13 @@ sicily_mission_4 = {
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
+			 }
+			apulia_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 			add_yearly_sailors = 1
 			add_yearly_manpower = 0.5
@@ -1061,13 +1067,6 @@ sicily_mission_4 = {
 			}
 		}
 		effect = {
-			apulia_area = {
-				limit = {
-					NOT = { owned_by = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			calabria_area = {
 				add_province_modifier = {
 					name = sic_calabrian_oil

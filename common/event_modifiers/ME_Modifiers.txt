@@ -729,6 +729,7 @@ sic_difendere_lu_mari = {
 #3
 sic_norman_navy_modifier = {
 	galley_power = 0.2
+	infantry_power = 0.1
 }
 
 #4
@@ -853,8 +854,8 @@ nap_liber_augustalis = {
 	nobles_loyalty_modifier = 0.10
 }
 nap_struggle_anew = {
-	land_morale = 0.05
-	infantry_power = 0.10
+	galley_cost = -0.2
+	siege_ability = 0.15
 }
 nap_restore_republic = {
 	trade_goods_size_modifier = 0.10

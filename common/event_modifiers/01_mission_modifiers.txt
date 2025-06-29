@@ -1866,7 +1866,7 @@ ave_anglo_french_imperium = {	#Permanent
 
 gbr_end_of_the_villeinage = {
 	global_prosperity_growth = 0.25
-	development_cost = -0.1
+	global_tax_modifier = 0.15
 }
 
 gbr_exploration_spirit = {
@@ -4397,7 +4397,7 @@ korea_in_balance = {
 }
 
 kor_developed_capital = {
-	advisor_cost = -0.20
+	advisor_cost = -0.1
 	legitimacy = 0.5
 }
 

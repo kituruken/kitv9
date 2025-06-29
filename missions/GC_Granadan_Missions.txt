@@ -818,7 +818,7 @@ adu_slot_2_missions = {
 				skill = 4
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.25
+				cost_multiplier = 0.75
 			}
 		}
 	}

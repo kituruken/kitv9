@@ -808,7 +808,7 @@ courthouse = {
 	modifier = {
 		#local_state_maintenance_modifier = -0.1
 		local_autonomy = -0.1
-		local_governing_cost_increase = -10
+		local_governing_cost_increase = -5
 		local_friendly_movement_speed = 0.1
 		allowed_num_of_buildings = 1
 		local_tax_modifier = 0.1
@@ -3186,7 +3186,7 @@ furnace = {
 
 	modifier = {
 		local_production_efficiency = 0.2
-	    trade_value = 8
+	    trade_value = 6
 	}
 	# bonus_modifier = {
 	# 	local_sailors = 250
@@ -3531,19 +3531,13 @@ state_house = {
 }
 
 armory = {
-	cost = 500
+	cost = 5000
 	time = 60
-
+    one_per_country = yes
 	build_trigger = {
-		area_for_scope_province = {
-				owner = {
-					tag = ROOT
-				}
-				type = all
-				has_forcelimit_building_trigger = yes
-				development = 20
-			}
+        development = 45
 	}
+
 	
 	on_built = {
 		bastard_dev_cost_add_from_buildings = yes
@@ -3554,7 +3548,7 @@ armory = {
 	on_obsolete = {
 	}
 	modifier = {
-		land_forcelimit = 3
+		possible_policy = 1
 		
 	}
 	onmap = no

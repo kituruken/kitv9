@@ -2539,7 +2539,7 @@ WoC_austria_2_1 = {
 				type = treasurer
 				name = "Franz Anton von Raab"
 				skill = 3
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 			custom_tooltip = SEPERATOR_TOOLTIP
 			country_event_with_option_insight = {
@@ -3174,7 +3174,7 @@ WoC_austria_3_1 = {
 					define_advisor = {
 						type = diplomat
 						skill = 2
-						cost_multiplier = 0.5
+						cost_multiplier = 0.75
 						culture = hungarian
 					}
 				"
@@ -4339,7 +4339,7 @@ WoC_austria_5 = {
 					define_advisor = {
 						type = diplomat
 						skill = 2
-						cost_multiplier = 0.5
+						cost_multiplier = 0.75
 					}
 
 					custom_tooltip = SEPERATOR_TOOLTIP

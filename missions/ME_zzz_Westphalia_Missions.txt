@@ -938,7 +938,6 @@ WES_missions_4 = {
 				culture = ROOT
 				religion = ROOT
 				cost_multiplier = 0.75
-			}
 			add_army_tradition_or_mil_power = { amount = 10 }
 		}
 	}

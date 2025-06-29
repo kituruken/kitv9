@@ -509,7 +509,7 @@ west_africa_economic_missions = {
 				skill = 3
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 		ai_weight = {
@@ -600,7 +600,7 @@ west_africa_religious_missions_fetishist = {
 				skill = 2
 				culture = ROOT
 				religion = ROOT
-				cost_multiplier = 0.5
+				cost_multiplier = 0.75
 			}
 		}
 		ai_weight = {

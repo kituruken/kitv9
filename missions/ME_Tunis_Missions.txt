@@ -1542,7 +1542,7 @@ TUN_missions_4 = {
 				skill = 2
 				religion = ROOT
 				culture = ROOT 
-				cost_multiplier = 0.33
+				cost_multiplier = 0.75
 			}
 		}
 	}

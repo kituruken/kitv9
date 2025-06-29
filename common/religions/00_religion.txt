@@ -2095,7 +2095,7 @@ pagan = {
 		icon = 27
 		color = { 25 76 217 }
 		country = {
-			cav_to_inf_ratio = 0.35
+			cavalry_flanking = 0.25
 			global_regiment_cost = -0.2
 		}
 		#can_have_secondary_religion = yes

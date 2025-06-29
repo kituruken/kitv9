@@ -203,7 +203,6 @@ economic_ideas = {
 	smithian_economics = { 
 		#Mechanic: +1/-1 Dev from Manufactories		#Note for modders; the two mechanics introduced in 1.35   
 		production_efficiency = 0.1 				#for eco ideas are done so via on_actions 
-		global_allowed_num_of_manufactories = 1
  	}												#for the loans and via the buildings file for the dev from manufactories! happy modding 
 	bureaucracy = { 
 		land_forcelimit_modifier = 0.15
@@ -480,7 +479,6 @@ spy_ideas = {
 
 	shady_recruitment = {
 		manpower_recovery_speed = 0.15
-		land_forcelimit_modifier = 0.15
 	}		
 	espionage = {
 		idea_cost = -0.1
@@ -638,6 +636,7 @@ court_ideas = {
 
 	bonus = {
 		all_estate_possible_privileges = 1
+		reform_progress_growth = 0.2
 
 	}
 
@@ -653,7 +652,7 @@ court_ideas = {
 		global_trade_goods_size = 0.20
 	}
 	tranquil_coordination = {
-		reform_progress_growth = 0.2
+
 		technology_cost = -0.05
 	}
 	long_echo = {

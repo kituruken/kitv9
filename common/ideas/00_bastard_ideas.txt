@@ -2289,7 +2289,7 @@ ROM_ideas = {
 MOR_ideas = {
 	start = {
 		naval_forcelimit_modifier = 0.25
-		cavalry_power = 0.1
+		cavalry_power = 0.15
 	}
 	bonus = {
 		shock_damage = 0.1
@@ -2867,12 +2867,13 @@ BUK_ideas = {
 	
 	buk_jochid_patrimony = {
 		core_creation = -0.2
+		cav_to_inf_ratio = 0.15
 	}
 	the_mantle_of_the_great_khan = {
-		cavalry_power = 0.125
+		cavalry_power = 0.15
 	}
 	unleash_the_tiger = {
-		shock_damage = 0.125
+		shock_damage = 0.15
 	}
 	bastard_populating_the_steppes = {
 		global_manpower_modifier = 0.2
@@ -2881,12 +2882,12 @@ BUK_ideas = {
 		technology_cost = -0.05
 	}
 	riches_of_the_silk_road = {
-		trade_efficiency = 0.125
+		trade_efficiency = 0.15
 		global_trade_goods_size_modifier = 0.1
 	}
 	buk_the_jews_of_bukhara = {
 		#artillery_shock = 1
-		artillery_power = 0.125
+		artillery_power = 0.15
 	}
 }
 

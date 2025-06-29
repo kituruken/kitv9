@@ -1829,9 +1829,8 @@ mam_missions_4 = {
 			is_at_war = no 
 		}
 		effect = {
-			country_event = { id = flavor_mam.103 }
-
-			custom_tooltip = flavor_mam.103_tt
+			development_cost = -0.1
+			duration = 3650
 		}
 	}
 

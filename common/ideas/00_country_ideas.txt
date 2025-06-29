@@ -1126,7 +1126,7 @@ SCO_Ideas = {
 NAP_ideas = {
 	start = {
 		global_institution_spread = 0.1 #University of Naples, Angevine Heritage, Academies, centre of Neapolitan renaissance.
-		trade_efficiency = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
+		diplomatic_upkeep = -2
 	}
 	
 	bonus = {
@@ -8074,11 +8074,10 @@ YUA_ideas = {
 		core_creation = -0.25
 	}
 	yua_a_savage_kingdom_holy_and_enchanted = {
-		land_morale = 0.1
+		envoy_travel_time = -0.1
 	}
 	yua_the_three_teachings_and_nine_schools_respected = {
 		technology_cost = -0.1
-		cav_to_inf_ratio = 0.15
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.1
@@ -8086,11 +8085,11 @@ YUA_ideas = {
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.1
-		envoy_travel_time = -0.1
+		
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
-		cavalry_flanking = 0.1
+		cavalry_flanking = 0.5
 	}
 	yua_pax_mongolica = {
 		global_trade_goods_size_modifier = 0.1
@@ -13215,7 +13214,7 @@ KHA_ideas = {
 CHG_ideas = {
 	start = {
         cavalry_cost = -0.1
-		core_creation = -0.10
+		core_creation = -0.20
 		global_missionary_strength = 0.03
 	}
 	
@@ -13237,22 +13236,23 @@ CHG_ideas = {
 		cavalry_power = 0.1
 	}
 	life_of_a_eu_addict = { #also used in Horde ideas, KHA_ideas
-		land_attrition = -0.20
-		missionaries = 1
+		build_cost = -0.15
 	}
 	the_four_oirats = {
-		legitimacy = 1
-		devotion = 1
-		republican_tradition = 0.3
-		meritocracy = 1
-		horde_unity = 5
+		land_attrition = -0.20
+		missionaries = 1
+        
 	}																																																																																														
 	todo_besheg_script = {
 		technology_cost = -0.05
 		amount_of_banners = 0.25
 	}
 	OIR_great_khans_legacy = {
-		ae_impact = -0.15
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 5
 	}
 	defiance_of_the_dzungars = {
 		manpower_recovery_speed = 0.15
