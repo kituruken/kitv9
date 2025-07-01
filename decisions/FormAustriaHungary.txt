@@ -79,10 +79,10 @@ country_decisions = {
 					limit = {
 						mission_completed = hun_a_multicultural_empire
 					}
-					adm_tech = 15
+					adm_tech = 10
 				}
 				else = {
-					adm_tech = 18
+					adm_tech = 10
 				}
 			}
 			is_free_or_tributary_trigger = yes
@@ -218,7 +218,7 @@ country_decisions = {
 			factor = 400
 			modifier = {
 				factor = 0
-				NOT = { adm_tech = 15 }
+				NOT = { adm_tech = 10 }
 			}
 		}
 	}

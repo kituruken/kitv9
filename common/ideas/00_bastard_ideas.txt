@@ -1733,12 +1733,11 @@ POR_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		allowed_tercio_fraction = 0.3
+		artillery_fire = 0.5
 	}
 	
 	bonus = {
-		discipline = 0.05
-		artillery_fire = 0.5
+		monarch_diplomatic_power = 1
 	}
 	
 	trigger = {
@@ -1747,23 +1746,26 @@ SPA_ideas = {
 	free = yes		#will be added at load.
 
 	devout_catholisism = {
-		papal_influence = 2
-		church_power_modifier = 0.25
-		monthly_fervor_increase = 0.5
+		allowed_tercio_fraction = 0.15
+		reform_progress_growth = 0.1
 	}
 	inter_caetera = {
 		production_efficiency = 0.1
 	}
 	salamanca_scholars = {
-		technology_cost = -0.05
-		reform_progress_growth = 0.1
+discipline = 0.05
+
 	}
 	spanish_armada = {
 		#heavy_ship_number_of_cannons_modifier = 0.25
 		naval_forcelimit_modifier = 0.25
+		papal_influence = 2
+		church_power_modifier = 0.25
+		monthly_fervor_increase = 0.5
 	}
 	spa_casa_de_contracion = {
-		monarch_diplomatic_power = 1
+		technology_cost = -0.05
+
 	}
 	siglo_de_oro = {
 		prestige = 1
@@ -2290,9 +2292,10 @@ MOR_ideas = {
 	start = {
 		naval_forcelimit_modifier = 0.25
 		cavalry_power = 0.15
+        same_culture_advisor_cost = -0.2
 	}
 	bonus = {
-		shock_damage = 0.1
+		shock_damage = 0.15
 	}
 	trigger = {
 		tag = MOR
@@ -2300,7 +2303,8 @@ MOR_ideas = {
 	free = yes
 	
 	mor_powerful_viziers = {
-		same_culture_advisor_cost = -0.2
+	cav_to_inf_ratio = 0.15
+	cavalry_cost = -0.15
 	}
 	trans_saharan_trade = {
 		trade_efficiency = 0.1
@@ -2570,8 +2574,8 @@ HUN_ideas = {
 
 EOH_ideas = {
 	start = {
-		cavalry_power = 0.1
-		land_morale = 0.1
+		cavalry_power = 0.15
+		cavalry_cost = -0.10
 		no_religion_penalty = yes
 	}
 	bonus = {
@@ -2587,7 +2591,7 @@ EOH_ideas = {
 	}
 	gc_found_the_black_army = {
 		discipline = 0.05
-		#mercenary_discipline = 0.025
+		mercenary_discipline = 0.05
 	}
 	bulwark_of_christianity = {
 		global_manpower_modifier = 0.20
@@ -2596,13 +2600,53 @@ EOH_ideas = {
 		technology_cost = -0.05
 		development_cost = -0.05
 	}
-	curtailed_peasantry = {
-		production_efficiency = 0.1
+	kt_curtailed_peasantry = {
+		cav_to_inf_ratio = 0.15
 	}
-	strengthened_towns = {
+	bambam_strengthened_towns = {
 		global_own_trade_power = 0.25
+		max_general_shock = 1
 	}
 	gc_hungarian_estates_general = {
+		country_military_power = 1
+	}
+}
+
+AUH_ideas = {
+	start = {
+		cavalry_power = 0.10
+		cavalry_cost = -0.05
+		no_religion_penalty = yes
+	}
+	bonus = {
+		army_tradition = 1
+	}
+	trigger = {
+		tag = AUH
+	}
+	free = yes		#will be added at load.
+	
+	kt_gc_reformed_coinage = {
+		infantry_power = 0.1
+	}
+	kt_gc_found_the_black_army = {
+		discipline = 0.05
+		mercenary_discipline = 0.05
+	}
+	kt_bulwark_of_christianity = {
+		global_manpower_modifier = 0.20
+	}
+	kt_gc_hun_renaissanse_knowledge = {
+		technology_cost = -0.05
+		development_cost = -0.05
+	}
+	kt_kt_curtailed_peasantry = {
+		diplomatic_reputation = 3
+	}
+	kt_bambam_strengthened_towns = {
+		global_own_trade_power = 0.25
+	}
+	kt_gc_hungarian_estates_general = {
 		country_military_power = 1
 	}
 }

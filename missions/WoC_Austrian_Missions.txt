@@ -3212,19 +3212,16 @@ WoC_austria_3_1 = {
 
 	hab_multicultural_empire = {
 		icon = multicultural_empire
-		position = 9
-		required_missions = { hab_hungary } 
+		position = 7
+		required_missions = { } 
 		provinces_to_highlight = {
 			OR = {
 				area = erzgebirge_area
 				area = bohemia_area
 				area = moravia_area
 				area = slovakia_area
-				province_id = 135
-				province_id = 4240
-				province_id = 1864
-				area = carinthia_area
-				area = venetia_area
+				area = romandie_area
+				area = switzerland_area
 				area = tirol_area
 				area = inner_austria_area
 				area = austria_proper_area
@@ -3263,20 +3260,11 @@ WoC_austria_3_1 = {
 					type = all 
 					owned_by = ROOT
 				}
-				135 = {
-					owned_by = ROOT
-				}
-				4240 = {
-					owned_by = ROOT
-				}
-				1864 = {
-					owned_by = ROOT
-				}
-				carinthia_area = {
+				romandie_area = {
 					type = all 
 					owned_by = ROOT
 				}
-				venetia_area = {
+				switzerland_area = {
 					type = all 
 					owned_by = ROOT
 				}

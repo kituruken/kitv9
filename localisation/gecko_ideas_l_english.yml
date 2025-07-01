@@ -38,6 +38,9 @@
   gc_austrian_court:0 "Austrian Court"
   gc_austrian_court_desc:0 ""
 
+   empire_of_hungary_reform:0 "Empire of Hungary"
+ empire_of_hungary_reform_desc:0 "The former Kingdom of Hungary has been elevated to an empire through its just conquests."
+
  #arabia
  ARB_ideas:0 "Arabian Empire Ideas"
  ARB_ideas_start:0 "Arabian Empire Traditions"

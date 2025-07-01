@@ -177,7 +177,7 @@ religious_ideas = {
 
 economic_ideas = {
 	category = ADM
-
+	trigger = { ai = no }
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
 	}

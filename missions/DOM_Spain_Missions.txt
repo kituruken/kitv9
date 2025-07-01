@@ -31,7 +31,7 @@ dom_cas_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_morale"
-				duration = 5475
+				duration = 18250
 			}
 			upper_andalucia_area = {
 				limit = {
@@ -1850,6 +1850,12 @@ dom_cas_missions_3 = {
 		}
 
 		effect = {
+						define_general = {
+	 shock = 4
+    fire = 2
+    manuever = 2
+    siege = 2
+    }
 			if = {
 				limit = {
 					exists = POR
@@ -3311,7 +3317,7 @@ dom_cas_missions_4_c = {
 				fire = 5
 				manuever = 6
 				siege = 1
-				name = "Hernán Cortés"
+				name = "Hernï¿½n Cortï¿½s"
 			}
 			490 = {
 				add_base_production = 3

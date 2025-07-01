@@ -485,3 +485,7 @@ l_english:
  excellent_drill:0 "Excellent Drill"
  drillmaster_events.1.t:0 "$DRILLMASTER$"
  drillmaster_events.1.d:0 "One of our advisors, $DRILLMASTER$ has drilled our men to the pitch of military efficiency. Like a coiled spring we cannot maintain this high level for too long. Still, for a while our armies will stand where lesser men would run."
+
+ #Spain
+ gc_imperial_spain_reform:0 "Imperio Español"
+ gc_imperial_spain_reform_desc:0 "The Spanish Empire also know as the 'Imperio Español' or the Catholic Monarchy during the Early Modern period, was a colonial empire governed by Spain and its predecessor states between 1492 and 1976. One of the largest empires in history, it was, in conjunction with the Portuguese, the first to usher the European Age of Discovery and achieve a global scale, controlling vast portions of the Americas, the archipelago of Philippines, various islands in the Pacific and territories in Western Europe and Africa. It was one of the world's most powerful empires of the early modern period, becoming known as 'the empire on which the sun never sets' and reached its maximum extent in the 18th century."
