@@ -1959,7 +1959,7 @@
  incidents_bur_join_empire.4.desc:0 "Citing the threat that we pose to the independence of other Imperial Princes, the [Emperor.Monarch.GetTitle] has refused our entry into the Holy Roman Empire. It is obvious to us that the [Emperor.Monarch.GetTitle] is nothing more than a withered snake coiled around the Imperial Crown, fearful that the noble [Root.GetAdjective] lions would come to take it from [Emperor.Monarch.GetHerHim]. No matter, we shall just have to take a more forceful approach to joining the Empire..."
  incidents_bur_join_empire.4.a:0 "[Emperor.Monarch.GetSheHeCap] is [Emperor.Monarch.GetTitle] only in name."
  burgundy_has_resolved_imperial_issue_tt:1 "This mission will complete once the question of our membership in the Empire is resolved."
- burgundy_has_secured_succession_tt:1 "Resolve the §YBurgundian Succession Crisis§! or reach the year 1500 without triggering it."
+ burgundy_has_secured_succession_tt:1 "Reach 1450."
  burgundy_asks_to_join_empire_tt:0 "We shall ask the §Y[Emperor.Monarch.GetTitle]§! to let us join the §YHoly Roman Empire§!."
  burgundy_may_refuse_tt:0 "§YBurgundy§! will be asked to §Yrelease all European nations with cores on their provinces§! as §YImperial Princes§!.\n§YBurgundy§! is likely to refuse."
  become_balkanised_tt:0 "We will §Yrelease all European nations§! with §Ycores§! on our provinces as §YImperial Princes§!."

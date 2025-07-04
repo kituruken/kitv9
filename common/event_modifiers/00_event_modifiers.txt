@@ -1529,7 +1529,6 @@ religious_zeal_at_conv = {
 
 papal_sanction_for_church_taxes = {
 	global_tax_modifier = 0.15
-	build_cost = -0.1
 	religion = yes
 }
 
@@ -3991,7 +3990,6 @@ hsa_trade_reform = {
 	trade_efficiency = 0.2
 }
 hsa_economic_reform = {
-	build_cost = -0.1
 	global_ship_cost = -0.1
 	advisor_cost = -0.1
 }

@@ -94,6 +94,14 @@ Timurid_princes_missions_2 = {
 		}
 		effect = {
 			add_dip_power = 50
+			1973 = {
+				add_province_modifier = {
+					name = hun_great_city_buda
+					duration = 7300
+				}
+			}
+			country_event = { id = flavor_trs.53 }
+			custom_tooltip = hun_pest_production_insight_tt
 		}
 	}
 	

@@ -8,3 +8,4 @@ capital = 2694
 fixed_capital = 2694
 add_truce_with = MJZ
 historical_rival = MJZ
+historical_rival = ASK

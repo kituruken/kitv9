@@ -120,7 +120,7 @@ kielak_china_slow_harmonization = {
 
 kielak_china_buildup_phase = {
 	build_time = -0.33
-	build_cost = -0.15
+	build_cost = -0.10
 }
 
 kielak_china_marketplaces_buff = {

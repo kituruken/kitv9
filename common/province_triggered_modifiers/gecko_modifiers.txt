@@ -1146,7 +1146,7 @@ conquest_of_hawaii = {
 		controlled_by = ROOT	
 		}	
 
-    global_colonial_growth = 0.15
+    global_colonial_growth = 15
 	possible_policy = 1
  
 	
@@ -1229,7 +1229,7 @@ conquest_of_kongo = {
 		controlled_by = ROOT	
 		}	
 
-    global_colonial_growth = 0.15
+    global_colonial_growth = 15
 	possible_policy = 1
  
 	
@@ -1299,6 +1299,39 @@ conquest_of_tabriz = {
 	trigger = {
 		owner = {
 			tabriz_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = PREV
+				}
+			}
+		controlled_by = ROOT	
+		}	
+
+    trade_efficiency = 0.1
+	possible_policy = 1
+ 
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}
+
+
+conquest_of_bure = {	
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			NOT = { tag = SON }
+			NOT = { tag = PR2 }
+			
+			manding_area = {
 					type = all
 					country_or_non_sovereign_subject_holds = PREV
 				}

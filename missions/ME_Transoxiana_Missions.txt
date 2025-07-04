@@ -303,7 +303,7 @@ Transoxiana_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_transoxiana_turkoman_tactics
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

@@ -1495,6 +1495,7 @@ colonial_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = yes
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1586,6 +1587,7 @@ crown_colony_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = yes
+		cannot_become_dictatorship = yes
 	}
 	duration = 6
 }
@@ -1622,6 +1624,7 @@ private_enterprise_colony_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = yes
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1669,7 +1672,6 @@ self_governing_colony_government = {
 	}
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
-		build_cost = -0.1
 		development_cost = -0.1
 		embracement_cost = -0.1
 		state_maintenance_modifier = -0.25
@@ -1684,6 +1686,7 @@ self_governing_colony_government = {
 		enables_aristocratic_idea_group = yes
 		enables_estate_nobles = yes
 		enables_estate_burghers = yes
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1908,6 +1911,7 @@ civic_republicanism_government = {
 			enables_aristocratic_idea_group = yes
 			has_limited_terms = yes
 			has_candidate_bonus = yes
+			cannot_become_dictatorship = yes
 		}
 	}
 

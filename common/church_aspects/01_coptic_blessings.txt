@@ -69,7 +69,6 @@ promote_territorial_rights = {
 	is_blessing = yes
 
 	modifier = {
-		build_cost = -0.1
 		interest = -0.25
 	}
 	ai_will_do = {

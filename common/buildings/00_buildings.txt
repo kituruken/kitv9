@@ -781,7 +781,6 @@ coastal_defence = {
 	}
 	modifier = {
 		blockade_force_required = 0.5
-		hostile_disembark_speed = 1.0
 		block_slave_raid = yes
 	}
 
@@ -808,11 +807,11 @@ courthouse = {
 	modifier = {
 		#local_state_maintenance_modifier = -0.1
 		local_autonomy = -0.1
-		local_governing_cost_increase = -5
 		local_friendly_movement_speed = 0.1
 		allowed_num_of_buildings = 1
 		local_tax_modifier = 0.1
-		local_governing_cost = -0.05
+		local_governing_cost = -0.15
+		local_governing_cost_increase = -2
 	}
 	on_built = {
 		bastard_dev_cost_terrain_add_from_buildings = yes
@@ -2123,7 +2122,7 @@ stock_exchange = {
 	cost = 4000
 	time = 12
 	one_per_country = yes
-
+    build_trigger = { is_colonial_nation = no }
 	modifier = {
 		reduced_liberty_desire_on_other_continent = 10
 		colonists = 1
@@ -2253,7 +2252,7 @@ town_hall = {
 		local_autonomy = -0.2
 		allowed_num_of_buildings = 1
 		local_friendly_movement_speed = 0.2
-		local_governing_cost_increase = -20
+		local_governing_cost_increase = -10
 		local_governing_cost = -0.1
 		
 	}

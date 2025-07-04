@@ -493,11 +493,16 @@ emp_burgundy_3 = {
 		trigger = {
 					NOT = {
 					any_subject_country = {
-						liberty_desire = 40
+						liberty_desire = 60
 						}
 					}	
 		}
 		effect = {
+			add_country_modifier = {
+				name = "kni_ten_commandments"
+				duration = 14600
+			}
+			
 				lorraine_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -1636,12 +1641,20 @@ emp_burgundy_5 = {
 	emp_bur_join_the_empire = {
 		icon = join_the_empire
 		required_missions = { emp_bur_secure_succession }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 182
+				province_id = 185
+				province_id = 183
+				province_id = 4388
+			}
+			NOT = { owned_by = ROOT }
+		}
 		trigger = {
          185 = { is_core = BUR}
 		 182 = { is_core = BUR}
          183 = { is_core = BUR}
          4388 = { is_core = BUR}
-         185 = { is_core = BUR}
 		}
 		effect = {
 			if = {

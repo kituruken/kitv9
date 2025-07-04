@@ -1386,6 +1386,7 @@ PR2_ideas = {
     }
     bonus = {
         discipline = 0.05
+		possible_policy = 1
     }
     trigger = {
         tag = PR2
@@ -1699,6 +1700,7 @@ POR_ideas = {
 	
 	bonus = {
 		artillery_power = 0.15
+		artillery_fire = 1
 	}
 	
 	trigger = {
@@ -1727,7 +1729,6 @@ POR_ideas = {
 	}
 	por_royal_military_academy = {
 		defensiveness = 0.1
-		artillery_fire = 0.5
 	}
 }
 SPA_ideas = {
@@ -1861,12 +1862,12 @@ ENG_ideas = {
 }
 GBR_ideas = {
 	start = {
-		infantry_power = 0.1
+		infantry_power = 0.15
 		allowed_marine_fraction = 0.25
 	}
 
 	bonus = {
-		backrow_artillery_damage = 0.1
+		backrow_artillery_damage = 0.15
 	}
 	
 	trigger = {
@@ -2913,25 +2914,27 @@ BUK_ideas = {
 		core_creation = -0.2
 		cav_to_inf_ratio = 0.15
 	}
-	the_mantle_of_the_great_khan = {
+	the_mantle_of_the_great_khan_kit = {
 		cavalry_power = 0.15
+		cavalry_flanking = 0.5
 	}
-	unleash_the_tiger = {
+	unleash_the_tiger_kit = {
 		shock_damage = 0.15
 	}
 	bastard_populating_the_steppes = {
 		global_manpower_modifier = 0.2
 	}
-	timurid_renaissance = {
-		technology_cost = -0.05
+	timurid_renaissance_kit = {
+		technology_cost = -0.1
 	}
-	riches_of_the_silk_road = {
+	riches_of_the_silk_road_kit = {
 		trade_efficiency = 0.15
 		global_trade_goods_size_modifier = 0.1
 	}
-	buk_the_jews_of_bukhara = {
+	kit_buk_the_jews_of_bukhara = {
 		#artillery_shock = 1
 		artillery_power = 0.15
+		artillery_cost = -0.33
 	}
 }
 
@@ -3474,7 +3477,7 @@ KOR_ideas = {
 	production_efficiency = 0.15
 	}
 	metal_movable_type = {
-		adm_tech_cost_modifier = -0.05
+		advisor_cost = -0.15
 		innovativeness_gain = 0.5
 	}
 	choi_mu_seon_gunpower_engines = {

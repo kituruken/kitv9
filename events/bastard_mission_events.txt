@@ -1618,3 +1618,70 @@ country_event = { #Ottoman Ruler Failsafe
 }
 
 
+country_event = {
+	id = flavor_trs.53
+	title = flavor_trs.53.t
+	desc = flavor_trs.53.d
+	picture = CITY_VIEW_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_trs.53.a"
+		1973 = {
+			change_trade_goods = cloth
+		}
+		1973 = {
+			add_base_production = 1
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "flavor_trs.53.b"
+		1973 = {
+			change_trade_goods = copper
+		}
+		1973 = {
+			add_base_production = 1
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "flavor_trs.53.c"
+		1973 = {
+			change_trade_goods = iron
+		}
+		1973 = {
+			add_base_production = 1
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "flavor_trs.53.de"
+		1973 = {
+			change_trade_goods = glass
+		}
+		1973 = {
+			add_base_production = 1
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+	
+	option = {
+		name = "flavor_trs.53.e"
+		1973 = {
+			add_base_production = 3
+		}
+	}	
+}

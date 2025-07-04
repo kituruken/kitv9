@@ -1840,7 +1840,7 @@ gbr_new_world_dominance = {	#Permanent
 	trade_efficiency = 0.1
 }
 
-gbr_resolved_civil_war = {	#Permanent
+gbr_wwwwwwwwd_civil_war = {	#Permanent
 	legitimacy = 0.5
 	republican_tradition = 0.3
 	devotion = 0.5
@@ -4452,9 +4452,8 @@ kni_ark_of_the_covenant = {
 }
 
 kni_ten_commandments = {
-	papal_influence = 1
-	monthly_fervor_increase = 1
-	church_power_modifier = 0.5
+	reduced_liberty_desire_on_same_continent = 20
+	vassal_forcelimit_bonus = 0.5
 }
 
 malta_fort = {

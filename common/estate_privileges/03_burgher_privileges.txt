@@ -2858,7 +2858,7 @@ estate_burghers_financial_demand = {
 		has_dlc = "Domination"
 	}
 	benefits = {
-		global_tax_modifier = 0.1
+		inflation_reduction = 0.2
 	}
 	can_select = {
 		ai=no
@@ -2866,8 +2866,8 @@ estate_burghers_financial_demand = {
 	}	
 	benefits = {
 		interest = -0.75
-		all_power_cost = 0.05 
-		production_efficiency = 0.05
+		all_power_cost = 0.075 
+		can_not_declare_war = yes
 	}
 	cooldown_years = 5
 	on_cooldown_expires = {

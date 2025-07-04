@@ -4,6 +4,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			tag = TRS
+			tag = CHG
 			NOT = { has_country_flag = bukharan_nation }
 		}
 provinces_to_highlight = {

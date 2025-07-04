@@ -489,3 +489,12 @@ l_english:
  #Spain
  gc_imperial_spain_reform:0 "Imperio Español"
  gc_imperial_spain_reform_desc:0 "The Spanish Empire also know as the 'Imperio Español' or the Catholic Monarchy during the Early Modern period, was a colonial empire governed by Spain and its predecessor states between 1492 and 1976. One of the largest empires in history, it was, in conjunction with the Portuguese, the first to usher the European Age of Discovery and achieve a global scale, controlling vast portions of the Americas, the archipelago of Philippines, various islands in the Pacific and territories in Western Europe and Africa. It was one of the world's most powerful empires of the early modern period, becoming known as 'the empire on which the sun never sets' and reached its maximum extent in the 18th century."
+
+
+  flavor_trs.53.t:0 "The Production Focus in [1973.GetName]"
+ flavor_trs.53.d:0 "Our new investments in the development of [1973.GetName] have paid off, as the city continues to gain wealth and size, we now have the ability to look towards the future. Even now many question if we should use our newfound production capabilities to focus on producing different kinds of trade goods in our capital. Perhaps we should look to producing goods that will stand a better chance of generating profit in the future. Many have been suggesting to focus on the processing of raw material imported from the mines of Upper Transoxiana, while others wish to establish new manufactories for the production of cloth or glass, that would rival even the famed Bohemian and Venetian works. What shall we do?"
+ flavor_trs.53.a:0 "Let us invest in the cloth industry"
+ flavor_trs.53.b:0 "Copper is a vital trade good for many things"
+ flavor_trs.53.c:0 "We shall process the raw materials from our mining cities"
+ flavor_trs.53.de:0 "Our glass will rival that of Bohemia and Venice"
+ flavor_trs.53.e:0 "The current focus works well for us"
