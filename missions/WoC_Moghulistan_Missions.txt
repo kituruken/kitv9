@@ -381,7 +381,6 @@ woc_moghulistan_2 = {
 		icon = per_protect_the_west_iranian
 		position = 3
 		required_missions = {
-			moghulistan_revenge_against_timur
 			moghulistan_unification_of_chagatai
 			moghulistan_kazakhs
 		}

@@ -434,28 +434,28 @@ centralization_power_act = {
 
  #Merc Ideas Policies 
 
-loyal_conduct_act = { 
-	monarch_power = DIP
+# loyal_conduct_act = { 
+# 	monarch_power = DIP
 	
-	potential = {
-		has_idea_group = trade_ideas
-		has_idea_group = spy_ideas   
-	}
+# 	potential = {
+# 		has_idea_group = trade_ideas
+# 		has_idea_group = spy_ideas   
+# 	}
 	
-	allow = {
-		full_idea_group = trade_ideas
-		full_idea_group = spy_ideas 
-	}
+# 	allow = {
+# 		full_idea_group = trade_ideas
+# 		full_idea_group = spy_ideas 
+# 	}
 	
-	global_trade_power = 0.1
-	center_of_trade_upgrade_cost = -0.15
+# 	global_trade_power = 0.1
+# 	center_of_trade_upgrade_cost = -0.15
 
-	effect = {}
-	removed_effect = {}
-	ai_will_do = {
-		factor = 1		
-	}
-}
+# 	effect = {}
+# 	removed_effect = {}
+# 	ai_will_do = {
+# 		factor = 1		
+# 	}
+# }
 
 #  diplomatic_arms_act = { 
 #  	monarch_power = MIL
@@ -479,7 +479,7 @@ loyal_conduct_act = {
 # 	}
 #  }
 
-the_importation_act = {
+the_importation_act_2 = {
 	monarch_power = DIP
 
 	potential = {
@@ -498,7 +498,7 @@ the_importation_act = {
 }
 
 
-trade_connection_policy = {
+trade_connection_policy_3 = {
 	monarch_power = DIP
 	potential = {
 		has_idea_group = aristocracy_ideas
@@ -517,7 +517,7 @@ trade_connection_policy = {
 }
 
 
-cloth_quality_edict = {
+cloth_quality_edict_1 = {
 	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
@@ -533,7 +533,7 @@ cloth_quality_edict = {
 
 }
 
-production_quota_act = {
+production_quota_act_4 = {
 	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
@@ -552,7 +552,7 @@ production_quota_act = {
 	}
 }
 
-encouragement_of_merchant_navy = {
+encouragement_of_merchant_navy_1 = {
 	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
@@ -570,7 +570,7 @@ encouragement_of_merchant_navy = {
 
 }
 
-armed_neutrality_act = {
+armed_neutrality_act_1 = {
 	monarch_power = DIP
 	
 	potential = {
@@ -589,7 +589,7 @@ armed_neutrality_act = {
 }
 
 
-trade_kontor_network = {
+trade_kontor_network_1 = {
 	monarch_power = DIP
 	potential = {
 		has_idea_group = plutocracy_ideas

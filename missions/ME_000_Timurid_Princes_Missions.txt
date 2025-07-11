@@ -89,7 +89,7 @@ Timurid_princes_missions_2 = {
 		}
 		trigger = {
 			all_owned_province = { 
-				NOT = { unrest = 0.01 }
+				NOT = { unrest = 2 }
 			}
 		}
 		effect = {
@@ -401,6 +401,7 @@ Timurid_princes_missions_5 = {
 				name = ME_seljuk_architecture
 				duration = 5475
 			}
+			add_prestige = 25
 		}
 	}
 	

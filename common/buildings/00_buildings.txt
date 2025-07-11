@@ -802,7 +802,7 @@ coastal_defence = {
 # Tier 2, 16th Century Buildings
 ################################################
 courthouse = {
-	cost = 160
+	cost = 80
 	time = 12
 	modifier = {
 		#local_state_maintenance_modifier = -0.1
@@ -938,7 +938,7 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 150
+	cost = 100
 	time = 12
 	modifier = {
 		land_forcelimit = 0.75
@@ -1518,7 +1518,19 @@ university = {
 		is_capital = yes
 	}
 
-
+    keep_trigger = {
+            NOT = {
+                ROOT = {
+                    any_province = {
+                        owner = {
+                            tag = ROOT
+                        }
+                        has_building =    university
+						NOT = { is_capital = yes }
+                    }
+                }
+            }
+        }
 
 	on_built = {
 		bastard_dev_cost_add_from_buildings = yes
@@ -2122,7 +2134,7 @@ stock_exchange = {
 	cost = 4000
 	time = 12
 	one_per_country = yes
-    build_trigger = { is_colonial_nation = no }
+	potential = {is_colonial_nation=no}
 	modifier = {
 		reduced_liberty_desire_on_other_continent = 10
 		colonists = 1
@@ -2823,7 +2835,7 @@ fort_18th = {
 ################################################
 
 manufactory = {
-	cost = 500
+	cost = 300
 	time = 60
 	modifier = {
 		trade_goods_size = 0.8
@@ -3170,7 +3182,7 @@ mills = {
 }
 
 furnace = {
-	cost = 600
+	cost = 300
 	time = 12
 
 	# build_trigger = {
@@ -3388,7 +3400,7 @@ soldier_households = {
 }
 
 impressment_offices = {
-	cost = 500
+	cost = 300
 	time = 12
 
 	# build_trigger = {
@@ -3453,8 +3465,8 @@ impressment_offices = {
 
 
 state_house = {
-	cost = 500
-	time = 60
+	cost = 300
+	time = 24
 
 	build_trigger = {
 		NOT = {

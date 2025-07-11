@@ -4417,7 +4417,7 @@ kor_manchurian_expedition = {
 }
 
 kor_factional_upheaval = {
-   add_manpower = 10
+   manpower_recovery_speed = 0.2
 }
 
 kor_factional_unity = {

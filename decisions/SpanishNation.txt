@@ -223,7 +223,7 @@ country_decisions = {
 			is_nomad = no
 			is_at_war = no
 			OR = {
-				legitimacy = 100
+				legitimacy = 50
 				devotion = 100 
 				republican_tradition = 90 
 			}

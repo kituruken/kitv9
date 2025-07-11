@@ -2866,8 +2866,9 @@ estate_burghers_financial_demand = {
 	}	
 	benefits = {
 		interest = -0.75
-		all_power_cost = 0.075 
-		can_not_declare_war = yes
+		all_power_cost = 0.05 
+		land_morale = -0.1
+		discipline = -0.05
 	}
 	cooldown_years = 5
 	on_cooldown_expires = {

@@ -590,6 +590,8 @@ country_decisions = {
 		effect = {
 			change_tag = SWA
 			restore_country_name_effect = yes
+			add_government_reform = united_cantons_reform
+			change_government_to_republic = yes
 			lower_swabia_area = {
 				limit = {
 					NOT = { owned_by = root }
